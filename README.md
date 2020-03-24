@@ -3,14 +3,18 @@
 Aurebesh Fonts and Resources
 
 ## Contents:
-- AurekFont Originals:
-  - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
-  - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
-  - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
-  - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94)
+- Free/Open-Source:
+  - coming soon
+  - [Fonts by AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
+    - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
+    - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
+    - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
+    - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94)
+- Fonts with a Price Tag:
 
-## Original Fonts
+## Fonts by AurekFonts
 
+The following fonts are free to use forever, even for commercial purposes.
 
 ----------
 # Aurebesh_Rodian
