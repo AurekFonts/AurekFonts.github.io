@@ -7,7 +7,7 @@ Aurebesh Fonts and Resources
   - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
   - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
   - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
-  - Docking Bay 94
+  - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94)
 
 ## Original Fonts
 ### Aurebesh_Rodian
