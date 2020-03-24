@@ -7,6 +7,7 @@ Aurebesh Fonts and Resources
   - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
   - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
   - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
+  - Docking Bay 94
 
 ## Original Fonts
 ### Aurebesh_Rodian
@@ -22,7 +23,7 @@ _A friendly-looking alternative to angular Aurebesh fonts. Inspired by Greedo's 
 ### Aurebesh_Sheev
 _A cursive-script form of Aurebesh, inspired by the faux-sincerity displayed by Chancellor Palpatine. Open-Source “Aurebesh”-alphabet cursive font for screens._
 
-[Download (beta) (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Aurebesh_Sheev_beta.otf)
+[Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_Sheev/raw/master/Aurebesh_Sheev_beta.otf)
 
 #### Examples
 ![Aurebesh_Sheev example image](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-example.png?raw=true "Example: Order 66")
