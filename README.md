@@ -4,6 +4,7 @@ Aurebesh Fonts and Resources
 ## Contents:
 - AurekFont Originals:
   - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
+  - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
   - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
 
 ## Original Fonts
