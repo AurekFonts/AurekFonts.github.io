@@ -5,7 +5,7 @@ Aurebesh Fonts and Resources
 ### Domabesh_Console
 _Open source "Domabesh"-alphabet font for screens._
 
-[Download (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Domabesh_Console_beta.otf)
+[Download (Beta) (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Domabesh_Console_beta.otf)
 
 #### Examples
 ![Domabesh_Console example image](https://github.com/AurekFonts/Domabesh_Console/blob/master/IAmOne.png?raw=true "Example: Journal of the Whills")
