@@ -8,7 +8,7 @@ Aurebesh Fonts and Resources
 
 ## Original Fonts
 ### Aurebesh_Rodian
-A friendly-looking alternative to angular Aurebesh fonts. Open-Source "Aurebesh"-alphabet font for screens.
+_A friendly-looking alternative to angular Aurebesh fonts. Inspired by Greedo's jaunty movements and long, suction-cupped fingers. Open-Source "Aurebesh"-alphabet font for screens._
 
 [Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_Rodian/raw/master/Aurebesh_Rodian_beta.otf)
 
@@ -17,8 +17,19 @@ A friendly-looking alternative to angular Aurebesh fonts. Open-Source "Aurebesh"
 #### Characters
 ![Aurebesh_Rodian character set](https://github.com/AurekFonts/Aurebesh_Rodian/blob/master/Aurebesh_Rodian-charset.png?raw=true "Aurebesh_Rodian character set")
 
+### Aurebesh_Sheev
+_A cursive-script form of Aurebesh, inspired by the faux-sincerity displayed by Chancellor Palpatine. Open-Source “Aurebesh”-alphabet cursive font for screens._
+
+[Download (beta) (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Aurebesh_Sheev_beta.otf)
+
+#### Examples
+![Aurebesh_Sheev example image](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-example.png?raw=true "Example: Order 66")
+#### Characters
+![Aurebesh_Sheev character set](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-charset.png?raw=true "Aurebesh_Sheev_beta character set")
+
+
 ### Domabesh_Console
-_Open source "Domabesh"-alphabet font for screens._
+_A basic "Domabesh" typeface, based on confirmed source material and unconfirmed conjecture. Open source "Domabesh"-alphabet font for screens._
 
 [Download (beta) (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Domabesh_Console_beta.otf)
 
