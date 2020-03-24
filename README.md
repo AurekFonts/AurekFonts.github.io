@@ -3,28 +3,26 @@
 Aurebesh Fonts and Other Resources
 
 ## Fonts:
-- Licensing Available:
-  - Sacul (coming soon)
-- Free for Personal Use:
-  - [Aurebesh](https://www.dafont.com/aurebesh.font) (the standard Aurebesh font) ✩✩✩
-    - This font, by the late Neale Davidson ([PixelSagas](pixelsagas.com)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side.
-    - A commercial font may be obtained "for a modest fee" by contacting [PixelSagas](http://www.pixelsagas.com/?page_id=3933).
-  - [Aurebesh Cantina](https://www.dafont.com/aurebesh-cantina.font) (narrow, "film-noire" Aurebesh font) ✩✩✩✩
-    - Another Aurebesh font by Neale Davidson. This one is narrower and more characterful, while still retaining the rigidity of the classic Aurebesh.
-    - A commercial font may be obtained "for a modest fee" by contacting [PixelSagas](http://www.pixelsagas.com/?page_id=3933).
-  - Aurebesh New Roman (coming soon)
 - Free/Open-Source:
   - [Boba Fonts (Davide Canavero)](https://aurekfonts.github.io/#fonts-by-boba-fonts-davide-canavero):
     - [Aurek Besh](https://aurekfonts.github.io/#aurek-besh) (a free standard Aurebesh font)  ✩✩✩
     - [Aurek Besh Hand](https://aurekfonts.github.io/#aurek-besh-hand) (hand-letter Aurebesh font) ✩✩✩✩
-  - [Erikstormtrooper]():
-    - coming soon
+  - [Erikstormtrooper](https://aurekfonts.github.io/#fonts-by-erikstormtrooper-erikstormtroopercom):
+    - [Metal Rebel](https://aurekfonts.github.io/#metal-rebel) ✩✩✩✩✩
+    - [Mandalorian](https://aurekfonts.github.io/#mandalorian) ✩✩✩✩✩
   - [AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
     - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian) (a curvy Aurebesh font)
     - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev) (a cursive-script Aurebesh font)
     - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console) (based on Domabesh as seen in the City of Jedha)
     - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94) (based on the numerals seen in Mos Eisley Space Port)
-
+    - Aurebesh_OmaTres _(coming soon)_
+- [Free for Personal, Non-Commercial-Use](https://aurekfonts.github.io/#free-for-personal-non-commercial-use-fonts):
+  - [Pixel Sagas (Neale Davidson)](https://aurekfonts.github.io/#personal-use-by-pixel-sagas-neale-davidson)
+    - [Aurebesh](https://aurekfonts.github.io/#aurebesh) (the standard Aurebesh font) ✩✩✩
+    - [Aurebesh Cantina](https://www.dafont.com/aurebesh-cantina.font) (narrow, "film-noire" Aurebesh font) ✩✩✩✩
+  - Aurebesh New Roman _(coming soon)_ ✩✩✩✩
+- Licensing Available:
+  - Sacul _(coming soon)_ ✩✩✩✩✩✩✩✩✩✩
 
 
 ----------
@@ -136,4 +134,41 @@ _Open-Source "Aurebesh"-alphabet font based on Tattooine's Docking Bay signage_
 ![Docking Bay 94 example image]( https://github.com/AurekFonts/DockingBay94/blob/master/docking-bay-94-font-example-69.png?raw=true "Example: Nice.")
 ## Characters
 ![Docking Bay 94 character set](https://github.com/AurekFonts/DockingBay94/blob/master/docking-bay-94-charset.png?raw=true "Docking Bay 94_beta character set")
+
+----------
+----------
+----------
+
+# Free for Personal, Non-Commercial-Use Fonts
+
+These fonts require a commercial license for commercial use, but are free for private use.
+
+----------
+----------
+
+# PERSONAL-USE FONTS BY PIXEL SAGAS (Neale Davidson)
+
+A commercial license may be obtained for a modest fee for fonts by Pixel Sagas by contacting [Pixel Sagas](http://www.pixelsagas.com/?page_id=3933).
+
+----------
+
+# Aurebesh
+✩✩✩
+
+[Free for personal use at dafont.com](https://www.dafont.com/aurebesh.font)
+
+This font, by the late Neale Davidson ([PixelSagas](pixelsagas.com)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side.
+
+----------
+
+# Aurebesh Cantina
+✩✩✩✩
+
+[Free for personal use at dafont.com](https://www.dafont.com/aurebesh-cantina.font)
+
+This font is a narrower and more characterful Aurebesh, while still retaining the rigidity of the classic Aurebesh.
+
+----------
+----------
+
 
