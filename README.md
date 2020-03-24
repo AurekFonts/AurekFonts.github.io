@@ -42,7 +42,7 @@ According to his archived site, all of these fonts are free: _["All the fonts pr
 # Aurek Besh
 ✩✩✩
 
-This font is another pretty typical Aurebesh font based pretty closely on the RPG game, but it's free.
+This is a pretty straightforward Aurebesh font, based on the Star Wars RPG's alphabet.
 
 [Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/boba-fonts_aurek-besh.zip)
 
