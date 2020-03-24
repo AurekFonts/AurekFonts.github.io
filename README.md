@@ -3,14 +3,15 @@
 Aurebesh Fonts and Resources
 
 ## Contents:
-- Free/Open-Source:
-  - coming soon
+- Free/Open-Source Fonts:
   - [Fonts by AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
-    - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
-    - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev)
-    - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
-    - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94)
+    - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian) (a curvy Aurebesh font)
+    - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev) (a cursive-script Aurebesh font)
+    - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console) (based on Domabesh as seen in the City of Jedha)
+    - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94) (based on the numerals seen in Mos Eisley Space Port)
 - Fonts with a Price Tag:
+  - Sacul (coming soon)
+  - Aurebesh New Roman (coming soon)
 
 ## Fonts by AurekFonts
 
