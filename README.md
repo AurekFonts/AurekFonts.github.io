@@ -17,6 +17,8 @@ Aurebesh Fonts and Other Resources
   - [Boba Fonts (Davide Canavero)](https://aurekfonts.github.io/#fonts-by-boba-fonts-davide-canavero):
     - [Aurek Besh](https://aurekfonts.github.io/#aurek-besh) (a free standard Aurebesh font)  ✩✩✩
     - [Aurek Besh Hand](https://aurekfonts.github.io/#aurek-besh-hand) (hand-letter Aurebesh font) ✩✩✩✩
+  - [Erikstormtrooper]():
+    - coming soon
   - [AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
     - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian) (a curvy Aurebesh font)
     - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev) (a cursive-script Aurebesh font)
@@ -51,9 +53,33 @@ This font is another pretty typical Aurebesh font based pretty closely on the RP
 # Aurek Besh Hand
 ✩✩✩✩
 
-Aurek Besh Hand fills an important niche: handwriting. With its block-letter forms, Aurebesh was clearly not intended to be written by hand without extreme modification, but Aurek Besh Hand manages to make it look like someone scrawled it out with a permanent marker. I give it four stars. ✩✩✩✩
+Aurek Besh Hand fills an important niche: handwriting. With its block-letter forms, Aurebesh was clearly not intended to be written by hand without extreme modification, but Aurek Besh Hand manages to make it look like someone scrawled it out with a permanent marker.
 
 [Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/boba-fonts_aurek-besh-hand.zip)
+
+----------
+----------
+
+# FONTS BY ERIKSTORMTROOPER ([erikstormtrooper.com](erikstormtrooper.com))
+In the "LEGAL MUMBOJUMBO" section of the fonts' readmes is the following: _"This font is not officially licensed and is not intended to infringe on any copyright. This font is freeware; it may be distributed freely, but PLEASE distribute all files included in the ZIP archive. This font is NOT to be sold or used for financial gain. Help keep it free and available!"_
+
+----------
+
+# Metal Rebel
+✩✩✩✩✩
+
+_Metal Rebel_ is a unique font, based on the 11 characters on Grey Leader's Y-Wing helmet during the Battle of Endor. The original, like the original Aurebesh screen on the Star Destroyer, probably did not represent any actual text. Thus, Erik has assigned them the 11 original characters to the 11 most frequently used letters in English, and then created the rest of the letters to match. Thus, this font is semi-canonical, but then, so was Aurebesh to begin with.
+
+[Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/metlrebl.zip)
+
+----------
+
+# Mandalorian
+✩✩✩✩✩
+
+_Mandalorian_ is a font based on the screens seen inside the Slave I. This font captures it quite accurately. Hosted here is the 2010 update.
+
+[Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/mandalor.zip)
 
 ----------
 ----------
