@@ -47,6 +47,7 @@ This font is another pretty typical Aurebesh font based pretty closely on the RP
 ----------
 
 # Aurek Besh Hand
+✩✩✩✩
 
 Aurek Besh Hand fills an important niche: handwriting. With its block-letter forms, Aurebesh was clearly not intended to be written by hand without extreme modification, but Aurek Besh Hand manages to make it look like someone scrawled it out with a permanent marker. I give it four stars. ✩✩✩✩
 
