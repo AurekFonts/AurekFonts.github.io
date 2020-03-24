@@ -10,6 +10,8 @@ Aurebesh Fonts and Resources
   - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94)
 
 ## Original Fonts
+
+
 ----------
 # Aurebesh_Rodian
 _A friendly-looking alternative to angular Aurebesh fonts. Inspired by Greedo's jaunty movements and long, suction-cupped fingers. Open-Source "Aurebesh"-alphabet font for screens._
@@ -21,6 +23,8 @@ _A friendly-looking alternative to angular Aurebesh fonts. Inspired by Greedo's 
 ## Characters
 ![Aurebesh_Rodian character set](https://github.com/AurekFonts/Aurebesh_Rodian/blob/master/Aurebesh_Rodian-charset.png?raw=true "Aurebesh_Rodian character set")
 
+
+----------
 # Aurebesh_Sheev
 _A cursive-script form of Aurebesh, inspired by the faux-sincerity displayed by Chancellor Palpatine. Open-Source “Aurebesh”-alphabet cursive font for screens._
 
@@ -32,6 +36,7 @@ _A cursive-script form of Aurebesh, inspired by the faux-sincerity displayed by 
 ![Aurebesh_Sheev character set](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-charset.png?raw=true "Aurebesh_Sheev_beta character set")
 
 
+----------
 # Domabesh_Console
 _A basic "Domabesh" typeface, based on confirmed source material and unconfirmed conjecture. Open source "Domabesh"-alphabet font for screens._
 
@@ -42,6 +47,8 @@ _A basic "Domabesh" typeface, based on confirmed source material and unconfirmed
 #### Characters
 ![Domabesh_Console character set](https://github.com/AurekFonts/Domabesh_Console/blob/master/Domabesh_Console-CharacterSet-y.png?raw=true)
 
+
+----------
 # Docking Bay 94
 _Open-Source "Aurebesh"-alphabet font based on Tattooine's Docking Bay signage_
 
