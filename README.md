@@ -24,7 +24,7 @@ Aurebesh Fonts and Other Resources
 
 ----------
 
-# Free/Open-Source Fonts
+## Free/Open-Source Fonts
 
 These fonts are absolutely free, according to the licenses packaged with them.
 
