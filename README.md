@@ -1,4 +1,4 @@
-# ![AurekFonts Logo](https://avatars0.githubusercontent.com/u/62573193?s=200&v=4 "AurekFonts Logo") AurekFonts.github.io
+# ![AurekFonts Logo](https://avatars0.githubusercontent.com/u/62573193?s=200&v=4 "AurekFonts Logo")
 Aurebesh Fonts and Resources
 
 ## Contents:
