@@ -3,8 +3,8 @@ Aurebesh Fonts and Resources
 
 ## Contents:
 - AurekFont Originals:
-- - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
-- - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
+  - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian)
+  - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console)
 
 ## Original Fonts
 ### Aurebesh_Rodian
