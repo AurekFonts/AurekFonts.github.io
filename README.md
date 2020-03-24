@@ -17,7 +17,7 @@ Aurebesh Fonts and Other Resources
     - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94) (based on the numerals seen in Mos Eisley Space Port)
     - Aurebesh_OmaTres _(coming soon)_
 - [Free for Personal, Non-Commercial-Use](https://aurekfonts.github.io/#free-for-personal-non-commercial-use-fonts):
-  - [Pixel Sagas (Neale Davidson)](https://aurekfonts.github.io/#personal-use-by-pixel-sagas-neale-davidson)
+  - [Pixel Sagas (Neale Davidson)](https://aurekfonts.github.io/#personal-use-fonts-by-pixel-sagas-neale-davidson)
     - [Aurebesh](https://aurekfonts.github.io/#aurebesh) (the standard Aurebesh font) ✩✩✩
     - [Aurebesh Cantina](https://www.dafont.com/aurebesh-cantina.font) (narrow, "film-noire" Aurebesh font) ✩✩✩✩
   - Aurebesh New Roman _(coming soon)_ ✩✩✩✩
@@ -157,7 +157,7 @@ A commercial license may be obtained for a modest fee for fonts by Pixel Sagas b
 
 [Free for personal use at dafont.com](https://www.dafont.com/aurebesh.font)
 
-This font, by the late Neale Davidson ([PixelSagas](pixelsagas.com)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side.
+This font, by the late Neale Davidson ([Pixel Sagas](http://www.pixelsagas.com/)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side.
 
 ----------
 
