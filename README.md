@@ -6,9 +6,13 @@ Aurebesh Fonts and Other Resources
 - Licensing Available:
   - Sacul (coming soon)
 - Free for Personal Use:
-  - [Aurebesh](https://www.dafont.com/aurebesh.font) - This font, by the late Neale Davidson ([PixelSagas](pixelsagas.com)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side. I give it three stars. ✩✩✩
+  - [Aurebesh](https://www.dafont.com/aurebesh.font) (the standard Aurebesh font)
+    - ✩✩✩
+    - This font, by the late Neale Davidson ([PixelSagas](pixelsagas.com)), is based on the Star Wars RPG that first defined Aurebesh. (It first appeared in _Return of the Jedi_, but the text was a repeating series of characters with some gaps added in.) This is the most standard version of the font and characters. I think it leaves a little to be desired as a general-purpose font, but it also has nostalgia and custom on its side.
     - A commercial font may be obtained "for a modest fee" by contacting [PixelSagas](http://www.pixelsagas.com/?page_id=3933).
-  - [Aurebesh Cantina](https://www.dafont.com/aurebesh-cantina.font) - Another Aurebesh font by Neale Davidson. This one is narrower and slightly more characterful, while still retaining the rigidity of the classic Aurebesh. I give it four stars. ✩✩✩✩
+  - [Aurebesh Cantina](https://www.dafont.com/aurebesh-cantina.font) (narrow, "film-noire" Aurebesh font)
+    - ✩✩✩✩
+    - Another Aurebesh font by Neale Davidson. This one is narrower and more characterful, while still retaining the rigidity of the classic Aurebesh.
     - A commercial font may be obtained "for a modest fee" by contacting [PixelSagas](http://www.pixelsagas.com/?page_id=3933).
   - Aurebesh New Roman (coming soon)
 - Free/Open-Source:
@@ -26,7 +30,7 @@ Aurebesh Fonts and Other Resources
 
 ## Free/Open-Source Fonts
 
-These fonts are absolutely free, according to the licenses packaged with them.
+These fonts are absolutely free, according to the licenses packaged with them, even for commercial projects.
 
 ----------
 
