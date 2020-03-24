@@ -14,8 +14,9 @@ Aurebesh Fonts and Other Resources
     - A commercial font may be obtained "for a modest fee" by contacting [PixelSagas](http://www.pixelsagas.com/?page_id=3933).
   - Aurebesh New Roman (coming soon)
 - Free/Open-Source:
-  - [Boba Fonts (Davide Canavero)](https://aurekfonts.github.io/#fonts-by-boba-fonts-(davide-canavero)):
-    - [Aurek Besh](https://aurekfonts.github.io/#aurek_besh) (a free standard Aurebesh font)  ✩✩✩
+  - [Boba Fonts (Davide Canavero)](https://aurekfonts.github.io/#fonts-by-boba-fonts-davide-canavero):
+    - [Aurek Besh](https://aurekfonts.github.io/#aurek-besh) (a free standard Aurebesh font)  ✩✩✩
+    - [Aurek Besh Hand](https://aurekfonts.github.io/#aurek-besh-hand) (hand-letter Aurebesh font) ✩✩✩✩
   - [AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
     - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian) (a curvy Aurebesh font)
     - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev) (a cursive-script Aurebesh font)
