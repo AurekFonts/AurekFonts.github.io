@@ -27,16 +27,17 @@ Aurebesh Fonts and Other Resources
 
 ----------
 
-## Free/Open-Source Fonts
+# Free/Open-Source Fonts
 
 These fonts are absolutely free, according to the licenses packaged with them, even for commercial projects.
 
 ----------
 
-## Fonts by Boba Fonts (Davide Canavero)
+# Fonts by Boba Fonts (Davide Canavero)
 According to his archived site, all of these fonts are free: _["All the fonts presented in this site are freeware: no payment is required for their use. You can distribute them but remember to keep intact the zip archives. Freeware is E-mailware: if you like the fonts send me a message. Let me know also if you use them in your site."](https://web.archive.org/web/20010719193340/http://www.swfans.net/multimedia/bobafonts/about.shtml)_
 
 ----------
+
 # Aurek Besh
 ✩✩✩
 
@@ -54,8 +55,9 @@ Aurek Besh Hand fills an important niche: handwriting. With its block-letter for
 [Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/boba-fonts_aurek-besh-hand.zip)
 
 ----------
+----------
 
-## Fonts by AurekFonts
+# Fonts by AurekFonts
 
 AurekFonts is us! These fonts are free to use throughout the universe in perpetuity forever, even by megacorps (but know this, megacorps: when your towers fall and your captive employees are freed, they and we will not regard you fondly, but feast gadly upon your mega-corpse and the full fruits of our labor). If you would like to thank us or ask a question, send a tweet to [@AurekFonts](https://twitter.com/AurekFonts). If you want to support this free project, follow us on twitter and then hold your horses while we get some sort of patreon set up.
 
