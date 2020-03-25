@@ -136,6 +136,21 @@ _Open-Source "Aurebesh"-alphabet font based on Tattooine's Docking Bay signage_
 ![Docking Bay 94 character set](https://github.com/AurekFonts/DockingBay94/blob/master/docking-bay-94-charset.png?raw=true "Docking Bay 94_beta character set")
 
 ----------
+# Aurebesh_OmaTres
+_Open-Source "Aurebesh"-alphabet font based on the opening crawl, and named for John Williams' cameo character, Oma Tres._
+_NOTE: This one really is a work in progress. None of the lower-case letters have been added._
+
+
+[Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_OmaTres/raw/master/Aurebesh_OmaTres_beta.otf)
+
+## Examples
+![Aurebesh_OmaTres Example: FAN-FARE!](https://github.com/AurekFonts/Aurebesh_OmaTres/blob/master/Aurebesh_OmaTres-example.png?raw=true)
+## Characters
+![Aurebesh_OmaTres Character Set](https://github.com/AurekFonts/Aurebesh_OmaTres/blob/master/Aurebesh_OmaTres-charset.png?raw=true)
+
+----------
+----------
+# FREE STUFF IS ABOVE THIS LINE
 ----------
 ----------
 
