@@ -150,9 +150,6 @@ _NOTE: This one really is a work in progress. None of the lower-case letters hav
 
 ----------
 ----------
-# FREE STUFF IS ABOVE THIS LINE
-----------
-----------
 
 # Free for Personal, Non-Commercial-Use Fonts
 
