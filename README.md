@@ -4,19 +4,11 @@ Aurebesh Fonts and Other Resources
 
 ## Fonts:
 - Free/Open-Source:
-  - [Boba Fonts (Davide Canavero)](https://aurekfonts.github.io/#fonts-by-boba-fonts-davide-canavero):
-    - [Aurek Besh](https://aurekfonts.github.io/#aurek-besh) (a free standard Aurebesh font)  ✩✩✩
-    - [Aurek Besh Hand](https://aurekfonts.github.io/#aurek-besh-hand) (hand-letter Aurebesh font) ✩✩✩✩
+  - [Fonts by Boba Fonts (Davide Canavero)](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Free-Fonts-by-Boba-Fonts-(Davide-Canavero))
   - [Erikstormtrooper](https://aurekfonts.github.io/#fonts-by-erikstormtrooper-erikstormtroopercom):
     - [Metal Rebel](https://aurekfonts.github.io/#metal-rebel) ✩✩✩✩✩
     - [Mandalorian](https://aurekfonts.github.io/#mandalorian) ✩✩✩✩✩
-  - [AurekFonts](https://aurekfonts.github.io/#fonts-by-aurekfonts):
-    - [Aurebesh_Rodian](https://aurekfonts.github.io/#aurebesh_rodian) (a curvy Aurebesh font)
-    - [Aurebesh_Sheev](https://aurekfonts.github.io/#aurebesh_sheev) (a cursive-script Aurebesh font)
-    - [Domabesh_Console](https://aurekfonts.github.io/#domabesh_console) (based on Domabesh as seen in the City of Jedha)
-    - [Docking Bay 94](https://aurekfonts.github.io/#docking-bay-94) (based on the numerals seen in Mos Eisley Space Port)
-    - [Aurebesh_OmaTres](https://aurekfonts.github.io/#aurebesh_omatres) (Aurebesh based on the Opening Crawl)
-    - OldTongue_Yavin _(coming soon)_
+  - [Fonts by AurekFonts](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Free-Fonts-by-AurekFonts)
 - [Free for Personal, Non-Commercial-Use](https://aurekfonts.github.io/#free-for-personal-non-commercial-use-fonts):
   - [Pixel Sagas (Neale Davidson)](https://aurekfonts.github.io/#personal-use-fonts-by-pixel-sagas-neale-davidson)
     - [Aurebesh](https://aurekfonts.github.io/#aurebesh) (the standard Aurebesh font) ✩✩✩
