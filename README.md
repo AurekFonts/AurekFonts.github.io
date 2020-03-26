@@ -7,8 +7,8 @@ Welcome to AurekFonts.github.io, an Star Wars Aurebesh font library (and more!).
 
 # Fonts
 But we have lots more than Aurebesh here, because there are thousands of languages in the galaxy! Below, you will find links to our growing collection of fonts, sorted by Script/Alphabet or else by License:
-- [Fonts Sorted by Script/Alphabet >](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-scriptalphabet)
-- [Fonts Sorted by License (Free, Personal, Commercial, etc.) >](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-license)
+### [Fonts Sorted by Script/Alphabet](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-scriptalphabet)
+### [Fonts Sorted by License (Free, Personal, Commercial, etc.)](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-license)
 
 ***
 ***
