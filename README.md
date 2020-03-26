@@ -27,30 +27,6 @@ These fonts are absolutely free, according to the licenses packaged with them, e
 ----------
 ----------
 
-# FONTS BY BOBA FONTS (Davide Canavero)
-According to his archived site, all of these fonts are free: _["All the fonts presented in this site are freeware: no payment is required for their use. You can distribute them but remember to keep intact the zip archives. Freeware is E-mailware: if you like the fonts send me a message. Let me know also if you use them in your site."](https://web.archive.org/web/20010719193340/http://www.swfans.net/multimedia/bobafonts/about.shtml)_
-
-----------
-
-# Aurek Besh
-✩✩✩
-
-This is a pretty straightforward Aurebesh font, based on the Star Wars RPG's alphabet.
-
-[Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/boba-fonts_aurek-besh.zip)
-
-----------
-
-# Aurek Besh Hand
-✩✩✩✩
-
-Aurek Besh Hand fills an important niche: handwriting. With its block-letter forms, Aurebesh was clearly not intended to be written by hand without extreme modification, but Aurek Besh Hand manages to make it look like someone scrawled it out with a permanent marker.
-
-[Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/boba-fonts_aurek-besh-hand.zip)
-
-----------
-----------
-
 # FONTS BY ERIKSTORMTROOPER ([erikstormtrooper.com](erikstormtrooper.com))
 In the "LEGAL MUMBOJUMBO" section of the fonts' readmes is the following: _"This font is not officially licensed and is not intended to infringe on any copyright. This font is freeware; it may be distributed freely, but PLEASE distribute all files included in the ZIP archive. This font is NOT to be sold or used for financial gain. Help keep it free and available!"_
 
@@ -72,74 +48,7 @@ _Mandalorian_ is a font based on the screens seen inside the Slave I. This font 
 
 [Download (.ZIP)](https://github.com/AurekFonts/AurekFonts.github.io/raw/master/mandalor.zip)
 
-----------
-----------
 
-# FONTS BY AUREKFONTS
-
-AurekFonts is us! These fonts are free to use throughout the universe in perpetuity forever, even by megacorps (but know this, megacorps: when your towers fall and your captive employees are freed, they and we will not regard you fondly, but feast gadly upon your mega-corpse and the full fruits of our labor). If you would like to thank us or ask a question, send a tweet to [@AurekFonts](https://twitter.com/AurekFonts). If you want to support this free project, follow us on twitter and then hold your horses while we get some sort of patreon set up.
-
-These fonts were created for the use of fans and artists. Many of them were created to fill a niche that we felt existed among Aurebesh fonts.
-
-----------
-# Aurebesh_Rodian
-_A friendly-looking alternative to angular Aurebesh fonts. Inspired by Greedo's jaunty movements and long, suction-cupped fingers. Open-Source "Aurebesh"-alphabet font for screens._
-
-[Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_Rodian/raw/master/Aurebesh_Rodian_beta.otf)
-
-## Examples
-![Aurebesh_Rodian_Console example image](https://github.com/AurekFonts/Aurebesh_Rodian/blob/master/Aurebesh%20Rodian%20example.png?raw=true "Example: Needo Kableedo's")
-## Characters
-![Aurebesh_Rodian character set](https://github.com/AurekFonts/Aurebesh_Rodian/blob/master/Aurebesh_Rodian-charset.png?raw=true "Aurebesh_Rodian character set")
-
-
-----------
-# Aurebesh_Sheev
-_A cursive-script form of Aurebesh, inspired by the faux-sincerity displayed by Chancellor Palpatine. Open-Source “Aurebesh”-alphabet cursive font for screens._
-
-[Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_Sheev/raw/master/Aurebesh_Sheev_beta.otf)
-
-## Examples
-![Aurebesh_Sheev example image](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-example.png?raw=true "Example: Order 66")
-## Characters
-![Aurebesh_Sheev character set](https://github.com/AurekFonts/Aurebesh_Sheev/blob/master/Aurebesh_Sheev_beta-charset.png?raw=true "Aurebesh_Sheev_beta character set")
-
-
-----------
-# Domabesh_Console
-_A basic "Domabesh" typeface, based on confirmed source material and unconfirmed conjecture. Open source "Domabesh"-alphabet font for screens._
-
-[Download (beta) (.OTF)](https://github.com/AurekFonts/Domabesh_Console/raw/master/Domabesh_Console_beta.otf)
-
-#### Examples
-![Domabesh_Console example image](https://github.com/AurekFonts/Domabesh_Console/blob/master/IAmOne.png?raw=true "Example: 'I am one with the Force; the Force is with me.'")
-#### Characters
-![Domabesh_Console character set](https://github.com/AurekFonts/Domabesh_Console/blob/master/Domabesh_Console-CharacterSet-y.png?raw=true)
-
-
-----------
-# Docking Bay 94
-_Open-Source "Aurebesh"-alphabet font based on Tattooine's Docking Bay signage_
-
-[Download (beta) (.TTF)](https://github.com/AurekFonts/DockingBay94/raw/master/docking-bay-94.ttf)
-
-## Examples
-![Docking Bay 94 example image]( https://github.com/AurekFonts/DockingBay94/blob/master/docking-bay-94-font-example-69.png?raw=true "Example: Nice.")
-## Characters
-![Docking Bay 94 character set](https://github.com/AurekFonts/DockingBay94/blob/master/docking-bay-94-charset.png?raw=true "Docking Bay 94_beta character set")
-
-----------
-# Aurebesh_OmaTres
-_Open-Source "Aurebesh"-alphabet font based on the opening crawl, and named for John Williams' cameo character, Oma Tres._
-_NOTE: This one really is a work in progress. None of the lower-case letters have been added._
-
-
-[Download (beta) (.OTF)](https://github.com/AurekFonts/Aurebesh_OmaTres/raw/master/Aurebesh_OmaTres_beta.otf)
-
-## Examples
-![Aurebesh_OmaTres Example: FAN-FARE!](https://github.com/AurekFonts/Aurebesh_OmaTres/blob/master/Aurebesh_OmaTres-example.png?raw=true)
-## Characters
-![Aurebesh_OmaTres Character Set](https://github.com/AurekFonts/Aurebesh_OmaTres/blob/master/Aurebesh_OmaTres-charset.png?raw=true)
 
 ----------
 ----------
