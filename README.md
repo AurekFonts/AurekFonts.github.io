@@ -2,7 +2,9 @@
 # AurekFonts
 Aurebesh Fonts and Other Resources
 
-## Fonts:
+## [Fonts Sorted by Script/Alphabet >](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-scriptalphabet)
+## [Fonts Sorted by License (Free, Personal, Commercial, etc.) >](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-license)
+
 - Free/Open-Source:
   - [Fonts by Boba Fonts (Davide Canavero)](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Free-Fonts-by-Boba-Fonts-(Davide-Canavero))
   - [Erikstormtrooper](https://aurekfonts.github.io/#fonts-by-erikstormtrooper-erikstormtroopercom):
