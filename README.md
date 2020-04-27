@@ -10,6 +10,10 @@ But we have lots more than Aurebesh here, because there are thousands of languag
 ### [> Fonts Sorted by Script/Alphabet](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-scriptalphabet)
 ### [> Fonts Sorted by License (Free, Personal, Commercial, etc.)](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-license)
 
+# Other Stuff
+### [> Most Wanted Fonts](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Wanted-Fonts)
+### [> Pangrams](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Pangrams)
+
 ***
 ***
 
