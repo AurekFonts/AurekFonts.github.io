@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Mando Albans Bane";
+  src: url('Mando_AlbansBaneBETA.otf');
+}
+
+.MandoAlbansBane {
+  font-family: "Mando Albans Bane";
+}

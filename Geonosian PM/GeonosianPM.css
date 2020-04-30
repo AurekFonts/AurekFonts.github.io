@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Geonosian PM';
+  src: url('GeonosianPM.otf');
+}
+
+.GeonosianPM {
+  font-family: 'Geonosian PM';
+}

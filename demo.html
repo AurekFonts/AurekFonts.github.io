@@ -1,32 +1,118 @@
 <!DOCTYPE html>
  <head>
- <title>EmbeddedFont</title>
-  <link href="./AurekFonts.css" rel="stylesheet">
-  <style>
-  </style>
+ <title>AurekFonts : Font Demos</title>
+  <link rel="stylesheet" href="./css/demo.css">
+  <link rel="stylesheet" href="./css/crt.css">
+  <link rel="stylesheet" href="Ataribesh/Ataribesh.css">
+  <link rel="stylesheet" href="Aurebesh Calligraphy/AurebeshCalligraphy.css">
+  <link rel="stylesheet" href="Aurebesh English/AurebeshEnglish.css">
+  <link rel="stylesheet" href="Aurebesh (Pixel Sagas 2000)/AurebeshPS2000.css">
+  <link rel="stylesheet" href="Aurebesh (Pixel Sagas)/AurebeshPS.css">
+  <link rel="stylesheet" href="Aurebesh Rodian/AurebeshRodian.css">
+  <link rel="stylesheet" href="Aurebesh (Tycho Ordo)/AurebeshTycho.css">
+  <link rel="stylesheet" href="Geonosian PM/GeonosianPM.css">
+  <link rel="stylesheet" href="Mando Albans Bane/MandoAlbansBane.css">
+  <link rel="stylesheet" href="OuterRimDisplay/OuterRimDisplay.css">
+
 </head>
- <body>
-    <h1>Jedi Code</h1>
-    <h2 class="Ataribesh">Archive Record Number 1138-2049576</h2>
+  <body class="">
+    <div id="intro">
+      <h1>AurekFonts : Font Demos</h1>
+      <p>Play around with the fonts on this page. Licensing information coming soon.</p>
+      <select name="fontSelect" id="fontSelect">
+        <option value="Ataribesh">Ataribesh</option>
+        <option value="Ataribesh Titles">-- Ataribesh Titles</option>
+        <option value="Ataribesh Subtitles">-- Ataribesh Subtitles</option>
+        <option value="Ataribesh Sprites">-- Ataribesh Sprites</option>
+        <option value="Aurebesh Calligraphy">Aurebesh Calligraphy</option>
+        <option value="Aurebesh English">Aurebesh English</option>
+        <option value="Aurebesh Pixel Sagas 2000">Aurebesh Pixel Sagas 2000</option>
+        <option value="Aurebesh Pixel Sagas">Aurebesh Pixel Sagas</option>
+        <option value="Aurebesh PS Bold">-- Aurebesh PS Bold</option>
+        <option value="Aurebesh PS Bold Italic">-- Aurebesh PS Bold Italic</option>
+        <option value="Aurebesh PS Condensed">-- Aurebesh PS Condensed</option>
+        <option value="Aurebesh PS Condensed Bold">-- Aurebesh PS Condensed Bold</option>
+        <option value="Aurebesh PS Condensed Bold Italic">-- Aurebesh PS Condensed Bold Italic</option>
+        <option value="Aurebesh PS Condensed Italic">-- Aurebesh PS Condensed Italic</option>
+        <option value="Aurebesh PS Italic">-- Aurebesh PS Italic</option>
+        <option value="Aurebesh Rodian">Aurebesh Rodian</option>
+        <option value="Aurebesh Rodian Oblique">-- Aurebesh Rodian Oblique</option>
+        <option value="Aurebesh Rodian Oblique Outline">-- Aurebesh Rodian Outline Oblique</option>
+        <option value="Aurebesh Rodian Outline">-- Aurebesh Rodian Outline</option>
+        <option value="Aurebesh Tycho" selected>Aurebesh Tycho</option>
+        <option value="Aurebesh Tycho INV">-- Aurebesh Tycho INV</option>
+        <option value="AureTech">-- AureTech</option>
+        <option value="AureTech INV">-- AureTech INV</option>
+        <option value="Geonosian PM">Geonosian PM</option>
+        <option value="Mando Albans Bane">Mando Alban's Bane</option>
+        <option value="Outer Rim Display">Outer Rim Display</option>
+      </select>
+      <select name="sizeSelect" id="sizeSelect">
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+        <option value="22">22</option>
+        <option value="24" selected>24</option>
+        <option value="28">28</option>
+        <option value="32">32</option>
+        <option value="40">40</option>
+        <option value="48">48</option>
+        <option value="56">56</option>
+        <option value="64">64</option>
+        <option value="72">72</option>
+      </select>
+      <select name="styleSelect" id="styleSelect">
+        <option value="">none</option>
+        <option value="CRT" selected>CRT</option>
+      </select>
+      <div id="font license"></div>
+    </div>
 
-    <p>Without emotion, peace. Without ignorance, knowledge. Without passion, serenity. Without chaos, harmony. Without death, the Force.</p>
+    <div id="screen">
+      <div class="scanline"></div>
+      <div id="editText" contenteditable spellcheck="false" >
+        <p>The Jedi Code</p>
+        <p>Archive Record</p>
+        <p>1138-2049576</p>
+        <p>Without emotion, peace. Without ignorance, knowledge. Without passion, serenity. Without chaos, harmony. Without death, the Force.</p>
+        <p>The Jedi Code is a meditative pattern to aligning oneself with the Force. Ponder on it regularly and let it guide you to acceptance of the will of the Force.</p>
+        <p>Jedi are not spared the challenges of living, but through trust in the Force, pain and loss do not cast them into disarray. They are spared instead the phantom pains of fear, longing, and grief. Attachment is the source of these phantom pains. When one is free of attachment to life, to belongings, to comfort, they have nothing to fear. Longing is merely attachment to that which one does not have, and grief but attachment to that which one has no longer.</p>
+        <p>Fear is the path to the Dark Side. Fear leads to anger; anger leads to hate; hate leads to suffering. The Dark Side falsely promises that fear, longing, and grief may be overcome through the acquisition, consolidation, and exericizing of power. It promises the lie of permanence, which is not a negation of fear, but a succumbing unto it; not a fulfillment of longing, but a deepening thereof; not an absolution of grief, but a worship thereof. This path is alluring to those who seek the ease which accompanies power, but who are not mindful of the consuming turmoil which accompanies greed.</p>
+        <p>Those who choose to follow the Dark do so for all that it conceals. The Jedi choose the Light for all that it reveals. However, there are not two forces but one Force.</p>
+        <p>The Force is what gives a Jedi their power. It is an energy field created by all living things. It surrounds us and penetrates us. It binds the galaxy together. A Jedi can feel the Force flowing through them. If one permits it, the Force can guide their actions as well as obey their commands.</p>
+        <p>The Lightsabre is the prefered weapon of a Jedi Knight. It is an elegant weapon with a thin blade of energy. Within the handle of each lightsabre is a Kyber Crystal, which is strongly connected to the Force, and is as entirely unique as the Jedi who wields it.</p>
+        <p>During the second phase of each star cycle, a Jedi is offered the chance to align their being with the Force flowing through their chosen crystal. Thereby they become one: the Jedi is the heart of the Crystal, as the Crystal is the heart of the Blade; the Blade is the insturment of the Jedi, as the Jedi is the instrument of the Force.</p>
+        <p>A broken crystal may have a weaker connection to the Force, and may therefore be no longer effective for use in a Lightsabre, but may still be used as a seed for the growth of a new Kyber Crystal formation. Pieces of crystal that are not attuned to the Force are referred to as forcefailed. Forcefailed pieces have a tendency to end up being traded illegally by smugglers and black marketeers as power sources.</p>
+        <p>When you are one with the Force, the Force will be with you. Always.</p>
+      </div>
+    </div>
+  </body>
 
-    <p>The Jedi Code is a meditative pattern to aligning oneself with the Force. Ponder on it regularly and let it guide you to acceptance of the will of the Force.</p>
+  <script>
+    const setFont = () => {
+      document.getElementById('editText').style = `
+        font-family: ${document.getElementById('fontSelect').value};
+        font-size: ${document.getElementById('sizeSelect').value}pt;`;
+    }
+    const setStyle = () => {
+      document.getElementById('screen').className = document.getElementById('styleSelect').value;
+    }
 
-    <p>Jedi are not spared the challenges of living, but through trust in the Force, pain and loss do not cast them into disarray. They are spared instead the phantom pains of fear, longing, and grief. Attachment is the source of these phantom pains. When one is free of attachment to life, to belogings, to comfort, they have nothing to fear. Longing is merely attachment to that which one does not have, and grief but attachment to that which one has no longer.</p>
+    const handleOnLoad = () => {
+      setFont();
+      setStyle();
+    }
 
-    <p>Fear is the path to the Dark Side. Fear leads to anger; anger leads to hate; hate leads to suffering. The Dark Side falsely promises that fear, longing, and grief may be overcome through the acquisition, consolidation, and exericizing of power. It promises the lie of permanence, which is not a negation of fear, but a succumbing unto it; not a fulfillment of longing, but a deepening thereof; not an absolution of grief, but a worship thereof. This path is alluring to those who seek the ease which accompanies power, but who are not mindful of the consuming turmoil which accompanies greed.</p>
+    document.onload = handleOnLoad();
+    document.getElementById('fontSelect').onchange = () => setFont();
+    document.getElementById('sizeSelect').onchange = () => setFont();
+    document.getElementById('styleSelect').onchange = () => setStyle();
+  </script>
 
-    <p>Those who choose to follow the Dark do so for all that it conceals. The Jedi choose the Light for all that it reveals. However, there are not two forces but one Force.</p>
-
-    <p>The Force is what gives a Jedi their power. It is an energy field created by all living things. It surrounds us and penetrates us. It binds the galaxy together. A Jedi can feel the Force flowing through them. If one permits it, the Force can guide their actions as well as obey their commands.</p>
-
-    <p>The Lightsabre is the prefered weapon of a Jedi Knight. It is an elegant weapon with a thin blade of energy. Within the handle of each lightsabre is a Kyber Crystal, which is strongly connected to the Force, and is as entirely unique as the Jedi who wields it.</p>
-
-    <p>During the second phase of each star cycle, a Jedi is offered the chance to align their being with the Force flowing through their chosen crystal. Thereby they become one: the Jedi is the heart of the Crystal, as the Crystal is the heart of the Blade; the Blade is the insturment of the Jedi, as the Jedi is the instrument of the Force.</p>
-
-    <p>A broken crystal may have a weaker connection to the Force, and may therefore be no longer effective for use in a Lightsabre, but may still be used as a seed for the growth of a new Kyber Crystal formation. Pieces of crystal that are not attuned to the Force are referred to as forcefailed. Forcefailed pieces have a tendency to end up being traded illegally by smugglers and black marketeers as power sources.</p>
-
-    <p class="square">When you are one with the Force, the Force will be with you. Always.</p>
- </body>
 </html>

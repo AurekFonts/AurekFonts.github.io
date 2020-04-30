@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Ataribesh';
+  src: url('ataribesh.ttf');
+}
+@font-face {
+  font-family: 'Ataribesh Titles';
+  src: url('ataribesh-titles.ttf');
+}
+@font-face {
+  font-family: 'Ataribesh Subtitles';
+  src: url('ataribesh-subtitles.ttf');
+}
+@font-face {
+  font-family: 'Ataribesh Sprites';
+  src: url('ataribesh-sprites.ttf');
+}
+
+.Ataribesh {
+  font-family: 'Ataribesh';
+  font-size: 14pt;
+}
+.AtaribeshTitles {
+  font-family: 'Ataribesh Titles', 'Ataribesh';
+  font-size: 28pt;
+}
+.AtaribeshSubtitles {
+  font-family: 'Ataribesh Subtitles', 'Ataribesh';
+  font-size: 28pt;
+}
+.AtaribeshSprites {
+  font-family: 'Ataribesh Sprites', 'Ataribesh';
+  font-size: 14pt;
+}

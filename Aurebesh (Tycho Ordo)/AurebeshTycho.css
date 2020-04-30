@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Aurebesh Tycho';
+  src: url('Aurebesh.otf');
+}
+@font-face {
+  font-family: 'Aurebesh Tycho INV';
+  src: url('AurebeshINV.otf');
+}
+@font-face {
+  font-family: 'AureTech';
+  src: url('AureTech.otf');
+}
+@font-face {
+  font-family: 'AureTech INV';
+  src: url('AureTechINV.otf');
+}
+
+.AurebeshTycho {
+  font-family: 'Aurebesh Tycho';
+}
+.AurebeshTychoINV {
+  font-family: 'Aurebesh Tycho INV';
+}
+.AureTech {
+  font-family: 'AureTech';
+}
+.AureTechINV {
+  font-family: 'AureTech INV';
+}

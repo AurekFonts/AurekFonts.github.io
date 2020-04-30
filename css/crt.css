@@ -1,0 +1,73 @@
+.CRT {
+	position: relative;
+	height: 100%;
+	background: #052932;
+	background-image: radial-gradient(ellipse, #053230 0%, #050505 90%);
+  animation: on 2s linear;
+  color: #0fc6df;
+  text-shadow: 3px 0px 5px #0fc6df88, -3px 0px 5px #0fc6df88;
+}
+.CRT:after {
+	content: " ";
+	opacity: 0;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 3;
+}
+.CRT:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(
+		to bottom,
+		rgba(18, 16, 16, 0.1) 50%,
+		rgba(0, 0, 0, 0.15) 50%
+	);
+	background-size: 100% 8px;
+	z-index: 2;
+	pointer-events: none;
+}
+.scanline{
+	display: none;
+}
+.CRT .scanline {
+	display: block;
+	width: 100%;
+	height: 50px;
+	z-index: 8;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(255, 255, 255, 0.2) 10%,
+		rgba(0, 0, 0, 0.1) 100%
+	);
+	opacity: 0.1;
+	position: absolute;
+	top: 0%;
+	animation: scanline 5s linear infinite;
+}
+
+
+@keyframes scanline {
+	0% {
+		top: 0%;
+	}
+	40% {
+		top: 0%;
+	}
+	100% {
+		top: 100%;
+	}
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Outer Rim Display';
+  src: url('OuterRimDisplay_BETA.otf');
+}
+
+.OuterRimDisplay {
+  font-family: 'Outer Rim Display';
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Aurebesh Rodian';
+  src: url('Aurebesh_Rodian.otf');
+}
+@font-face {
+  font-family: 'Aurebesh Rodian Outline';
+  src: url('Aurebesh_Rodian-Outline.otf');
+}
+@font-face {
+  font-family: 'Aurebesh Rodian Oblique';
+  src: url('Aurebesh_Rodian-Oblique.otf');
+}
+@font-face {
+  font-family: 'Aurebesh Rodian Oblique Outline';
+  src: url('Aurebesh_Rodian-OblqOutline.otf');
+}
+
+
+.AurebeshRodian {
+  font-family: 'Aurebesh Rodian';
+}
+.AurebeshRodian-Outline {
+  font-family: 'Aurebesh Rodian Outline';
+}
+.AurebeshRodian-Oblique {
+  font-family: 'Aurebesh Rodian Oblique';
+}
+.AurebeshRodian-Oblique-Outline {
+  font-family: 'Aurebesh Rodian Oblique Outline';
+}

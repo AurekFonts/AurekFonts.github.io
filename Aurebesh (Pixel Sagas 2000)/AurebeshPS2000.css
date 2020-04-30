@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Aurebesh Pixel Sagas 2000';
+  src: url('aurebesh-old.ttf');
+}
+.AurebeshPixelSagas2000 {
+  font-family: 'Aurebesh Pixel Sagas 2000';
+  font-size: 14pt;
+}

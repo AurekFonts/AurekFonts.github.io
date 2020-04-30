@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Aurebesh Pixel Sagas';
+  src: url('Aurebesh.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Bold';
+  src: url('Aurebesh Bold.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Bold Italic';
+  src: url('Aurebesh Bold Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Condensed';
+  src: url('Aurebesh.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Condensed Bold';
+  src: url('Aurebesh Bold.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Condensed Bold Italic';
+  src: url('Aurebesh Bold Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Condensed Italic';
+  src: url('Aurebesh Bold Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurebesh PS Italic';
+  src: url('Aurebesh Italic.ttf');
+}
+
+.AurebeshPixelSagas {
+  font-family: 'Aurebesh Pixel Sagas';
+}
+.AurebeshPSBold {
+  font-family: 'Aurebesh PS Bold';
+}
+.AurebeshPSBoldItalic {
+  font-family: 'Aurebesh PS Bold Italic';
+}
+.AurebeshPSCondensed {
+  font-family: 'Aurebesh PS Condensed';
+}
+.AurebeshPSCondensedBold {
+  font-family: 'Aurebesh PS Condensed Bold';
+}
+.AurebeshPSCondensedBoldItalic {
+  font-family: 'Aurebesh PS Condensed Bold Italic';
+}
+.AurebeshPSCondensedItalic {
+  font-family: 'Aurebesh PS Condensed Italic';
+}
+.AurebeshPSItalic {
+  font-family: 'Aurebesh PS Italic';
+}
