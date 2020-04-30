@@ -1,12 +1,37 @@
+:root {
+	--teal-color: #04e2ff;
+	--teal-background-color: #052932;
+	--teal-text-glow: #0dd5f088;
+	--teal-screen-glow: #053230;
+
+	--orange-color: #ff7c01;
+	--orange-background-color: #2b2621;
+	--orange-text-glow: #f0550d88;
+	--orange-screen-glow: #321305;
+}
+
+.theme-teal {
+	--color: var(--teal-color);
+	--background-color: var(--teal-background-color);
+	--text-glow: var(--teal-text-glow);
+	--screen-glow: var(--teal-screen-glow);
+}
+.theme-orange {
+	--color: var(--orange-color);
+	--background-color: var(--orange-background-color);
+	--text-glow: var(--orange-text-glow);
+	--screen-glow: var(--orange-screen-glow);
+}
+
 .CRT {
 	position: relative;
   padding:2rem;
 	/* padding-top: 50px; */
 	height: 100%;
-	background: #052932;
-	background-image: radial-gradient(ellipse, #053230 0%, #050505 90%);
-  color: #04e2ff;
-	text-shadow: 3px 0px 5px #0cd4ee88, -3px 0px 5px #0dd5f088;
+	background: var(--background-color);
+	background-image: radial-gradient(ellipse, var(--screen-glow) 0%, #050505 90%);
+  color: var(--color);
+	text-shadow: 3px 0px 5px var(--text-glow), -3px 0px 5px var(--text-glow);
 	border: none;
 	border-radius: 3rem;
 }
@@ -55,7 +80,7 @@
 	background: linear-gradient(
 		0deg,
 		rgba(0, 0, 0, 0) 0%,
-		rgba(255, 255, 255, 0.2) 10%,
+		rgba(255, 255, 255, 0.4) 10%,
 		rgba(0, 0, 0, 0.1) 100%
 	);
 	opacity: 0.1;
@@ -81,13 +106,13 @@
 	width: 12px;               /* width of the entire scrollbar */
 }
 .CRT::-webkit-scrollbar-track {
-	background: #052932;        /* color of the tracking area */
+	background: var(--background-color);        /* color of the tracking area */
 	border-radius: 20px;
 }
 .CRT::-webkit-scrollbar-thumb {
-  background-color: #04e2ff88;    /* color of the scroll thumb */
+  background-color: var(--color);    /* color of the scroll thumb */
 	border-radius: 20px;       /* roundness of the scroll thumb */
-	box-shadow: 3px 0px 5px #0cd4ee88, -3px 0px 5px #0dd5f088;
+	box-shadow: 3px 0px 5px var(--text-glow), -3px 0px 5px var(--text-glow);
 	width: 10px
 	
 }
