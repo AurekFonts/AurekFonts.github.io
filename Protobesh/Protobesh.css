@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Protobesh Coremaic';
+  src: url(Protobesh-Coremaic.otf);
+}
+@font-face {
+  font-family: 'Protobesh Square';
+  src: url(Protobesh-Square.otf);
+}
+
+.ProtobeshCoremaic {
+  font-family: 'Protobesh Coremaic';
+}
+.ProtobeshSquare {
+  font-family: 'Protobesh Square';
+}

@@ -32,3 +32,17 @@ h1, h2, h3 {
 .printer #editText {
   height: 11in;
 }
+
+.banner {
+  text-align: center;
+  width: 10in;
+  min-width: 10in;
+  height:2.5in;
+  min-height:2.5in;
+  max-height:2.5in;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.banner #editText {
+  height: 2.5in;
+}

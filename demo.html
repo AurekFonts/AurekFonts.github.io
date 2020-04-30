@@ -16,47 +16,53 @@
   <link rel="stylesheet" href="Geonosian PM/GeonosianPM.css">
   <link rel="stylesheet" href="Mando Albans Bane/MandoAlbansBane.css">
   <link rel="stylesheet" href="OuterRimDisplay/OuterRimDisplay.css">
+  <link rel="stylesheet" href="Protobesh/Protobesh.css">
 
   <style>
-    body {
+    h1 {
       font-family: 'Aurebesh English', 'Aurebesh Tycho';
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
   </style>
   
 </head>
-  <body class="">
+  <body>
     <div id="intro">
       <h1>AurekFonts : Font Demos</h1>
-      <p>Play around with the fonts on this page. Licensing information coming soon.</p>
-      <p><a href="https://github.com/AurekFonts/AurekFonts.github.io/wiki">Wiki Home</a></p>
+      <p>Play around with the fonts on this page.</p>
+      <p>Licensing: <a id="wikiLink"></a></p>
       FONT FACE:
       <select name="fontSelect" id="fontSelect">
-        <option value="Ataribesh">Ataribesh</option>
-        <option value="Ataribesh Titles">-- Ataribesh Titles</option>
-        <option value="Ataribesh Subtitles">-- Ataribesh Subtitles</option>
-        <option value="Ataribesh Sprites">-- Ataribesh Sprites</option>
-        <option value="Aurebesh Calligraphy">Aurebesh Calligraphy</option>
-        <option value="Aurebesh English">Aurebesh English</option>
-        <option value="Aurebesh Pixel Sagas 2000">Aurebesh Pixel Sagas 2000</option>
-        <option value="Aurebesh Pixel Sagas">Aurebesh Pixel Sagas</option>
-        <option value="Aurebesh PS Bold">-- Aurebesh PS Bold</option>
-        <option value="Aurebesh PS Bold Italic">-- Aurebesh PS Bold Italic</option>
-        <option value="Aurebesh PS Condensed">-- Aurebesh PS Condensed</option>
-        <option value="Aurebesh PS Condensed Bold">-- Aurebesh PS Condensed Bold</option>
-        <option value="Aurebesh PS Condensed Bold Italic">-- Aurebesh PS Condensed Bold Italic</option>
-        <option value="Aurebesh PS Condensed Italic">-- Aurebesh PS Condensed Italic</option>
-        <option value="Aurebesh PS Italic">-- Aurebesh PS Italic</option>
-        <option value="Aurebesh Rodian">Aurebesh Rodian</option>
-        <option value="Aurebesh Rodian Oblique">-- Aurebesh Rodian Oblique</option>
-        <option value="Aurebesh Rodian Oblique Outline">-- Aurebesh Rodian Outline Oblique</option>
-        <option value="Aurebesh Rodian Outline">-- Aurebesh Rodian Outline</option>
-        <option value="Aurebesh Tycho" selected>Aurebesh Tycho</option>
-        <option value="Aurebesh Tycho INV">-- Aurebesh Tycho INV</option>
-        <option value="AureTech">-- AureTech</option>
-        <option value="AureTech INV">-- AureTech INV</option>
-        <option value="Geonosian PM">Geonosian PM</option>
-        <option value="Mando Albans Bane">Mando Alban's Bane</option>
-        <option value="Outer Rim Display">Outer Rim Display</option>
+        <option name="Ataribesh" value="Ataribesh" wiki="Ataribesh-(Free)">Ataribesh</option>
+        <option name="Ataribesh Titles" value="Ataribesh Titles" wiki="Ataribesh-(Free)">-- Ataribesh Titles</option>
+        <option name="Ataribesh Subtitles" value="Ataribesh Subtitles" wiki="Ataribesh-(Free)">-- Ataribesh Subtitles</option>
+        <option name="Ataribesh Sprites" value="Ataribesh Sprites" wiki="Ataribesh-(Free)">-- Ataribesh Sprites</option>
+        <option name="Aurebesh Calligraphy" value="Aurebesh Calligraphy" wiki="Aurebesh-Calligraphy-(Free)">Aurebesh Calligraphy</option>
+        <option name="Aurebesh English" value="Aurebesh English" wiki="Aurebesh_english-(Free)">Aurebesh English</option>
+        <option name="Aurebesh Pixel Sagas 2000" value="Aurebesh Pixel Sagas 2000">Aurebesh Pixel Sagas 2000</option>
+        <option name="Aurebesh Pixel Sagas" value="Aurebesh Pixel Sagas" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">Aurebesh Pixel Sagas</option>
+        <option name="Aurebesh PS Bold" value="Aurebesh PS Bold" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Bold</option>
+        <option name="Aurebesh PS Bold Italic" value="Aurebesh PS Bold Italic" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Bold Italic</option>
+        <option name="Aurebesh PS Condensed" value="Aurebesh PS Condensed" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Condensed</option>
+        <option name="Aurebesh PS Condensed Bold" value="Aurebesh PS Condensed Bold" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Condensed Bold</option>
+        <option name="Aurebesh PS Condensed Bold Italic" value="Aurebesh PS Condensed Bold Italic" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Condensed Bold Italic</option>
+        <option name="Aurebesh PS Condensed Italic" value="Aurebesh PS Condensed Italic" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Condensed Italic</option>
+        <option name="Aurebesh PS Italic" value="Aurebesh PS Italic" wiki="Aurebesh-[by-Pixel-Sagas]-(Free-NC)">-- Aurebesh PS Italic</option>
+        <option name="Aurebesh Rodian" value="Aurebesh Rodian" wiki="Aurebesh_Rodian-(Free)">Aurebesh Rodian</option>
+        <option name="Aurebesh Rodian Oblique" value="Aurebesh Rodian Oblique" wiki="Aurebesh_Rodian-(Free)">-- Aurebesh Rodian Oblique</option>
+        <option name="Aurebesh Rodian Oblique Outline" value="Aurebesh Rodian Oblique Outline" wiki="Aurebesh_Rodian-(Free)">-- Aurebesh Rodian Outline Oblique</option>
+        <option name="Aurebesh Rodian Outline" value="Aurebesh Rodian Outline" wiki="Aurebesh_Rodian-(Free)">-- Aurebesh Rodian Outline</option>
+        <option name="Aurebesh Tycho" value="Aurebesh Tycho">Aurebesh Tycho</option>
+        <option name="Aurebesh Tycho INV" value="Aurebesh Tycho INV">-- Aurebesh Tycho INV</option>
+        <option name="AureTech" value="AureTech">-- AureTech</option>
+        <option name="AureTech INV" value="AureTech INV">-- AureTech INV</option>
+        <option name="Geonosian PM" value="Geonosian PM" wiki="Geonosian-PM-(Free)">Geonosian PM</option>
+        <option name="Mando Albans Bane" value="Mando Albans Bane" wiki="Mando-Alban's-Bane-(Free)">Mando Alban's Bane</option>
+        <option name="Outer Rim Display" value="Outer Rim Display" wiki="OuterRimDisplay_BETA-(Free)">Outer Rim Display</option>
+        <option name="Protobesh Coremaic" value="Protobesh Coremaic" wiki="Protobesh-(Free)">Protobesh Coremaic</option>
+        <option name="Protobesh Square" value="Protobesh Square" wiki="Protobesh-(Free)">-- Protobesh Square</option>
       </select>
       FONT-SIZE:
       <select name="sizeSelect" id="sizeSelect">
@@ -90,6 +96,7 @@
       <select name="screenWidthSelect" id="screenWidthSelect">
         <option value="full">Full</option>
         <option value="printer">8.5 x 11</option>
+        <option value="banner">Banner</option>
       </select>
       <div id="font license"></div>
     </div>
@@ -118,14 +125,22 @@
       document.getElementById('editText').style = `
         font-family: ${document.getElementById('fontSelect').value};
         font-size: ${document.getElementById('sizeSelect').value}pt;`;
+        setWikiLink();
     }
     const setScreenStyle = () => {
       document.getElementById('screen').className = `${document.getElementById('screenStyleSelect').value} ${document.getElementById('screenWidthSelect').value}`;
+    }
+    const setWikiLink = () => {
+      const selectedFont = document.getElementsByName(document.getElementById('fontSelect').value);
+      const wikiSubURL = selectedFont[0].attributes[2] ? selectedFont[0].attributes[2].value : 'Home';
+      document.getElementById('wikiLink').setAttribute('href', `https://github.com/AurekFonts/AurekFonts.github.io/wiki/${wikiSubURL}`);
+      document.getElementById('wikiLink').innerText = `Wiki: ${wikiSubURL}`;
     }
 
     const handleOnLoad = () => {
       setFont();
       setScreenStyle();
+      setWikiLink();
     }
 
     document.onload = handleOnLoad();
