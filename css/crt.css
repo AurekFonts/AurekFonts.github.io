@@ -1,16 +1,19 @@
 .CRT {
 	position: relative;
+  padding:2rem;
+	/* padding-top: 50px; */
 	height: 100%;
 	background: #052932;
 	background-image: radial-gradient(ellipse, #053230 0%, #050505 90%);
-  animation: on 2s linear;
-  color: #0fc6df;
-  text-shadow: 3px 0px 5px #0fc6df88, -3px 0px 5px #0fc6df88;
+  color: #04e2ff;
+	text-shadow: 3px 0px 5px #0cd4ee88, -3px 0px 5px #0dd5f088;
+	border: none;
+	border-radius: 3rem;
 }
 .CRT:after {
 	content: " ";
 	opacity: 0;
-	background: #fff;
+	background: #ffffff;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -21,6 +24,7 @@
 	height: 100%;
 	pointer-events: none;
 	z-index: 3;
+	border-radius: 3rem;
 }
 .CRT:before {
 	content: " ";
@@ -32,12 +36,13 @@
 	right: 0;
 	background: linear-gradient(
 		to bottom,
-		rgba(18, 16, 16, 0.1) 50%,
-		rgba(0, 0, 0, 0.15) 50%
+		#1210101a 50%,
+		#00000026 50%
 	);
 	background-size: 100% 8px;
 	z-index: 2;
 	pointer-events: none;
+	border-radius: 3rem;
 }
 .scanline{
 	display: none;
@@ -68,6 +73,21 @@
 		top: 0%;
 	}
 	100% {
-		top: 100%;
+		top: 90%;
 	}
+}
+
+.CRT::-webkit-scrollbar {
+	width: 12px;               /* width of the entire scrollbar */
+}
+.CRT::-webkit-scrollbar-track {
+	background: #052932;        /* color of the tracking area */
+	border-radius: 20px;
+}
+.CRT::-webkit-scrollbar-thumb {
+  background-color: #04e2ff88;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	box-shadow: 3px 0px 5px #0cd4ee88, -3px 0px 5px #0dd5f088;
+	width: 10px
+	
 }

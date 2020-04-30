@@ -2,7 +2,10 @@
  <head>
  <title>AurekFonts : Font Demos</title>
   <link rel="stylesheet" href="./css/demo.css">
+  
   <link rel="stylesheet" href="./css/crt.css">
+  <link rel="stylesheet" href="./css/jediTexts.css">
+
   <link rel="stylesheet" href="Ataribesh/Ataribesh.css">
   <link rel="stylesheet" href="Aurebesh Calligraphy/AurebeshCalligraphy.css">
   <link rel="stylesheet" href="Aurebesh English/AurebeshEnglish.css">
@@ -26,6 +29,7 @@
       <h1>AurekFonts : Font Demos</h1>
       <p>Play around with the fonts on this page. Licensing information coming soon.</p>
       <p><a href="https://github.com/AurekFonts/AurekFonts.github.io/wiki">Wiki Home</a></p>
+      FONT FACE:
       <select name="fontSelect" id="fontSelect">
         <option value="Ataribesh">Ataribesh</option>
         <option value="Ataribesh Titles">-- Ataribesh Titles</option>
@@ -54,6 +58,7 @@
         <option value="Mando Albans Bane">Mando Alban's Bane</option>
         <option value="Outer Rim Display">Outer Rim Display</option>
       </select>
+      FONT-SIZE:
       <select name="sizeSelect" id="sizeSelect">
         <option value="8">8</option>
         <option value="9">9</option>
@@ -74,29 +79,36 @@
         <option value="64">64</option>
         <option value="72">72</option>
       </select>
-      <select name="styleSelect" id="styleSelect">
+      <br/>
+      SCREEN STYLE:
+      <select name="screenStyleSelect" id="screenStyleSelect">
         <option value="">none</option>
         <option value="CRT" selected>CRT</option>
+        <option value="jediTexts1">Jedi Texts</option>
+      </select>
+      SCREEN-SIZE:
+      <select name="screenWidthSelect" id="screenWidthSelect">
+        <option value="full">Full</option>
+        <option value="printer">8.5 x 11</option>
       </select>
       <div id="font license"></div>
     </div>
-
     <div id="screen">
       <div class="scanline"></div>
-      <div id="editText" contenteditable spellcheck="false" >
-        <p>The Jedi Code</p>
-        <p>Archive Record</p>
-        <p>1138-2049576</p>
-        <p>Without emotion, peace. Without ignorance, knowledge. Without passion, serenity. Without chaos, harmony. Without death, the Force.</p>
-        <p>The Jedi Code is a meditative pattern to aligning oneself with the Force. Ponder on it regularly and let it guide you to acceptance of the will of the Force.</p>
-        <p>Jedi are not spared the challenges of living, but through trust in the Force, pain and loss do not cast them into disarray. They are spared instead the phantom pains of fear, longing, and grief. Attachment is the source of these phantom pains. When one is free of attachment to life, to belongings, to comfort, they have nothing to fear. Longing is merely attachment to that which one does not have, and grief but attachment to that which one has no longer.</p>
-        <p>Fear is the path to the Dark Side. Fear leads to anger; anger leads to hate; hate leads to suffering. The Dark Side falsely promises that fear, longing, and grief may be overcome through the acquisition, consolidation, and exericizing of power. It promises the lie of permanence, which is not a negation of fear, but a succumbing unto it; not a fulfillment of longing, but a deepening thereof; not an absolution of grief, but a worship thereof. This path is alluring to those who seek the ease which accompanies power, but who are not mindful of the consuming turmoil which accompanies greed.</p>
-        <p>Those who choose to follow the Dark do so for all that it conceals. The Jedi choose the Light for all that it reveals. However, there are not two forces but one Force.</p>
-        <p>The Force is what gives a Jedi their power. It is an energy field created by all living things. It surrounds us and penetrates us. It binds the galaxy together. A Jedi can feel the Force flowing through them. If one permits it, the Force can guide their actions as well as obey their commands.</p>
-        <p>The Lightsabre is the prefered weapon of a Jedi Knight. It is an elegant weapon with a thin blade of energy. Within the handle of each lightsabre is a Kyber Crystal, which is strongly connected to the Force, and is as entirely unique as the Jedi who wields it.</p>
-        <p>During the second phase of each star cycle, a Jedi is offered the chance to align their being with the Force flowing through their chosen crystal. Thereby they become one: the Jedi is the heart of the Crystal, as the Crystal is the heart of the Blade; the Blade is the insturment of the Jedi, as the Jedi is the instrument of the Force.</p>
-        <p>A broken crystal may have a weaker connection to the Force, and may therefore be no longer effective for use in a Lightsabre, but may still be used as a seed for the growth of a new Kyber Crystal formation. Pieces of crystal that are not attuned to the Force are referred to as forcefailed. Forcefailed pieces have a tendency to end up being traded illegally by smugglers and black marketeers as power sources.</p>
-        <p>When you are one with the Force, the Force will be with you. Always.</p>
+      <div id="editText" contenteditable spellcheck="false">
+        The Jedi Code
+        <br/><br/>Archive Record
+        <br/><br/>1138-2049576
+        <br/><br/>Without emotion, peace. Without ignorance, knowledge. Without passion, serenity. Without chaos, harmony. Without death, the Force.
+        <br/><br/>The Jedi Code is a meditative pattern to aligning oneself with the Force. Ponder on it regularly and let it guide you to acceptance of the will of the Force.
+        <br/><br/>Jedi are not spared the challenges of living, but through trust in the Force, pain and loss do not cast them into disarray. They are spared instead the phantom pains of fear, longing, and grief. Attachment is the source of these phantom pains. When one is free of attachment to life, to belongings, to comfort, they have nothing to fear. Longing is merely attachment to that which one does not have, and grief but attachment to that which one has no longer.
+        <br/><br/>Fear is the path to the Dark Side. Fear leads to anger; anger leads to hate; hate leads to suffering. The Dark Side falsely promises that fear, longing, and grief may be overcome through the acquisition, consolidation, and exericizing of power. It promises the lie of permanence, which is not a negation of fear, but a succumbing unto it; not a fulfillment of longing, but a deepening thereof; not an absolution of grief, but a worship thereof. This path is alluring to those who seek the ease which accompanies power, but who are not mindful of the consuming turmoil which accompanies greed.
+        <br/><br/>Those who choose to follow the Dark do so for all that it conceals. The Jedi choose the Light for all that it reveals. However, there are not two forces but one Force.
+        <br/><br/>The Force is what gives a Jedi their power. It is an energy field created by all living things. It surrounds us and penetrates us. It binds the galaxy together. A Jedi can feel the Force flowing through them. If one permits it, the Force can guide their actions as well as obey their commands.
+        <br/><br/>The Lightsabre is the prefered weapon of a Jedi Knight. It is an elegant weapon with a thin blade of energy. Within the handle of each lightsabre is a Kyber Crystal, which is strongly connected to the Force, and is as entirely unique as the Jedi who wields it.
+        <br/><br/>During the second phase of each star cycle, a Jedi is offered the chance to align their being with the Force flowing through their chosen crystal. Thereby they become one: the Jedi is the heart of the Crystal, as the Crystal is the heart of the Blade; the Blade is the insturment of the Jedi, as the Jedi is the instrument of the Force.
+        <br/><br/>A broken crystal may have a weaker connection to the Force, and may therefore be no longer effective for use in a Lightsabre, but may still be used as a seed for the growth of a new Kyber Crystal formation. Pieces of crystal that are not attuned to the Force are referred to as forcefailed. Forcefailed pieces have a tendency to end up being traded illegally by smugglers and black marketeers as power sources.
+        <br/><br/>When you are one with the Force, the Force will be with you. Always.
       </div>
     </div>
   </body>
@@ -107,19 +119,20 @@
         font-family: ${document.getElementById('fontSelect').value};
         font-size: ${document.getElementById('sizeSelect').value}pt;`;
     }
-    const setStyle = () => {
-      document.getElementById('screen').className = document.getElementById('styleSelect').value;
+    const setScreenStyle = () => {
+      document.getElementById('screen').className = `${document.getElementById('screenStyleSelect').value} ${document.getElementById('screenWidthSelect').value}`;
     }
 
     const handleOnLoad = () => {
       setFont();
-      setStyle();
+      setScreenStyle();
     }
 
     document.onload = handleOnLoad();
     document.getElementById('fontSelect').onchange = () => setFont();
     document.getElementById('sizeSelect').onchange = () => setFont();
-    document.getElementById('styleSelect').onchange = () => setStyle();
+    document.getElementById('screenStyleSelect').onchange = () => setScreenStyle();
+    document.getElementById('screenWidthSelect').onchange = () => setScreenStyle();
   </script>
 
 </html>

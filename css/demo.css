@@ -13,11 +13,22 @@ h1, h2, h3 {
 #intro {
   padding: 1rem;
 }
-#editText {
-  padding:2rem;
-  padding-top: 50px;
-}
 #screen {
   margin:1rem;
-  margin-bottom: 100px;
+}
+#editText {
+  min-height: 5rem;
+}
+
+.printer {
+  width:8.5in;
+  min-width:8.5in;
+  height:11in;
+  min-height:11in;
+  max-height:11in;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.printer #editText {
+  height: 11in;
 }
