@@ -1,0 +1,23 @@
+body {
+  background-color: #b9b9b9;
+  color: #aa1c1cfc;
+  font-size: 20pt;
+  font-family: 'Aurebesh English', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+h1, h2, h3 {
+  font-weight: normal;
+  text-align: center;
+}
+#intro {
+  padding: 1rem;
+}
+#editText {
+  padding:2rem;
+  padding-top: 50px;
+}
+#screen {
+  margin:1rem;
+  margin-bottom: 100px;
+}
