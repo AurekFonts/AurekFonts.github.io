@@ -32,7 +32,7 @@
     <div id="intro">
       <h1>AurekFonts : Font Demos</h1>
       <p>Play around with the fonts on this page.</p>
-      <p>Licensing: <a id="wikiLink"></a></p>
+      <p>More Info: <a id="wikiLink"></a></p>
       FONT FACE:
       <select name="fontSelect" id="fontSelect">
         <option name="Ataribesh" value="Ataribesh" wiki="Ataribesh-(Free)">Ataribesh</option>
@@ -90,7 +90,7 @@
       <select name="screenStyleSelect" id="screenStyleSelect">
         <option value="">none</option>
         <option value="CRT theme-teal" selected>CRT</option>
-        <option value="CRT theme-orange" selected>CRT 2</option>
+        <option value="CRT theme-orange">CRT 2</option>
         <option value="jediTexts1">Jedi Texts</option>
       </select>
       SCREEN-SIZE:
@@ -135,7 +135,7 @@
       const selectedFont = document.getElementsByName(document.getElementById('fontSelect').value);
       const wikiSubURL = selectedFont[0].attributes[2] ? selectedFont[0].attributes[2].value : 'Home';
       document.getElementById('wikiLink').setAttribute('href', `https://github.com/AurekFonts/AurekFonts.github.io/wiki/${wikiSubURL}`);
-      document.getElementById('wikiLink').innerText = `Wiki: ${wikiSubURL}`;
+      document.getElementById('wikiLink').innerText = `AurekFonts Wiki: ${wikiSubURL}`;
     }
 
     const handleOnLoad = () => {
