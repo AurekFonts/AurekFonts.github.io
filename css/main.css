@@ -6,6 +6,7 @@ html {
 }
 body {
   margin: 0;
+
 }
 article,
 aside,
@@ -46,6 +47,8 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  background-color: tomato;
+  color: #24292e;
 }
 abbr[title] {
   border-bottom: none;
@@ -202,16 +205,16 @@ body {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
   line-height: 1.5;
-  color: #24292e;
-  background-color: #fff;
+  color: #fff;
+  background-color: #24292e;
 }
 a {
-  color: #0366d6;
+  color: tomato;
   text-decoration: none;
 }
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 b,
 strong {
   font-weight: 600;
