@@ -92,7 +92,7 @@ const generateFoundryScreen = (foundry) => {
   const banner = foundry.bannerImage ?`<p><img src=${foundry.bannerImage} alt="${foundry.name}" title="${foundry.name}, font: ${foundry.bannerFont}"/></p>` : ``;
   const name = `<h1>${foundry.licenseTag} fonts by ${foundry.name}</h1>`;
   const supportLink = foundry.supportLink ? `<p>Support ${foundry.name} at <a href="${foundry.supportLink}">${foundry.supportText ? foundry.supportText : foundry.supportLink}</a></p>` : ``;
-  const listItems = fontsByFoundry.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> [<span class="${font.class}">${font.name}</span>] (${font.description})</li>`, '');
+  const listItems = generateFontListItems(fontsByFoundry);
   const fontList = `<ul>${listItems}</ul>`;
 
   return linkHeader +
