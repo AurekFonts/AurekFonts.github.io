@@ -29,6 +29,10 @@ const routeByQueryString = () => {
 
 window.onload = () => routeByQueryString();
 
+const generateFontListItems = (filteredFontList) => {
+  return filteredFontList.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> (${font.description})<br /><span style="font-size:${font.textSize}" class="${font.class}">May the Force be with you.</span></li>`, '');
+};
+
 const generateScriptScreen = (script) => {
   if (!script) return homeScreen;
 
@@ -38,10 +42,10 @@ const generateScriptScreen = (script) => {
   const banner = `<p><img src=${script.bannerImage} alt="${script.name}" title="${script.name}, font: ${script.bannerFont}"/></p>`;
   const title = `<h1>${script.name} Fonts</h1>`
   const freeFontHeader = `<h2>Free for All Personal and Commercial Uses</h2>`
-  const freeFontListItems = freeFontsByFoundry.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> [ <span class="${font.class}">${font.name}</span> ] (${font.description})</li>`, '');
+  const freeFontListItems = generateFontListItems(freeFontsByFoundry);
   const freeFontList = `<ul>${freeFontListItems}</ul>`;
   const freeNCFontHeader = `<h2>Free for Personal Non-Commercial Use</h2>`
-  const freeNCFontListItems = freeNCFontsByFoundry.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> [ <span class="${font.class}">${font.name}</span> ] (${font.description})</li>`, '');
+  const freeNCFontListItems = generateFontListItems(freeNCFontsByFoundry);
   const freeNCFontList = `<ul>${freeNCFontListItems}</ul>`;
 
   return linkHeader + 

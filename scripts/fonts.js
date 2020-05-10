@@ -44,7 +44,7 @@ const fonts = [
     script: 'Aurebesh',
     foundry: 'Pixel Sagas',
     artistNote: '',
-    description: 'Popular Aurebesh font at a lighter weight and inverted capitals.',
+    description: 'Popular Aurebesh font at a lighter weight; inverted capitals.',
     downloadUrl: './Aurebesh%20(Pixel%20Sagas)/aurebesh.zip',
     downloadType: '.ZIP',
     license: 'Free for personal, non-commercial use.',
@@ -70,7 +70,7 @@ const fonts = [
     year: '2018',
     charactersImage: './Aurebesh%20Calligraphy/AurebeshCalligraphy-charset.png',
     class: 'AurebeshCalligraphy',
-    textSize: '70px',
+    textSize: '50px',
     pangram: pangrams.JediWisdom,
   },
   {
