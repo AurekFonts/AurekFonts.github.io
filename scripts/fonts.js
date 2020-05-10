@@ -16,7 +16,7 @@ const fonts = [
     year: '2020',
     charactersImage: './Ataribesh/images/Ataribesh-charset.png',
     class: 'Ataribesh',
-    textSize: '30px',
+    textSize: '1rem',
     pangram: pangrams.JediWisdom,
   },
   {
@@ -34,7 +34,7 @@ const fonts = [
     year: '2000',
     charactersImage: undefined,
     class: 'AurebeshPixelSagas2000',
-    textSize: '30px',
+    textSize: '1rem',
     pangram: pangrams.JediWisdom,
   },
   {
@@ -52,7 +52,7 @@ const fonts = [
     year: '2013',
     charactersImage: undefined,
     class: 'AurebeshPixelSagas',
-    textSize: '30px',
+    textSize: '1rem',
     pangram: pangrams.JediWisdom,
   },
   {
@@ -70,7 +70,7 @@ const fonts = [
     year: '2018',
     charactersImage: './Aurebesh%20Calligraphy/AurebeshCalligraphy-charset.png',
     class: 'AurebeshCalligraphy',
-    textSize: '50px',
+    textSize: '1.5rem',
     pangram: pangrams.JediWisdom,
   },
   {
@@ -88,7 +88,7 @@ const fonts = [
     year: '2020',
     charactersImage: './Aurebesh%20Rodian/Aurebesh_Rodian-charset.png',
     class: 'AurebeshRodian',
-    textSize: '50px',
+    textSize: '1.5rem',
     pangram: pangrams.JediWisdom,
   },
   {
@@ -106,7 +106,7 @@ const fonts = [
     year: '2012, 2015, 2020',
     charactersImage: undefined,
     class: 'AurebeshTycho',
-    textSize: '50px',
+    textSize: '1.5rem',
     pangram: pangrams.BlackholeDigraphs,
   },
 ]

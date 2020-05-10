@@ -3,7 +3,7 @@
 const queryStringParts = window.location.search.split('=');
 const pathname = window.location.pathname;
 
-const linkHeader = `<p><a href="${pathname}">[AurekFonts Home]</a> <a href="${pathname}?sort=script">[Fonts by Script]</a> <a href="${pathname}?sort=license">[Fonts by License]</a></p>`;
+const linkHeader = `<p><a href="${pathname}">[AurekFonts Home]</a><br/><a href="${pathname}?sort=script">[Fonts by Script]</a> <a href="${pathname}?sort=license">[Fonts by License]</a></p>`;
 const homeBanner = `<p><a href="${pathname}"><img src="./AurekFontsBanner.png" alt="AurekFonts Home" title="AurekFonts Home"/></a></p>`;
 
 const routeByQueryString = () => {
@@ -30,7 +30,12 @@ const routeByQueryString = () => {
 window.onload = () => routeByQueryString();
 
 const generateFontListItems = (filteredFontList) => {
-  return filteredFontList.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> (${font.description})<br /><span style="font-size:${font.textSize}" class="${font.class}">May the Force be with you.</span></li>`, '');
+  const generateScaledImages = (font) => {
+    const example = font.exampleImage ? `<a href="${pathname}?font=${font.query}"><img src="${font.exampleImage}" style="max-height:5rem; height:auto; max-width: 7rem; vertical-align:top;" ></a>` : '';
+    const characters = font.charactersImage ? `<a href="${pathname}?font=${font.query}"><img src="${font.charactersImage}" style="max-height:5rem; height:auto; max-width: 7rem; vertical-align:top;" ></a>` : '';
+    return `<div style="margin: 1rem"><span>${example}\t\t${characters}</div>`;
+  }
+  return filteredFontList.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> (${font.description})<br />${generateScaledImages(font)}</li>`, '');
 };
 
 const generateScriptScreen = (script) => {
