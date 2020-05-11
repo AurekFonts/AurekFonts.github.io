@@ -31,4 +31,14 @@ const foundries = [
     supportLink: undefined,
     supportText: undefined,
   },
+  {
+    name: 'Vamplify',
+    bannerImage: './banners/vamplify-page-banner.png',
+    bannerFont: 'Nirvanabesh',
+    query: 'Vamplify',
+    licenseTag: 'Free',
+    bio: 'Vamplify is a graphic designer.',
+    supportLink: 'https://www.teepublic.com/user/vamplify?utm_source=designer',
+    supportText: 'teepublic',
+  },
 ];

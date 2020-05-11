@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Nirvanabesh';
+  src: url('Nirvanabesh.otf');
+}
+.Nirvanabesh {
+  font-family: 'Nirvanabesh';
+  font-size: 24pt;
+}
