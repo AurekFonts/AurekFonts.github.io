@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Aurebesh Droid';
+  src: url('Aurebesh-Droid.ttf');
+}
+
+.AurebeshDroid {
+  font-family: 'Aurebesh Droid';
+}

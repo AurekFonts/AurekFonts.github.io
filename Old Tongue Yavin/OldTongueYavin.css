@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Old Tongue Yavin';
+  src: url('OldTongue_Yavin.otf');
+}
+
+.OldTongueYavin {
+  font-family: 'Old Tongue Yavin';
+}

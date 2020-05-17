@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Aurek-Besh Hand';
+  src: url('AurekBeshHand.ttf');
+}
+
+.AurekBeshHand {
+  font-family: 'Aurek-Besh Hand';
+}

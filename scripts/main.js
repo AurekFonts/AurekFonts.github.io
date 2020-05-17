@@ -3,7 +3,7 @@
 const queryStringParts = window.location.search.split('=');
 const pathname = window.location.pathname;
 
-const linkHeader = `<p><a href="${pathname}">[AurekFonts Home]</a><br/><a href="${pathname}?sort=script">[Fonts by Script]</a> <a href="${pathname}?sort=license">[Fonts by License]</a></p>`;
+const linkHeader = `<p><a href="${pathname}">[AurekFonts Home]</a><br/><a href="${pathname}?sort=script">[Fonts by Script]</a> <a href="${pathname}?sort=license">[Fonts by License]</a> <a href="${pathname}?sort=foundry">[Fonts by Foundry / Artist]</a></p>`;
 const homeBanner = `<p><a href="${pathname}"><img src="./AurekFontsBanner.png" alt="AurekFonts Home" title="AurekFonts Home"/></a></p>`;
 
 const routeByQueryString = () => {
@@ -13,7 +13,10 @@ const routeByQueryString = () => {
       document.getElementById('main').innerHTML = generateScriptScreen(scripts.find(script => script.query === queryStringParts[1]));
       break;
     case '?sort':
-      document.getElementById('main').innerHTML = queryStringParts[1] === 'script' ? scriptSortScreen : queryStringParts[1] === 'license' ? generateLicenseSortScreen() : homeScreen;
+      document.getElementById('main').innerHTML = queryStringParts[1] === 'script' ? scriptSortScreen 
+        : queryStringParts[1] === 'license' ? generateLicenseSortScreen()
+        : queryStringParts[1] === 'foundry' ? generateFoundrySortScreen()
+        : homeScreen;
       break;
     case '?font':
       document.getElementById('main').innerHTML = generateFontScreen(fonts.find(font => font.query === queryStringParts[1]));
@@ -32,7 +35,7 @@ window.onload = () => routeByQueryString();
 const generateScaledImages = (font) => {
   const imageStyle=`max-height:5rem; height:auto; max-width: 7rem; vertical-align:top;`
   const example = font.exampleImage ? `<a href="${pathname}?font=${font.query}"><img src="${font.exampleImage}" style="${imageStyle}" /></a>` : '';
-  const characters = font.charactersImage ? `<a href="${pathname}?font=${font.query}"><img src="${font.charactersImage}" style="${imageStyle}" /></a>` : '';
+  const characters = font.charactersImages.length ? `<a href="${pathname}?font=${font.query}"><img src="${font.charactersImages[0]}" style="${imageStyle}" /></a>` : '';
   return `<div style="margin: 1rem;"><span>${example}\t\t${characters}</span></div>`;
 };
 
@@ -51,18 +54,20 @@ const generateScriptScreen = (script) => {
   const freeFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free');
   const freeNCFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free Non-Commercial');
 
-  const banner = `<p><img src=${script.bannerImage} alt="${script.name}" title="${script.name}, font: ${script.bannerFont}"/></p>`;
+  const banner = script.bannerImage ? `<p><img src=${script.bannerImage} alt="${script.name}" title="${script.name}, font: ${script.bannerFont}"/></p>` : ``;
   const title = `<h1>${script.name} Fonts</h1>`
-  const freeFontHeader = `<h2>Free for All Personal and Commercial Uses</h2>`
-  const freeFontListItems = generateFontListItems(freeFontsByScript);
-  const freeFontList = `<ul>${freeFontListItems}</ul>`;
-  const freeNCFontHeader = `<h2>Free for Personal Non-Commercial Use</h2>`
-  const freeNCFontListItems = generateFontListItems(freeNCFontsByScript);
-  const freeNCFontList = `<ul>${freeNCFontListItems}</ul>`;
+  const description = `<p>${script.description}</p>`
+  const freeFontHeader = freeFontsByScript.length ? `<h2>Free for All Personal and Commercial Uses</h2>` : ``;
+  const freeFontListItems = freeFontsByScript.length ?generateFontListItems(freeFontsByScript) : ``;
+  const freeFontList =  freeFontsByScript.length ? `<ul>${freeFontListItems}</ul>` : ``;
+  const freeNCFontHeader = freeNCFontsByScript.length ? `<h2>Free for Personal Non-Commercial Use</h2>` : ``;
+  const freeNCFontListItems = freeNCFontsByScript.length ? generateFontListItems(freeNCFontsByScript) : ``;
+  const freeNCFontList = freeNCFontsByScript.length ? `<ul>${freeNCFontListItems}</ul>`: ``;
 
   return linkHeader + 
     banner +
     title + 
+    description +
     freeFontHeader +
     freeFontList +
     freeNCFontHeader +
@@ -76,7 +81,7 @@ const generateFontScreen = (font) => {
 
   const exampleImage = font.exampleImage ? `<p><img src=${font.exampleImage} alt="${font.name}" title="${font.name} Example"/></p>` : ``;
   const name = `<h1>${font.name} (${font.licenseTag})</h1>`;
-  const credit = `<p><a href="${pathname}?script=${font.script}">${font.script}</a> font created by <a href=${pathname}?foundry=${font.foundry}>${font.foundry}</a>${year}.</p>`;
+  const credit = `<p><a href="${pathname}?script=${font.scriptQuery ? font.scriptQuery : font.script}">${font.script}</a> font created by <a href=${pathname}?foundry=${font.foundry}>${font.foundry}</a>${year}.</p>`;
   const artistNote = font.artistNote ? `<p>${font.artistNote}</p>` : ``;
   const description = `<p>${font.description}</p>`;
   const license = `<p>${font.license}</p>`;
@@ -105,16 +110,18 @@ const generateFoundryScreen = (foundry) => {
   const freeFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free');
   const freeNCFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free NC')
 
-  const banner = foundry.bannerImage ?`<p><img src=${foundry.bannerImage} alt="${foundry.name}" title="${foundry.name}, font: ${foundry.bannerFont}"/></p>` : ``;
-  const name = `<h1>Fonts by ${foundry.name}</h1>`;
+  const banner = foundry.bannerImage ? `<p><img src=${foundry.bannerImage} alt="${foundry.name}" title="${foundry.name}, font: ${foundry.bannerFont}"/></p>` : ``;
+  const name = `<h1>${foundry.name}</h1>`;
+  const bio = foundry.bio ? `<p>${foundry.bio}</p>` : ``;
   const supportLink = foundry.supportLink ? `<p>Support ${foundry.name} at <a href="${foundry.supportLink}">${foundry.supportText ? foundry.supportText : foundry.supportLink}</a></p>` : ``;
   const freeFonts = freeFontsByFoundry.length ? `<h2>Free Fonts by ${foundry.name}</h2>` + `<ul>${generateFontListItems(freeFontsByFoundry)}</ul>` : ``;
-  const freeNCFonts = freeNCFontsByFoundry.length ? `<h2>Free Non-Commercial Fonts by ${foundry.name}</h2>` + `<ul>${generateFontListItems(freeNCFontsByFoundry)}</ul>` : ``;
+  const freeNCFonts = freeNCFontsByFoundry.length ? `<h2>Free, Non-Commercial Fonts by ${foundry.name}</h2>` + `<ul>${generateFontListItems(freeNCFontsByFoundry)}</ul>` : ``;
 
   return linkHeader +
     banner +
-    supportLink +
     name +
+    bio +
+    supportLink +
     freeFonts +
     freeNCFonts;
 };
@@ -143,6 +150,17 @@ const generateLicenseSortScreen = () => {
   freeNCFontsList +
   licenseRequiredFontsHeader +
   licenseRequiredFontsList;
+}
+
+const generateFoundrySortScreen = () => {
+  const title = `<h1>Fonts Sorted by Foundry / Artist</h1>`
+  const foundryListItems = foundries.reduce((list, foundry) => list + `<li><a href="${pathname}?foundry=${foundry.query}">${foundry.name}</a></li>`, ``);
+  const foundryList = `<ul>${foundryListItems}</ul>`;
+
+  return linkHeader +
+  homeBanner +
+  title +
+  foundryList
 }
 
 

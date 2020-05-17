@@ -10,5 +10,27 @@ homeBanner +
     <a href="${pathname}?script=Aurebesh">
       Aurebesh
     </a>
+    <ul>
+      <li>
+        <a href="${pathname}?script=Domabesh">
+          Domabesh
+        </a>
+      </li>
+      <li>
+        <a href="${pathname}?script=Droidobesh">
+          Droidobesh
+        </a>
+      </li>
+      <li>
+        <a href="${pathname}?script=OldTongue">
+          "The Old Tongue" / Ur-Kittât
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="${pathname}?script=Geonosian">
+      Geonosian
+    </a>
   </li>
 </ui>`
