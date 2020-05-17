@@ -36,13 +36,7 @@
     </script>
     <!-- End Jekyll SEO tag -->
 
-    <script src="scripts/pangrams.js"></script>
-    <script src="scripts/foundries.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/fonts.js"></script>
-    <script src="scripts/static-screens/home.js"></script>
-    <script src="scripts/static-screens/scriptSort.js"></script>
+
 
     <link rel="stylesheet" href="./css/main.css">
   </head>
@@ -50,6 +44,21 @@
     <div class="container-lg px-3 my-5 markdown-body" id="main">
 
     </div>
+      <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> -->
+  <!-- <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
+
+  <!-- Load our React component. -->
+  <script src="scripts/globals.js"></script>
+  <script src="scripts/helpers.js"></script>
+  <script src="scripts/pangrams.js"></script>
+  <script src="scripts/foundries.js"></script>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/fonts.js"></script>
+  <script src="scripts/static-screens/home.js"></script>
+  <script src="scripts/static-screens/scriptSort.js"></script>
   </body>
 
 </html>
