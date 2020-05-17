@@ -6,7 +6,6 @@ const foundries = [
     bannerImage: './banners/aurekfonts-page-banner.png',
     bannerFont: 'Aurebesh Rodian',
     query: 'AurekFonts',
-    licenseTag: 'Free',
     bio: '',
     supportLink: 'https://ko-fi.com/aurekfonts',
     supportText: 'https://ko-fi.com/aurekfonts'
@@ -16,7 +15,6 @@ const foundries = [
     bannerImage: './banners/convallarias-art-page-banner.png',
     bannerFont: 'Aurebesh Calligraphy',
     query: 'Convallarias',
-    licenseTag: 'Free',
     bio: '',
     supportLink: 'https://society6.com/convallarias',
     supportText: 'society6 (NSFW)'
@@ -26,7 +24,6 @@ const foundries = [
     bannerImage: undefined,
     bannerFont: 'Aurebesh (by Pixel Sagas)',
     query: 'Pixel',
-    licenseTag: 'Free (NC)',
     bio: '',
     supportLink: undefined,
     supportText: undefined,
@@ -36,7 +33,6 @@ const foundries = [
     bannerImage: './banners/vamplify-page-banner.png',
     bannerFont: 'Nirvanabesh',
     query: 'Vamplify',
-    licenseTag: 'Free',
     bio: 'Vamplify is a graphic designer.',
     supportLink: 'https://www.teepublic.com/user/vamplify?utm_source=designer',
     supportText: 'teepublic',
