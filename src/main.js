@@ -29,9 +29,10 @@ window.onload = () => routeByQueryString();
 const generateScriptScreen = (script) => {
   if (!script) return homeScreen;
 
-  const fontsByScript = fonts.filter(font => font.script === script.name);
+  const fontsByScript = fonts.filter(font => font.script === script.name || font.scriptQuery === script.query);
   const freeFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free');
-  const freeNCFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free Non-Commercial');
+  const freeNCFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free NC');
+  const licReqFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Lic Req');
 
   const banner = script.bannerImage 
     ? `<p>
@@ -58,6 +59,15 @@ const generateScriptScreen = (script) => {
   const freeNCFontList = freeNCFontsByScript.length 
     ? `<ul>${freeNCFontListItems}</ul>`
     : ``;
+  const licReqFontHeader = licReqFontsByScript.length 
+    ? `<h2>License Required</h2>` 
+    : ``;
+  const licReqFontListItems = licReqFontsByScript.length 
+    ? helpers.createFontListItems(licReqFontsByScript) 
+    : ``;
+  const licReqFontList = licReqFontsByScript.length 
+    ? `<ul>${licReqFontListItems}</ul>`
+    : ``;
 
   return linkHeader + 
     banner +
@@ -66,7 +76,9 @@ const generateScriptScreen = (script) => {
     freeFontHeader +
     freeFontList +
     freeNCFontHeader +
-    freeNCFontList
+    freeNCFontList +
+    licReqFontHeader +
+    licReqFontList
 }
 
 const generateFontScreen = (font) => {
@@ -84,7 +96,11 @@ const generateFontScreen = (font) => {
     `<p>
       <a href="${pathname}?script=${font.scriptQuery ? font.scriptQuery : font.script}">
         ${font.script}
-      </a> font created by <a href=${pathname}?foundry=${font.foundry}>
+      </a> font created by 
+      <a href=${pathname}?foundry=${font.foundryQuery
+        ? font.foundryQuery
+        : font.foundry}
+        >
         ${font.foundry}
       </a>${year}.
     </p>`;
@@ -92,9 +108,22 @@ const generateFontScreen = (font) => {
     ? `<p>${font.artistNote}</p>` 
     : ``;
   const description = `<p>${font.description}</p>`;
+  const seeAlso = font.seeAlso
+    ? `<p>See also:
+      <a href="${pathname}?font=${font.seeAlsoQuery}">
+        ${font.seeAlso ? font.seeAlso : font.seeAlsoQuery}
+      </a>
+    </p>`
+    : ``;
   const license = `<p>${font.license}</p>`;
   const download = font.downloadUrl 
     ? `<p><a href="${font.downloadUrl}">Download (${font.downloadType})</a></p>` 
+    : ``;
+  const externalDownload = font.externalDownloadUrl 
+    ? `<p>Download from <a href="${font.externalDownloadUrl}">${font.externalDownloadName}</a></p>` 
+    : ``;
+  const forLicensing = font.forLicensingUrl
+    ?  `<p>For licensing, visit <a href="${font.forLicensingUrl}">${font.forLicensingName}</a></p>`
     : ``;
   const demo = font.class 
     ? `<h2>Demo</h2>
@@ -117,8 +146,11 @@ const generateFontScreen = (font) => {
     credit + 
     artistNote +
     description + 
+    seeAlso +
     license + 
     download + 
+    externalDownload + 
+    forLicensing +
     demo + 
     characters +
     moreExamples;
@@ -129,7 +161,8 @@ const generateFoundryScreen = (foundry) => {
   
   const fontsByFoundry = fonts.filter(font => font.foundry === foundry.name);
   const freeFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free');
-  const freeNCFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free NC')
+  const freeNCFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free NC');
+  const licReqFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Lic Req');
 
   const banner = foundry.bannerImage 
     ? `<p>
@@ -141,7 +174,7 @@ const generateFoundryScreen = (foundry) => {
     ? `<p>${foundry.bio}</p>` 
     : ``;
   const supportLink = foundry.supportLink 
-    ? `<p>Support ${foundry.name} at 
+    ? `<p>Support ${foundry.name} via 
       <a href="${foundry.supportLink}">
         ${foundry.supportText 
         ? foundry.supportText 
@@ -157,6 +190,10 @@ const generateFoundryScreen = (foundry) => {
     ? `<h2>Free, Non-Commercial Fonts by ${foundry.name}</h2>` 
     + `<ul>${helpers.createFontListItems(freeNCFontsByFoundry)}</ul>` 
     : ``;
+  const licReqFonts = licReqFontsByFoundry.length 
+    ? `<h2>Free, Non-Commercial Fonts by ${foundry.name}</h2>` 
+    + `<ul>${helpers.createFontListItems(licReqFontsByFoundry)}</ul>` 
+    : ``;
 
   return linkHeader +
     banner +
@@ -164,7 +201,8 @@ const generateFoundryScreen = (foundry) => {
     bio +
     supportLink +
     freeFonts +
-    freeNCFonts;
+    freeNCFonts +
+    licReqFonts;
 };
 
 const generateLicenseSortScreen = () => {
@@ -178,7 +216,7 @@ const generateLicenseSortScreen = () => {
     ? `<ul>${helpers.createFontListItems(freeFonts)}</ul>` 
     : ``;
 
-  const freeNCFonts = fonts.filter(font => font.licenseTag === 'Free Non-Commercial');
+  const freeNCFonts = fonts.filter(font => font.licenseTag === 'Free NC');
   const freeNCFontsHeader = freeNCFonts.length 
     ? `<h2>Free for Personal, Non-Commercial Use</h2>` 
     : ``;
@@ -186,12 +224,12 @@ const generateLicenseSortScreen = () => {
     ? `<ul>${helpers.createFontListItems(freeNCFonts)}</ul>` 
     : ``;
 
-  const licenseRequiredFonts = fonts.filter(font => font.licenseTag === 'License Required');
-  const licenseRequiredFontsHeader = licenseRequiredFonts.length 
+  const licReqFonts = fonts.filter(font => font.licenseTag === 'Lic Req');
+  const licReqFontsHeader = licReqFonts.length 
     ? `<h2>License Required</h2>` 
     : ``;
-  const licenseRequiredFontsList = licenseRequiredFonts.length 
-    ? `<ul>${helpers.createFontListItems(licenseRequiredFonts)}</ul>` 
+  const licReqFontsList = licReqFonts.length 
+    ? `<ul>${helpers.createFontListItems(licReqFonts)}</ul>` 
     : ``;
 
   return linkHeader +
@@ -201,8 +239,8 @@ const generateLicenseSortScreen = () => {
   freeFontsList +
   freeNCFontsHeader +
   freeNCFontsList +
-  licenseRequiredFontsHeader +
-  licenseRequiredFontsList;
+  licReqFontsHeader +
+  licReqFontsList;
 }
 
 const generateFoundrySortScreen = () => {

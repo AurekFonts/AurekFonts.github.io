@@ -22,8 +22,18 @@ homeBanner +
         </a>
       </li>
       <li>
+        <a href="${pathname}?script=HighGalactic">
+          High Galactic [Latin] Alphabet
+        </a>
+      </li>
+      <li>
         <a href="${pathname}?script=OldTongue">
           "The Old Tongue" / Ur-Kittât
+        </a>
+      </li>
+      <li>
+        <a href="${pathname}?script=Protobesh">
+          Protobesh / Coremaic
         </a>
       </li>
     </ul>
@@ -31,6 +41,21 @@ homeBanner +
   <li>
     <a href="${pathname}?script=Geonosian">
       Geonosian
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=Kitisakkullian">
+      "Kitisakkullian" [unknown Jedi Text script]
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=OuterRim">
+      Outer Rim Basic [not to be confused with Huttese]
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=Ubese">
+      "Ubese" [unknown script from Boushh's costume]
     </a>
   </li>
 </ui>`
