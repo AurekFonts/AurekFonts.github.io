@@ -1,21 +1,12 @@
 [![AurekFonts Logo](https://github.com/AurekFonts/AurekFonts.github.io/blob/master/AurekFontsBanner.png?raw=true "AurekFonts Banner")](https://AurekFonts.github.io)
 # AurekFonts: Archive for Aurebesh Fonts & More...
 
-Welcome to AurekFonts.github.io, an Star Wars Aurebesh font library (and more!). We are in the never-ending process of collecting old and new in-universe fonts for a galaxy far, far away....
-
-[Later, we'll put a brief explanation and history of Aurebesh right here, but for now, you can read what other people have to say about it [here](https://starwars.fandom.com/wiki/Aurebesh), and [here](https://web.archive.org/web/20110429204741/http://www.echostation.com/features/aurebesh.htm).]
+Welcome to AurekFonts, an archive of fonts from across the galaxy. We are in the never-ending process of expanding our library of in-universe fonts for the languages of the Star Wars universe.
 
 # Fonts
-But we have lots more than Aurebesh here, because there are thousands of languages in the galaxy! Below, you will find links to our growing collection of fonts, sorted by Script/Alphabet or else by License:
-### [> Fonts Sorted by Script/Alphabet](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-scriptalphabet)
-### [> Fonts Sorted by License (Free, Personal, Commercial, etc.)](https://github.com/AurekFonts/AurekFonts.github.io/wiki#fonts-sorted-by-license)
-
-# Other Stuff
-### [> Most Wanted Fonts](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Wanted-Fonts)
-### [> Pangrams](https://github.com/AurekFonts/AurekFonts.github.io/wiki/Pangrams)
-
-***
-***
+## Fonts Sorted by Script/Alphabet
+## Fonts Sorted by License (Free, Personal, Commercial, etc.)
+## [Fonts Sorted by Foundry / Artist](https://AurekFonts.github.io?sort=foundry)
 
 #### Contact Us
 If you have a font you would like to archive with us, you can message us on [@AurekFonts](https://twitter.com/AurekFonts) on twitter, or email us at [AurekFonts@gmail.com](mailto:AurekFonts@gmail.com).
