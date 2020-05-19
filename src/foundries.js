@@ -38,27 +38,54 @@ const foundries = [
     supportText: 'society6 (NSFW)'
   },
   {
-    name: 'Convallarias Art',
-    bannerImage: './banners/convallarias-art-page-banner.png',
-    bannerFont: 'Aurebesh Calligraphy',
-    query: 'ConvallariasArt',
-    bio: undefined,
-    supportLink: 'https://society6.com/convallarias',
-    supportText: 'society6 (NSFW)'
-  },
-  {
     name: 'David Occhino Design',
     bannerImage: './banners/david-occhino-design-banner.png',
     bannerFont: 'Aurebesh New Roman',
     query: 'DavidOcchino',
     bio: undefined,
+    supportLink: 'http://davidocchino.com/portfolio/typography/index.html',
+    supportText: 'his website'
+  },
+  {
+    name: 'erikstormtrooper',
+    bannerImage: './banners/erikstormtrooper-page-banner.png',
+    bannerFont: 'Mandalorian',
+    query: 'erikstormtrooper',
+    bio: undefined,
     supportLink: undefined,
     supportText: undefined
   },
   {
+    name: 'Louie Mantia, Jr.',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'LouieMantia',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
+    name: 'Omega Design',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'OmegaDesign',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
+    name: 'Peter Schuster',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'PeterSchuster',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
+  },
+  {
     name: 'Pixel Sagas',
     bannerImage: undefined,
-    bannerFont: 'Aurebesh (by Pixel Sagas)',
+    bannerFont: undefined,
     query: 'PixelSagas',
     bio: undefined,
     supportLink: 'https://paypal.me/ShaynaDavidson',
@@ -72,6 +99,24 @@ const foundries = [
     bio: 'Stormtrooper On Weekends is a 501st Trooper.',
     supportLink: 'https://www.paypal.me/kitgutierrez',
     supportText: 'paypal donation',
+  },
+  {
+    name: 'Tycho Ordo',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'TychoOrdo',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
+  },
+  {
+    name: '\"Tommy\" of Escondido',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'TommyofEscondido',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
   },
   {
     name: 'Vamplify',

@@ -1,0 +1,8 @@
+  This is the Yavin 4 font, based on the Alien lettering used in THE ILLUSTRATED
+STARWARS UNIVERSE book on the Yavin 4 temple walls.  This was an illustration
+of the movie: StarWars: A New Hope. The jungle temple on the Yavin 4 moon was 
+the final base from which the rebels attacked the first Death Star.  The script
+is also known as Teresian, according to the StarWars comic books.  It seems to 
+be written horizontal, but it is uncertain if it is right-to-left or vice-versa.
+  fonted by Tommy of Escondido 11-24-97
+

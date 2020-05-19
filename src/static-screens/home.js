@@ -21,6 +21,11 @@ We are in the never-ending process of expanding our library of in-universe fonts
   Fonts Sorted by License (Free, Personal, Commercial, etc.)
 </a>
 </h3>
+<h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
+<a href="${pathname}?sort=foundry">
+  Fonts Sorted by Foundry / Artist
+</a>
+</h3>
 <h2></h2>
 <h4 id="contact-us">
 Contact Us
@@ -42,4 +47,13 @@ Contact Us
     If you want us to host your original fonts here, you will need to give anyone who downloads it from here a free personal + commercial license. 
     If you like, we can add a donation link of your choosing on each of your fonts’ pages.
   </em>
-</p></div>`
+</p>
+
+<h2></h2>
+<h4 id="contact-us">
+Support AurekFonts
+</h4>
+  <p>
+    You can support this project by donating at <a href="https://ko-fi.com/aurekfonts">ko-fi.com/aurekfonts</a>.
+  </p>
+</div>`

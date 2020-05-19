@@ -3,9 +3,10 @@
 const scriptSortScreen = linkHeader +
 homeBanner +
 `<h1>
-  Fonts Sorted by Script
+  Fonts Sorted by Script / Alphabet
 </h1>
-<ui>
+<h2>Canon Scripts / Alphabets</h2>
+<ul>
   <li>
     <a href="${pathname}?script=Aurebesh">
       Aurebesh
@@ -39,14 +40,39 @@ homeBanner +
     </ul>
   </li>
   <li>
+    <a href="${pathname}?script=Clynese">
+      Clynese
+    </a>
+  </li>
+  <li>
     <a href="${pathname}?script=Geonosian">
       Geonosian
     </a>
   </li>
   <li>
     <a href="${pathname}?script=Kitisakkullian">
-      "Kitisakkullian" [unknown Jedi Text script]
+      "Kitisakkullian" [unknown canon Jedi Text script]
     </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=Mandalorian">
+      Mandalorian
+    </a>
+  </li>
+  <li>
+    Naboo
+    <ul>
+      <li>
+        <a href="${pathname}?script=NabooFuthark">
+          Futhark
+        </a>
+      </li>
+      <li>
+        <a href="${pathname}?script=NabooFuthork">
+          Futhork
+        </a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="${pathname}?script=OuterRim">
@@ -58,4 +84,28 @@ homeBanner +
       "Ubese" [unknown script from Boushh's costume]
     </a>
   </li>
-</ui>`
+  <li>
+    <a href="${pathname}?script=UnknownCanon">
+      Unknown canon scripts
+    </a>
+  </li>
+</ul>
+<h2><em>Legends</em> (non-canon) Scripts / Alphabets</h2>
+<ul>
+  <li>
+    <a href="${pathname}?script=Atrisian">
+      Atrisian
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=JabbasAlphabet">
+      'Jabba's Alphabet' [unknown <em>Legends</em> script from 1997 Pizza Hut boxes]
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=UnknownLegends">
+      Unknown <em>Legends</em> scripts
+    </a>
+  </li>
+</ul>
+`
