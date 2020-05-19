@@ -8,10 +8,16 @@ homeBanner +
 <h2>Canon Scripts / Alphabets</h2>
 <ul>
   <li>
-    <a href="${pathname}?script=Aurebesh">
-      Aurebesh
-    </a>
+    Aurebesh Family
     <ul>
+      <li>
+        <a href="${pathname}?script=Aurebesh">
+          Aurebesh
+        </a>
+      </li>
+      <li>
+          Dishabesh (coming soon)
+      </li>
       <li>
         <a href="${pathname}?script=Domabesh">
           Domabesh
@@ -50,11 +56,6 @@ homeBanner +
     </a>
   </li>
   <li>
-    <a href="${pathname}?script=Kitisakkullian">
-      "Kitisakkullian" [unknown canon Jedi Text script]
-    </a>
-  </li>
-  <li>
     <a href="${pathname}?script=Mandalorian">
       Mandalorian
     </a>
@@ -85,14 +86,21 @@ homeBanner +
     </a>
   </li>
   <li>
-    <a href="${pathname}?script=Ubese">
-      "Ubese" [unknown script from Boushh's costume]
-    </a>
-  </li>
-  <li>
     <a href="${pathname}?script=UnknownCanon">
       Unknown canon scripts
     </a>
+    <ul>
+      <li>
+        <a href="${pathname}?script=Kitisakkullian">
+          "Kitisakkullian" [unknown canon Jedi Text script]
+        </a>
+      </li>
+      <li>
+        <a href="${pathname}?script=Ubese">
+          "Ubese" [unknown script from Boushh's costume]
+        </a>
+      </li>
+    </ul>
   </li>
 </ul>
 <h2><em>Legends</em> (non-canon) Scripts / Alphabets</h2>
@@ -100,6 +108,11 @@ homeBanner +
   <li>
     <a href="${pathname}?script=Atrisian">
       Atrisian
+    </a>
+  </li>
+  <li>
+    <a href="${pathname}?script=Ewokese">
+      Ewokese
     </a>
   </li>
   <li>
