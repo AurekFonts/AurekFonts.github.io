@@ -80,6 +80,11 @@ homeBanner +
     </a>
   </li>
   <li>
+    <a href="${pathname}?script=TradeFederation">
+      Trade Federation Basic
+    </a>
+  </li>
+  <li>
     <a href="${pathname}?script=Ubese">
       "Ubese" [unknown script from Boushh's costume]
     </a>

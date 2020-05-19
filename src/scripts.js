@@ -99,6 +99,13 @@ const scripts = [
     description: `Protobesh is used extensively throughout the Jedi Texts seen in The Rise of Skywalker.`
   },
   {
+    name: 'Trade Federation Basic',
+    query: 'TradeFederation',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `Trade Federation was created for the Phantom Menace and can be seen most prominently on the numbered Battle Droids in the Phantom Menace.`
+  },
+  {
     name: "'Ubese' [unknown canon script from Boushh's costume]",
     query: 'Ubese',
     bannerImage: './banners/ubese-banner.png',
