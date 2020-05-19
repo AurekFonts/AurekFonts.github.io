@@ -4,9 +4,11 @@
 Welcome to AurekFonts, an archive of fonts from across the galaxy. We are in the never-ending process of expanding our library of in-universe fonts for the languages of the Star Wars universe.
 
 # Fonts
-## [Fonts Sorted by Script/Alphabet](https://AurekFonts.github.io?sort=script)
-## [Fonts Sorted by License (Free, Personal, Commercial, etc.)](https://AurekFonts.github.io?sort=license)
-## [Fonts Sorted by Foundry / Artist](https://AurekFonts.github.io?sort=foundry)
+### [Fonts Sorted by Script/Alphabet](https://AurekFonts.github.io?sort=script)
+### [Fonts Sorted by License (Free, Personal, Commercial, etc.)](https://AurekFonts.github.io?sort=license)
+### [Fonts Sorted by Foundry / Artist](https://AurekFonts.github.io?sort=foundry)
+
+##
 
 #### Contact Us
 If you have a font you would like to archive with us, you can message us on [@AurekFonts](https://twitter.com/AurekFonts) on twitter, or email us at [AurekFonts@gmail.com](mailto:AurekFonts@gmail.com).
