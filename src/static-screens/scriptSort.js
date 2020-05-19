@@ -29,9 +29,19 @@ homeBanner +
         </a>
       </li>
       <li>
-        <a href="${pathname}?script=HighGalactic">
-          High Galactic [Latin] Alphabet
-        </a>
+        High Galactic Alphabet
+        <ul>
+          <li>
+            <a href="${pathname}?script=HighGalactic">
+              Diagetic
+            </a>
+          </li>
+          <li>
+            <a href="${pathname}?script=Titles">
+              Titles / Crawls / Etc. (coming soon)
+            </a>
+          </li>
+        </ul>
       </li>
       <li>
         <a href="${pathname}?script=OldTongue">
