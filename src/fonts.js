@@ -137,7 +137,7 @@ const fonts = [
   {
     query: 'AurebeshEnglish',
     name: 'Aurebesh English',
-    exampleImage: './Aurebesh%20English/aurebesh-English-example.png',
+    exampleImage: './Aurebesh%20English/aurebesh-english-example.png',
     script: 'High Galactic Alphabet',
     scriptQuery: 'HighGalactic',
     foundry: 'Stormtrooper On Weekends',
@@ -149,7 +149,7 @@ const fonts = [
     license: 'This font is Free for all personal and commercial use.',
     licenseTag: 'Free',
     year: '2019',
-    charactersImages: ['./Aurebesh%20English/aurebesh-English-charset.png?raw=true'],
+    charactersImages: ['./Aurebesh%20English/aurebesh-english-charset.png?raw=true'],
     class: 'AurebeshEnglish',
     textSize: '2rem',
     pangram: pangrams.JediWisdom,
