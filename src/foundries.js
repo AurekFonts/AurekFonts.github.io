@@ -78,7 +78,7 @@ const foundries = [
     bannerImage: undefined,
     bannerFont: undefined,
     query: 'PeterSchuster',
-    bio: undefined,
+    bio: '<a href="https://www.ko-fi.com/post/New-Aurabesh-A-Casual-Interview-with-Peter-Schu-Q5Q41QAX6">Aurabesh New: A Casual Interview with Peter Schuster</a>',
     supportLink: undefined,
     supportText: undefined,
   },
