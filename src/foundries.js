@@ -65,6 +65,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Lizzie Universe',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'LizzieUniverse',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Omega Design',
     bannerImage: undefined,
     bannerFont: undefined,
