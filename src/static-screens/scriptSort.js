@@ -1,10 +1,13 @@
 // by Ender Smith, Editor-in-Chief, AurekFonts
 
-const scriptSortScreen = linkHeader +
+const scriptSortScreen = (totalParam) => linkHeader +
 homeBanner +
 `<h1>
   Fonts Sorted by Script / Alphabet
 </h1>
+<p>
+  ${totalParam}
+</p>
 <h2>Canon Scripts / Alphabets</h2>
 <ul>
   <li>

@@ -1,15 +1,15 @@
 // by Ender Smith, Editor-in-Chief, AurekFonts
 
 const routeByQueryString = () => {
-
-  console.log(`Current Totals: ${fonts.length} fonts for >${scripts.length} scripts & alphabets from ${foundries.length} foundries & artists.`);
+  const totals = `${fonts.length} fonts, representing over ${scripts.length} writing systems and ${foundries.length} foundries & artists`
+  console.log(totals);
 
   switch(queryStringParts[0]) {
     case '?script':
       document.getElementById('main').innerHTML = generateScriptScreen(scripts.find(script => script.query === queryStringParts[1]));
       break;
     case '?sort':
-      document.getElementById('main').innerHTML = queryStringParts[1] === 'script' ? scriptSortScreen 
+      document.getElementById('main').innerHTML = queryStringParts[1] === 'script' ? scriptSortScreen(totals) 
         : queryStringParts[1] === 'license' ? generateLicenseSortScreen()
         : queryStringParts[1] === 'foundry' ? generateFoundrySortScreen()
         : homeScreen;
@@ -21,7 +21,7 @@ const routeByQueryString = () => {
       document.getElementById('main').innerHTML = generateFoundryScreen(foundries.find(foundry => foundry.query === queryStringParts[1]));
       break;
     default:
-      document.getElementById('main').innerHTML = homeScreen;
+      document.getElementById('main').innerHTML = homeScreen(totals);
       break;
   };
 };
@@ -35,7 +35,8 @@ const generateScriptScreen = (script) => {
   const freeFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free');
   const freeNCFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free NC');
   const licReqFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Lic Req');
-  console.log(`Total ${script.name} fonts with entries: ${fontsByScript.length} (${freeFontsByScript.length} free + ${freeNCFontsByScript.length} non-commercial + ${licReqFontsByScript.length} license-required)`)
+
+  const totalByScript = `Total ${script.name} fonts with entries: ${fontsByScript.length} (${freeFontsByScript.length} free + ${freeNCFontsByScript.length} non-commercial + ${licReqFontsByScript.length} license-required)`
 
   const banner = script.bannerImage 
     ? `<p>
@@ -76,6 +77,7 @@ const generateScriptScreen = (script) => {
     banner +
     title + 
     description +
+    totalByScript +
     freeFontHeader +
     freeFontList +
     freeNCFontHeader +
@@ -166,7 +168,8 @@ const generateFoundryScreen = (foundry) => {
   const freeFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free');
   const freeNCFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free NC');
   const licReqFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Lic Req');
-  console.log(`Total ${foundry.name} fonts with entries: ${fontsByFoundry.length} (${freeFontsByFoundry.length} free + ${freeNCFontsByFoundry.length} non-commercial + ${licReqFontsByFoundry.length} license-required)`)
+  
+  const totalByFoundry = `Total ${foundry.name} fonts with entries: ${fontsByFoundry.length} (${freeFontsByFoundry.length} free + ${freeNCFontsByFoundry.length} non-commercial + ${licReqFontsByFoundry.length} license-required)`;
 
   const banner = foundry.bannerImage 
     ? `<p>
@@ -203,6 +206,7 @@ const generateFoundryScreen = (foundry) => {
     banner +
     name +
     bio +
+    totalByFoundry +
     supportLink +
     freeFonts +
     freeNCFonts +
@@ -236,11 +240,12 @@ const generateLicenseSortScreen = () => {
     ? `<ul>${helpers.createFontListItems(licReqFonts)}</ul>` 
     : ``;
 
-  console.log(`(${freeFonts.length} free + ${freeNCFonts.length} non-commercial + ${licReqFonts.length} license-required)`)
+  const totalByLicense = `Total fonts catalogued: ${fonts.length} (${freeFonts.length} free + ${freeNCFonts.length} non-commercial + ${licReqFonts.length} license-required)`;
 
   return linkHeader +
   homeBanner +
   title +
+  totalByLicense +
   freeFontsHeader +
   freeFontsList +
   freeNCFontsHeader +
