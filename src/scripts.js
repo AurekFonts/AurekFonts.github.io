@@ -27,8 +27,8 @@ const scripts = [
   {
     name: 'Droidobesh',
     query: 'Droidobesh',
-    bannerImage: undefined,
-    bannerFont: 'Aurebesh_droid',
+    bannerImage: './banners/DroidobeshNeueBETA-banner.png',
+    bannerFont: '[redacted]',
     description: `Droidobesh is a variation of Aurebesh seen around the Droid Depot at Galaxy's Edge.`
   },
   {
@@ -41,6 +41,13 @@ const scripts = [
       a) Appear on screen in a Star Wars film (including opening crawls),
       b) Are used in Star Wars promotional materials,
       c) Were intentionally designed to accompany another in-universe font.`
+  },
+  {
+    name: '"Imperial Code" [unidentified Aurebesh variant]',
+    query: 'ImperialCode',
+    bannerImage: undefined,
+    bannerFont: '',
+    description: `"Imperial Code" is an unidentified variation of Aurebesh seen on the Star Destroyer and other view screens in Return of the Jedi.`
   },
   {
     name: 'Geonosian',

@@ -33,7 +33,12 @@ homeBanner +
         <ul>
           <li>
             <a href="${pathname}?script=HighGalactic">
-              Diagetic
+              Diagetic (coming soon)
+            </a>
+          </li>
+          <li>
+            <a href="${pathname}?script=Pseudobesh">
+              "Pseudobesh" (coming soon)
             </a>
           </li>
           <li>
@@ -42,6 +47,11 @@ homeBanner +
             </a>
           </li>
         </ul>
+      </li>
+      <li>
+        <a href="${pathname}?script=ImperialCode">
+          "Imperial Code" [unidentified Aurebesh variant]
+        </a>
       </li>
       <li>
         <a href="${pathname}?script=OldTongue">
@@ -102,12 +112,12 @@ homeBanner +
     <ul>
       <li>
         <a href="${pathname}?script=Kitisakkullian">
-          "Kitisakkullian" [unknown canon Jedi Text script]
+          "Kitisakkullian" [unidentified canon Jedi Text script]
         </a>
       </li>
       <li>
         <a href="${pathname}?script=Ubese">
-          "Ubese" [unknown script from Boushh's costume]
+          "Ubese" [unidentified script from Boushh's costume]
         </a>
       </li>
     </ul>
@@ -127,7 +137,7 @@ homeBanner +
   </li>
   <li>
     <a href="${pathname}?script=JabbasAlphabet">
-      'Jabba's Alphabet' [unknown <em>Legends</em> script from 1997 Pizza Hut boxes]
+      'Jabba's Alphabet' [unidentified <em>Legends</em> script from 1997 Pizza Hut boxes]
     </a>
   </li>
   <li>

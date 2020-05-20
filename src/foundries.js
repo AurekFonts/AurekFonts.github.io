@@ -56,6 +56,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Kopanitsak',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'Kopanitsak',
+    bio: undefined,
+    supportLink: 'https://www.paypal.me/DKopanitsak',
+    supportText: 'paypal donation'
+  },
+  {
     name: 'Louie Mantia, Jr.',
     bannerImage: undefined,
     bannerFont: undefined,
@@ -69,6 +78,15 @@ const foundries = [
     bannerImage: undefined,
     bannerFont: undefined,
     query: 'LizzieUniverse',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
+    name: 'Mike E. Web',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'MikeEWeb',
     bio: undefined,
     supportLink: undefined,
     supportText: undefined
