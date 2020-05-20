@@ -56,6 +56,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Iconian Fonts',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'IconianFonts',
+    bio: undefined,
+    supportLink: 'http://www.iconian.com/',
+    supportText: 'Iconian.com'
+  },
+  {
     name: 'Kopanitsak',
     bannerImage: undefined,
     bannerFont: undefined,
@@ -79,6 +88,15 @@ const foundries = [
     bannerFont: undefined,
     query: 'LizzieUniverse',
     bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
+    name: 'Michael Moss',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'MicahelMoss',
+    bio: `<a href="http://whitespirals.com">website</a>, <a href="mailto:mechanismatic@gmail.com">email</a>`,
     supportLink: undefined,
     supportText: undefined
   },

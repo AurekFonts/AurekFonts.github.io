@@ -33,16 +33,16 @@ homeBanner +
         <ul>
           <li>
             <a href="${pathname}?script=HighGalactic">
-              Diagetic (coming soon)
+              Diagetic [in-universe]
             </a>
           </li>
           <li>
             <a href="${pathname}?script=Pseudobesh">
-              "Pseudobesh" (coming soon)
+              "Pseudobesh" [styled to look like Aurebesh]
             </a>
           </li>
           <li>
-            <a href="${pathname}?script=Titles">
+            <a>
               Titles / Crawls / Etc. (coming soon)
             </a>
           </li>

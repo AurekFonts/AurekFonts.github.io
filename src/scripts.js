@@ -43,6 +43,13 @@ const scripts = [
       c) Were intentionally designed to accompany another in-universe font.`
   },
   {
+    name: '"Pseudobesh" [High Galactic Alphabet styled to look like Aurebesh]',
+    query: 'Pseudobesh',
+    bannerImage: './banners/pseudobesh-page-banner.png',
+    bannerFont: '',
+    description: `"Pseudobesh" refers to a style of type that seeks to imitate the shapes of Aurebesh in order to write another alphabet, usually High Galactic.`
+  },
+  {
     name: '"Imperial Code" [unidentified Aurebesh variant]',
     query: 'ImperialCode',
     bannerImage: undefined,
