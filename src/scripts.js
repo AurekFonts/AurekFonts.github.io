@@ -32,6 +32,13 @@ const scripts = [
     description: `Droidobesh is a variation of Aurebesh seen around the Droid Depot at Galaxy's Edge.`
   },
   {
+    name: '"Naboo Aurebesh"',
+    query: 'NabooAurebesh',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `"Naboo Aurebesh" is the unofficial name for a variant of Aurebesh seen only in the cockpit of the Naboo Starfigher in The Phantom Menace.`
+  },
+  {
     name: 'High Galactic [Latin] Alphabet',
     query: 'HighGalactic',
     bannerImage: './banners/high-galactic-page-banner.png',

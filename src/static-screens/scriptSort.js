@@ -57,6 +57,11 @@ homeBanner +
         </a>
       </li>
       <li>
+        <a href="${pathname}?script=NabooAurebesh">
+          "Naboo Aurebesh"
+        </a>
+      </li>
+      <li>
         <a href="${pathname}?script=OldTongue">
           "The Old Tongue" / Ur-Kittât
         </a>

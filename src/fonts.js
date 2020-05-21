@@ -61,6 +61,30 @@ const fonts = [
     additionalImages: []
   },
   {
+    query: 'Auraboo',
+    name: 'Auraboo',
+    exampleImage: `./Auraboo/Auraboo-example.jpg`,
+    script: '"Naboo Aurebesh"',
+    scriptQuery: 'NabooAurebesh',
+    foundry: 'Nick Tierce',
+    foundryQuery: 'NickTierce',
+    artistNote: 
+      `Auraboo is based on a font seen briefly in Star Wars: Episode I, when R2-D2 tells Anakin to "turn the ship around and go back homie right awayl [sic]".
+      Punctuation was based on a softened version of standard Aurebesh punctuation.
+      Missing letters were designed with input from AurekFonts.`,
+    description: `"Naboo Aurebesh" font based on Naboo Starfighter screen in The Phantom Menace; basic nums`,
+    downloadUrl: './Aurabesh/AURABESH.ttf',
+    downloadType: '.TTF',
+    license: 'Free for all personal and commercial uses.',
+    licenseTag: 'Free',
+    year: '2020',
+    charactersImages: [`./Auraboo/Auraboo-charset.png`],
+    class: undefined,
+    textSize: undefined,
+    pangram: undefined,
+    additionalImages: [`./Auraboo/Auraboo-example-1.png`]
+  },
+  {
     query: 'AurebeshOcchino',
     name: 'Aurebesh (David Occhino)',
     exampleImage: undefined,

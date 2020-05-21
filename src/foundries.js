@@ -110,6 +110,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'NIck Tierce',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'NickTierce',
+    bio: undefined,
+    supportLink: 'https://NickTierce.com',
+    supportText: 'NickTierce.com'
+  },
+  {
     name: 'Omega Design',
     bannerImage: undefined,
     bannerFont: undefined,
