@@ -73,8 +73,8 @@ const fonts = [
       Punctuation was based on a softened version of standard Aurebesh punctuation.
       Missing letters were designed with input from AurekFonts.`,
     description: `"Naboo Aurebesh" font based on Naboo Starfighter screen in The Phantom Menace; basic nums`,
-    downloadUrl: './Aurabesh/AURABESH.ttf',
-    downloadType: '.TTF',
+    downloadUrl: './Auraboo/Auraboo.zip',
+    downloadType: '.ZIP',
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     year: '2020',
