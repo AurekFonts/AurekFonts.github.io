@@ -3,6 +3,19 @@
   src: url('Mando_AlbansBaneBETA.otf');
 }
 
-.MandoAlbansBane {
+.mandoalbansbane-text {
   font-family: "Mando Albans Bane";
+}
+
+.mandoalbansbane-demo {
+  width: 100%;
+  max-width: 40rem;
+  background-image: repeating-linear-gradient(to bottom right, #5f6a70 0%, #9e9a95 35%, #94908a 40%, #83807e 45%, #5f6a70 60%);
+  box-shadow: inset 0 0 4rem 2rem #00000066, inset 0 0 .3rem .6rem #000000, inset .1rem .4rem .3rem .6rem #fff1d644;
+
+  padding: 1rem;
+  text-align: center;
+  
+  color: #202020aa;
+  text-shadow: .05rem .2rem .2rem #fff1d644, -.05rem -.2rem .3rem #00000044, 0 0 .2rem #000000;
 }
