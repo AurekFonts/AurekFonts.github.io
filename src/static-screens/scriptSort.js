@@ -3,7 +3,7 @@
 const scriptSortScreen = (totalParam) => linkHeader +
 homeBanner +
 `<h1>
-  Fonts Sorted by Script / Alphabet
+  Alphabets & Writing Systems
 </h1>
 <p>
   ${totalParam}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Domabesh Console';
+  src: url('DomabeshConsole.otf');
+}
+
+.domabeshconsole-text {
+  font-family: 'Domabesh Console';
+}
+
+.domabeshconsole-demo {
+  max-width: 40rem;
+  background-color: #b69880;
+  box-shadow: inset 0 0 .6rem .3rem #18181866, inset -.1rem -.1rem .4rem .1rem #181818a4, inset .2rem .2rem .4rem .1rem #ffdbbaaf;
+
+  padding: 1.5rem;
+  text-align: right;
+  color: #005fccda;
+  text-shadow: 0 0 .15rem #001731bd, 0 -.1rem .15rem #bddcff2c;
+  /* line-height: 90%; */
+}

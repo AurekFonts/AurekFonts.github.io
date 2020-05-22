@@ -181,7 +181,7 @@ const generateFoundryScreen = (foundry) => {
       <img src=${foundry.bannerImage} alt="${foundry.name}" title="${foundry.name}, font: ${foundry.bannerFont}"/>
     </p>`
     : ``;
-  const name = `<h1>Fonts by ${foundry.name}</h1>`;
+  const name = `<h1>${foundry.name}</h1>`;
   const bio = foundry.bio 
     ? `<p>${foundry.bio}</p>` 
     : ``;
@@ -219,7 +219,7 @@ const generateFoundryScreen = (foundry) => {
 };
 
 const generateLicenseSortScreen = () => {
-  const title = `<h1>Fonts Sorted by License</h1>`
+  const title = `<h1>All Fonts</h1>`
 
   const freeFonts = fonts.filter(font => font.licenseTag === 'Free');
   const freeFontsHeader = freeFonts.length 
@@ -260,7 +260,7 @@ const generateLicenseSortScreen = () => {
 }
 
 const generateFoundrySortScreen = () => {
-  const title = `<h1>Fonts Sorted by Foundry / Artist</h1>`
+  const title = `<h1>Foundries / Artists</h1>`
   const foundryListItems = foundries.reduce((list, foundry) => list + 
     `<li>
       <a href="${pathname}?foundry=${foundry.query}">

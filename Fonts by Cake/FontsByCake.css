@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Ancient Aurebesh';
+  src: url('ancient-aurebesh.ttf');
+}
+@font-face {
+  font-family: 'Old Tongue';
+  src: url('old-tongue.ttf');
+}
+
+.ancientaurebesh-text {
+  font-family: 'Ancient Aurebesh';
+}
+.oldtongue-text {
+  font-family: 'Old Tongue';
+}

@@ -14,19 +14,19 @@ homeBanner +
     To date have catalogued ${totalsParam}!
   </p>
   <h1 id="fonts">Fonts</h1>
-  <h3 id="-fonts-sorted-by-scriptalphabet">
-    <a href="${pathname}?sort=script">
-      Fonts Sorted by Script/Alphabet
-    </a>
-  </h3>
   <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
     <a href="${pathname}?sort=license">
-      Fonts Sorted by License (Free, Personal, Commercial, etc.)
+      Fonts (Sorted by License)
+    </a>
+  </h3>
+  <h3 id="-fonts-sorted-by-scriptalphabet">
+    <a href="${pathname}?sort=script">
+      Alphabets & Writing Systems
     </a>
   </h3>
   <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
     <a href="${pathname}?sort=foundry">
-      Fonts Sorted by Foundry / Artist
+      Foundries / Artists
     </a>
   </h3>
   <h2></h2>

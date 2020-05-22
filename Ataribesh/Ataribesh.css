@@ -31,3 +31,14 @@
   font-family: 'Ataribesh Sprites', 'Ataribesh';
   font-size: 14pt;
 }
+
+.ataribesh-demo {
+  background-image: repeating-linear-gradient( #101010 .2rem, #202020 .4rem);
+  z-index: 1;
+  padding: 2rem 1.5rem;
+  border-radius: 2rem;
+  color: #ffffffee;
+  text-align: center;
+  text-shadow: .2rem 0 2rem #ffffff44, -.2rem 0 2rem #ffffff44, .15rem .05rem .2rem #0000ffbb, -.1rem 0 .2rem #ff0000bb, .1rem -.05rem .2rem #00ff00bb;
+  box-shadow: inset 1rem 1rem 3rem 0 #ffffff11, inset 0 0 5rem 0 #000000ff;
+}
