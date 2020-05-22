@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'ImperialCode';
+  src: url('icode.ttf');
+}
+
+.imperialcode-text {
+  font-family: 'ImperialCode';
+  line-height: 90%;
+}

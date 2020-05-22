@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Jabba the Font';
+  src: url('Jabba\ the\ Font\ Regular.ttf');
+}
+
+.jabbathefont-text {
+  font-family: 'Jabba the Font';
+}

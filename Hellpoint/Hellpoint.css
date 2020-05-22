@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Hellpoint';
+  src: url('Hellpoint.otf');
+}
+
+.hellpoint-text {
+  font-family: 'Hellpoint';
+}

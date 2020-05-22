@@ -132,6 +132,7 @@ const generateFontScreen = (font) => {
     : ``;
   const demo = font.class 
     ? `<h2>Demo</h2>
+    <p>Try out the font with custom text below! (If the demo does not seem to have loaded correctly, try refreshing.)</p>
     <div class="${font.class}" style="font-size: ${font.textSize}" >
       <span id="preText">
       </span>
