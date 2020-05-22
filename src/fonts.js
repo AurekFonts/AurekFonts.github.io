@@ -70,8 +70,9 @@ const fonts = [
     foundryQuery: 'NickTierce',
     artistNote: 
       `Auraboo is based on a font seen briefly in Star Wars: Episode I, when R2-D2 tells Anakin to "turn the ship around and go back homie right awayl [sic]".
-      Punctuation was based on a softened version of standard Aurebesh punctuation.
-      Missing letters were designed with input from AurekFonts.`,
+      Punctuation was based on a softened version of standard Aurebesh punctuation. <br />
+      Missing letters (F, J, Q, V, X, and Z) were designed with input from AurekFonts. <br />
+      Photoshop templates designed by AurekFonts: <a href="./Auraboo/PhotoshopTemplates.zip">PhotoshopTemplates.zip</a>`,
     description: `"Naboo Aurebesh" font based on Naboo Starfighter screen in The Phantom Menace; basic nums`,
     downloadUrl: './Auraboo/Auraboo.zip',
     downloadType: '.ZIP',
@@ -79,10 +80,13 @@ const fonts = [
     licenseTag: 'Free',
     year: '2020',
     charactersImages: [`./Auraboo/Auraboo-charset.png`],
-    class: undefined,
-    textSize: undefined,
-    pangram: undefined,
-    additionalImages: [`./Auraboo/Auraboo-example-1.png`]
+    class: 'auraboo-demo auraboo-text',
+    textSize: '2rem',
+    pangram: pangrams.Homie,
+    additionalImages: [
+      `./Auraboo/Auraboo-example-2.png`, 
+      `./Auraboo/Auraboo-example-3.png`,
+    ]
   },
   {
     query: 'AurebeshOcchino',
@@ -535,7 +539,7 @@ const fonts = [
   },
   {
     query: 'EngliBesh',
-    name: 'Galactic Basic',
+    name: 'Engli-Besh',
     exampleImage: `./EngliBesh/englbesh_sample.jpg`,
     script: '"Psuedobesh"',
     scriptQuery: 'Pseudobesh',
@@ -550,9 +554,9 @@ const fonts = [
     licenseTag: 'Free NC',
     year: '2002',
     charactersImages: ['./EngliBesh/EngliBesh-charset.png'],
-    class: undefined,
-    textSize: undefined,
-    pangram: undefined,
+    class: 'galacticbasic-demo englibesh-text',
+    textSize: '2rem',
+    pangram: pangrams.JazzyFox,
   },
   {
     query: 'Hellpoint',
@@ -635,9 +639,9 @@ const fonts = [
     licenseTag: 'Free NC',
     year: '1996, 2002',
     charactersImages: ['./GalacticBasic/GalacticBasic-charset.png'],
-    class: undefined,
-    textSize: undefined,
-    pangram: undefined,
+    class: 'galacticbasic-demo galacticbasic-text',
+    textSize: '2rem',
+    pangram: pangrams.Tydirium,
   },
   {
     query: 'GeonosianPM',
@@ -820,9 +824,9 @@ const fonts = [
     licenseTag: 'Free',
     year: '1999',
     charactersImages: [],
-    class: undefined,
-    textSize: undefined,
-    pangram: undefined,
+    class: 'naboo-demo naboo-text',
+    textSize: '4rem',
+    pangram: pangrams.short,
   },
   {
     query: 'NalHuttese',
@@ -878,9 +882,9 @@ const fonts = [
     licenseTag: 'Free NC',
     year: '2006, 2008',
     charactersImages: ['./NewFuthork/newfuthork_table.jpg'],
-    class: undefined,
-    textSize: undefined,
-    pangram: undefined,
+    class: 'newfuthork-demo newfuthork-text',
+    textSize: '2rem',
+    pangram: pangrams.JarJarFez,
   },
   {
     query: 'Nirvanabesh',

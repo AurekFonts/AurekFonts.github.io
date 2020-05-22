@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Galactic Basic';
+  src: url('galbasic.ttf');
+}
+
+.galacticbasic-text {
+  font-family: 'Galactic Basic';
+}
+
+.galacticbasic-demo {
+  text-align: auto;
+  background-color: #000000;
+  border-radius: 1rem;
+  width: 100%;
+
+  padding: 1rem;
+
+  color: #6fe9ff;
+}
+.galacticbasic-demo #preText::before {
+  text-align: right;
+  vertical-align: top;
+  width: 10%;
+  content: 'J';
+  color: #ff602f;
+  text-shadow: 0 0 .4rem #fd4f1a;
+}
+.galacticbasic-demo #editText {
+  display: inline-block;
+  width: 80%;
+  max-width: 80%;
+  text-indent: 0;
+  text-shadow: 0 0 2rem #1d6cff, 0 0 1rem #1d6cff, -.8rem 0 1rem #1d6cff, .8rem 0 1rem #1d6cff;
+  word-wrap: break-word;
+}

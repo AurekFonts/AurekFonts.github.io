@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Auraboo';
+  src: url('Auraboo.otf');
+}
+.auraboo-text {
+  font-family: 'Auraboo';
+}
+.auraboo-demo {
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem 0;
+
+  font-family: 'Auraboo';
+  color: #c4daec88;
+  text-shadow: 0 0 .5rem #c4daec88;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+
+  background-color: #202948;
+  border-radius: 50%;
+  -moz-box-shadow: inset 0 0 0 3rem #202948, inset 0 0 .1rem 3.1rem #c4daec22, inset 0 0 .1rem .1rem #455934, 0 0 .1rem .1rem #455934, 0 0 .5rem 1rem #36426e, 0 0 .1rem 1.1rem #c4daec88;
+  -webkit-box-shadow: inset 0 0 0 3rem #202948, inset 0 0 .1rem 3.1rem #c4daec22, inset 0 0 .1rem .1rem #455934, 0 0 .1rem .1rem #455934, 0 0 .5rem 1rem #36426e, 0 0 .1rem 1.1rem #c4daec88;
+  box-shadow: inset 0 0 0 3rem #202948, inset 0 0 .1rem 3.1rem #c4daec22, inset 0 0 .1rem .1rem #455934, 0 0 .1rem .1rem #455934, 0 0 .5rem 1rem #36426e, 0 0 .1rem 1.1rem #c4daec88;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Naboo';
+  src: url('naboo.ttf');
+}
+
+.naboo-text {
+  font-family: 'Naboo';
+}
+
+.naboo-demo {
+  background-image: linear-gradient(to right, #ffc74e , #ffd57b, #ffc74e);
+  padding: 1rem;
+  text-align: right;
+  color: #161616ee;
+}

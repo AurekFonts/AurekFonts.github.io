@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Engli-Besh';
+  src: url('englbesh.ttf');
+}
+
+.englibesh-text {
+  font-family: 'Engli-Besh';
+}

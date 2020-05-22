@@ -132,8 +132,12 @@ const generateFontScreen = (font) => {
     : ``;
   const demo = font.class 
     ? `<h2>Demo</h2>
-    <div class="${font.class}" style="font-size: ${font.textSize}" id="editText" contenteditable spellcheck="false">
-      ${font.pangram}
+    <div class="${font.class}" style="font-size: ${font.textSize}" >
+      <span id="preText">
+      </span>
+      <div id="editText" contenteditable spellcheck="false">
+        ${font.pangram}
+      </div>
     </div>`
     : '';
   const characters = font.charactersImages && font.charactersImages.length 

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'New Futhork';
+  src: url('new_futhork.ttf');
+}
+.newfuthork-text {
+  font-family: 'New Futhork';
+}
+.newfuthork-demo {
+  width: 50rem;
+  max-width: 80vw;
+  margin: 2rem 5vw;
+
+  font-family: 'New Futhork';
+  color: #fadab088;
+  text-shadow: 0 0 .4rem #fadab088;
+  text-align: center;
+  padding: 4rem 3rem;
+  overflow: hidden;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+
+  background-color: #754e3e;
+  border-radius: 90% 90% 5% 5%;
+  -moz-box-shadow: inset 0 0 0 3rem #66342c, inset 0 0 .1rem 3.1rem #fadab022,  inset 0 0 .1rem .1rem #595534, 0 0 .1rem .1rem #595534, 0 0 .5rem 1rem #6e4c36, 0 0 .1rem 1.1rem #fadab088;
+  -webkit-box-shadow: inset 0 0 0 3rem #66342c, inset 0 0 .1rem 3.1rem #fadab022, inset 0 0 .1rem .1rem #595534, 0 0 .1rem .1rem #595534, 0 0 .5rem 1rem #6e4c36, 0 0 .1rem 1.1rem #fadab088;
+  box-shadow: inset 0 0 0 3rem #66342c, inset 0 0 .1rem 3.1rem #fadab022, inset 0 0 7rem 6rem #66342c, inset 0 0 .1rem .1rem #595534, 0 0 .1rem .1rem #595534, 0 0 .5rem 1rem #6e4c36, 0 0 .1rem 1.1rem #fadab088;
+}
