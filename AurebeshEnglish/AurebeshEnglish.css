@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Aurebesh English';
+  src: url('Aurebesh-English.ttf');
+}
+
+.aurebeshenglish-text {
+  font-family: 'Aurebesh English';
+}
+
+.aurebeshenglish-demo {
+  background-image: 
+  linear-gradient(100deg, #ffffff00 0%, #00000044 25%, #00000088 65%, #ffffff00 100%),
+  linear-gradient(0, #d3c5af 5%, #39577e 5.5%, #39577e 94.5%, #d3c5af 95%);
+  padding: 2.5rem 2.5rem;
+  overflow: hidden;
+  color: #d1cdc888;
+  text-shadow: 0 0 .1rem #ebe7e2dd;
+}

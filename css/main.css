@@ -4884,7 +4884,8 @@ pre {
 }
 .markdown-body ul,
 .markdown-body ol {
-  padding-left: 2em;
+  /* padding-left: 2em; */
+  list-style-type: none;
 }
 .markdown-body ul.no-list,
 .markdown-body ol.no-list {
@@ -4899,13 +4900,16 @@ pre {
   margin-bottom: 0;
 }
 .markdown-body li {
+  border-radius: 1rem;
+  background-color: #fff3dd04;
+  box-shadow: .2rem .2rem .5rem #000000, -.3rem -.3rem .6rem #ffffff22;
   word-wrap: break-all;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .markdown-body li > p {
   margin-top: 16px;
-}
-.markdown-body li + li {
-  margin-top: 0.25em;
 }
 .markdown-body dl {
   padding: 0;
@@ -4934,6 +4938,7 @@ pre {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
+
 .markdown-body table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
@@ -4948,6 +4953,10 @@ pre {
   max-width: 100%;
   box-sizing: content-box;
   background-color: #fff;
+  border-radius: 1rem;
+  background-color: #fff3dd04;
+  box-shadow: .2rem .2rem .5rem #000000, -.3rem -.3rem .6rem #ffffff22;
+  margin-right: .5rem;
 }
 .markdown-body img[align="right"] {
   padding-left: 20px;

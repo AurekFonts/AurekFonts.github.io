@@ -226,7 +226,7 @@ const generateLicenseSortScreen = () => {
     ? `<h2>Free for All Personal and Commercial Uses</h2>` 
     : ``;
   const freeFontsList = freeFonts.length 
-    ? `<ul>${helpers.createFontListItems(freeFonts)}</ul>` 
+    ? `<ul class='card-list'>${helpers.createFontListItems(freeFonts)}</ul>` 
     : ``;
 
   const freeNCFonts = fonts.filter(font => font.licenseTag === 'Free NC');
@@ -234,7 +234,7 @@ const generateLicenseSortScreen = () => {
     ? `<h2>Free for Personal, Non-Commercial Use</h2>` 
     : ``;
   const freeNCFontsList = freeNCFonts.length 
-    ? `<ul>${helpers.createFontListItems(freeNCFonts)}</ul>` 
+    ? `<ul class='card-list'>${helpers.createFontListItems(freeNCFonts)}</ul>` 
     : ``;
 
   const licReqFonts = fonts.filter(font => font.licenseTag === 'Lic Req');
@@ -242,7 +242,7 @@ const generateLicenseSortScreen = () => {
     ? `<h2>License Required</h2>` 
     : ``;
   const licReqFontsList = licReqFonts.length 
-    ? `<ul>${helpers.createFontListItems(licReqFonts)}</ul>` 
+    ? `<ul class='card-list'>${helpers.createFontListItems(licReqFonts)}</ul>` 
     : ``;
 
   const totalByLicense = `Total fonts catalogued: ${fonts.length} (${freeFonts.length} free + ${freeNCFonts.length} non-commercial + ${licReqFonts.length} license-required)`;

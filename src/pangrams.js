@@ -10,5 +10,7 @@ const pangrams = {
   Tydirium: 'TRANS MITCOD ECLEA RANCET ODEAC TIVATE SHIEL DGENER ATOR.',
   TydiriumEnglish: 'TRANS MIT CODE CLEAR ANCE TO DE ACT I VATE SHIELD GEN ER A TOR.',
   JazzyFox: 'The Emperor cackled whilst bequeathing Vader a jazzy fox',
-  Jedha: 'THEFORCESURROUNDSBINDSUS'
+  Jedha: 'THEFORCESURROUNDSBINDSUS',
+  BanthaMilk: 'Five banthas graze placidly, quixotic jawas milk.',
+  BSO: 'Warning: jezfly quivexium prohibited in Black Spire.'
 }

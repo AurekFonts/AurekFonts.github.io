@@ -6,7 +6,7 @@ const createScaledImages = (font) => {
 };
 
 const createFontListItems = (filteredFontList) => {
-  return filteredFontList.reduce((list, font) => list + `<li><a href="${pathname}?font=${font.query}">${font.name}</a> (${font.description})<br />${createScaledImages(font)}</li>`, '');
+  return filteredFontList.reduce((list, font) => list + `<li><h3><a href="${pathname}?font=${font.query}">${font.name}</a></h3> (${font.description})<br />${createScaledImages(font)}</li>`, '');
 };
 
 const createImagesFromList = (imageList) => {
