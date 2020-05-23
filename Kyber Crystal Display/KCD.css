@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'KCD Alphabet';
+  src: url('KyberCrystalDisplay-Alphabet.otf');
+}
+@font-face {
+  font-family: 'KCD Aurebesh';
+  src: url('KyberCrystalDisplay-Aurebesh.otf');
+}
+.kcdalphabet-text {
+  font-family: 'KCD Alphabet';
+}
+.kcdaurebesh-text {
+  font-family: 'KCD Aurebesh';
+}
+.kcd-demo {
+  padding: 1rem 2rem;
+  color: #fff492;
+  background-color: #000000cc;
+  border-radius: .5rem;
+  width: 33rem;
+  overflow: hidden;
+  max-height: 10rem;
+  max-height: 8rem;
+  text-shadow: 0 0 1rem #fa8e00;
+}
+
+.kcd-demo::before {
+  position: absolute;
+  padding-left: 3px;
+  z-index: -1;
+  /* background-color: #060a04; */
+  /* color: #88222244; */
+  max-width: 40rem;
+  width: 40rem;
+  content: '###########';
+  overflow: hidden;
+}

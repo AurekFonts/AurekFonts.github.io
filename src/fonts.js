@@ -694,8 +694,9 @@ const fonts = [
     licenseTag: 'Free',
     year: '2020',
     charactersImages: ['./Kyber%20Crystal%20Display/KCD-Aurebesh-charset.png'],
-    textSize: '2rem',
-    pangram: pangrams.short,
+    class: 'kcd-demo kcdaurebesh-text',
+    textSize: '4rem',
+    pangram: 'area secure',
   },
   {
     query: 'KCDAlphabet',
@@ -713,8 +714,9 @@ const fonts = [
     licenseTag: 'Free',
     year: '2020',
     charactersImages: ['./Kyber%20Crystal%20Display/KCD-Alphabet-charset.png'],
-    textSize: '2rem',
-    pangram: pangrams.short,
+    class: 'kcd-demo kcdalphabet-text',
+    textSize: '4rem',
+    pangram: 'area secure',
   },
   {
     query: 'LizzieUniverseAurebesh',

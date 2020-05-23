@@ -136,9 +136,7 @@ const generateFontScreen = (font) => {
     <div class="${font.class}" style="font-size: ${font.textSize}" >
       <span id="preText">
       </span>
-      <div id="editText" contenteditable spellcheck="false">
-        ${font.pangram}
-      </div>
+      <div id="editText" contenteditable spellcheck="false">${font.pangram}</div>
     </div>`
     : '';
   const characters = font.charactersImages && font.charactersImages.length 
