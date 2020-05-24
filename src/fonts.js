@@ -437,7 +437,7 @@ const fonts = [
     foundry: 'AurekFonts',
     artistNote: '',
     description: 'For writing very serious space-emails and what have you',
-    downloadUrl: './Comicbeshsans/ComicbeshSansAF-BETA.zip',
+    downloadUrl: './ComicbeshSans/ComicbeshSansAF-BETA.zip',
     downloadType: '.ZIP',
     license: 'This font is free for everyone, forever.',
     licenseTag: 'Free',
