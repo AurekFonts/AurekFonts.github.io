@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Comicbesh Sans';
+  src: url('ComicbeshSansAF.otf');
+}
+
+.comicbeshsans-text {
+  font-family: 'Comicbesh Sans';
+}
+
+.comicbeshsans-demo {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  border-width: 5px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  color: #000000;
+  text-align: center;
+}
