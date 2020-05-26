@@ -4,8 +4,8 @@ const queryStringParts = window.location.search.split('=');
 const pathname = window.location.pathname;
 
 const linkHeader = 
-  `<p>
-    <a href="${pathname}">[AurekFonts Home]</a>&nbsp;&nbsp;&nbsp;
+  `<p id="link-header">
+    <a href="${pathname}">[Home]</a>&nbsp;&nbsp;&nbsp;
     <a href="${pathname}?sort=license">[Fonts]</a>&nbsp;&nbsp;&nbsp;
     <a href="${pathname}?sort=script">[Alphabets]</a>&nbsp;&nbsp;&nbsp;
     <a href="${pathname}?sort=foundry">[Foundries / Artists]</a>&nbsp;&nbsp;&nbsp;

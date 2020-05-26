@@ -14,7 +14,7 @@ homeBanner +
     We are in the never-ending process of expanding our library of in-universe fonts for the languages of the <em>Star Wars</em> universe.
   </p>
   <p>
-    To date have catalogued ${totalsParam}!
+    To date, we have catalogued ${totalsParam}!
   </p>
   <h1 id="fonts">Fonts</h1>
   <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
