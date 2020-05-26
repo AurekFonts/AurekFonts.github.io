@@ -4,8 +4,11 @@ const homeScreen = (totalsParam) => linkHeader +
 homeBanner + 
 `<div>
   <h1 id="aurekfonts-archive-for-aurebesh-fonts--more">
-    AurekFonts: The Aurebesh Font Archive
+    AurekFonts
   </h1>
+  <h3>
+    The Aurebesh Font Archive
+  </h3>
   <p>
     Welcome to AurekFonts, an archive of fonts from across the galaxy.
     We are in the never-ending process of expanding our library of in-universe fonts for the languages of the <em>Star Wars</em> universe.

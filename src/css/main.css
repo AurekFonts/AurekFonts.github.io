@@ -172,6 +172,7 @@ body {
 }
 h1, h2, h4 {
   font-family: Androcles Heavy;
+  font-weight: unset;
 
   display: block;
   width: 100%;
@@ -191,6 +192,9 @@ h1, h2, h4 {
   -webkit-animation: var(--hologram-background-animation-speed);
   -moz-animation: var(--hologram-background-animation-speed);
   animation: var(--hologram-background-animation-speed);
+}
+h1 + h3 {
+  margin-top: 0;
 }
 img {
   max-width: 100%;
