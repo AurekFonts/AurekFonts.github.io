@@ -144,6 +144,12 @@
   align-self: center;
 }
 
+#link-header {
+  display: block;
+  margin: auto;
+  text-align: justify;
+}
+
 a {
   color: var(--link-text-color);
   text-decoration: none;
@@ -196,6 +202,12 @@ h1, h2, h4 {
 h1 + h3 {
   margin-top: 0;
 }
+
+h3 {
+  font-weight: unset;
+  font-size: 1.8rem;
+}
+
 img {
   max-width: 100%;
   /* width: 100%; */
