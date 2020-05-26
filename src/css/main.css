@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --body-background-color: #161a22;
+
+  --img-glow:
+      -.2rem 0 .3rem #ffffff88,
+      .2rem 0 .3rem #ffffff88;
+  
+  --link-text-color: #ffdc21;
+  --link-hover-text-glow-color: #ffdc21ee;
+  --link-hover-img-glow-color: #ffdc2188;
+  --link-active-text-glow-color: #ff4fe7ee;
+  --link-active-img-glow-color: #ff4fe788;
+  --link-hover-text-glow: 
+      -.4rem 0 .5rem var(--link-hover-text-glow-color),
+      .4rem 0 .5rem var(--link-hover-text-glow-color);
+  --link-hover-img-glow:
+      -.2rem 0 .3rem var(--link-hover-img-glow-color),
+      .2rem 0 .3rem var(--link-hover-img-glow-color);
+  --link-active-text-glow: 
+      -.4rem 0 .5rem var(--link-active-text-glow-color),
+      .4rem 0 .5rem var(--link-active-text-glow-color);
+  --link-active-img-glow:
+      -.2rem 0 .3rem var(--link-active-img-glow-color),
+      .2rem 0 .3rem var(--link-active-img-glow-color);
+
+  /* --hologram-box-glow-color: #ffdc2188;
+  --hologram-text-glow-color: #ffdc2144; */
+  --hologram-box-glow-color: #42a1eb88;
+  --hologram-text-glow-color: #42a1eb66;
+  --hologram-text-glow:
+      -.4rem 0 .5rem var(--hologram-text-glow-color),
+      .4rem 0 .5rem var(--hologram-text-glow-color);
+  --hologram-box-glow:
+      inset 1rem 0 3rem -1rem var(--hologram-box-glow-color), 
+      inset -1rem 0 3rem -1rem var(--hologram-box-glow-color), 
+      inset .5rem 0 .5rem -.4rem #ffffff,
+      inset -.5rem 0 .5rem -.4rem #ffffff;
+  --card-box-glow:
+      inset 0 0 .5rem 0 #ffffff;
+  --hologram-background-lines-field: 
+      repeating-linear-gradient(
+        #ffffff08, 
+        #ffffff08 .1rem, 
+        #00000000 .2rem, 
+        #00000000 .3rem
+      );
+  --card-background-lines-field: 
+      repeating-linear-gradient(
+        #ffffff04, 
+        #ffffff04 .1rem, 
+        #00000000 .2rem, 
+        #00000000 .3rem
+      );
+
+  --hologram-background-animation-speed: HologramScrollAndPulse 3s linear infinite;
+}
+
+@-webkit-keyframes HologramScrollAndPulse {
+  0% {
+    opacity: 90%;
+    background-position: 50% 0rem;
+  }
+  50% {
+    opacity: 100%;
+    background-position: 50% .15rem;
+  }
+  100% {
+    opacity: 90%;
+    background-position: 50% .3rem;
+  }
+}
+@-moz-keyframes HologramScrollAndPulse {
+  0% {
+    opacity: 90%;
+    background-position: 50% 0rem;
+  }
+  50% {
+    opacity: 100%;
+    background-position: 50% .15rem;
+  }
+  100% {
+    opacity: 90%;
+    background-position: 50% .3rem;
+  }
+}
+@keyframes HologramScrollAndPulse {
+  0% {
+    opacity: 90%;
+    background-position: 50% 0rem;
+  }
+  50% {
+    opacity: 100%;
+    background-position: 50% .15rem;
+  }
+  100% {
+    opacity: 90%;
+    background-position: 50% .3rem;
+  }
+}
+
+.centered-body::before {
+  display: table;
+  content: "";
+}
+.centered-body {
+  max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+.centered-body::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+#demo-wrapper {  
+  align-content: center;
+  padding: 0;
+  border-radius: .5rem;
+  border-width: .2rem;
+  border-style: solid;
+  transition: .3s;
+  border-color: #ffffff08;
+  box-shadow: unset;
+  overflow: hidden;
+}
+#demo-wrapper:hover {
+  box-shadow: var(--link-hover-img-glow);
+  border-color: var(--link-text-color);
+}
+
+#demo {
+  margin-right: auto;
+  margin-left: auto;
+  align-self: center;
+}
+
+a {
+  color: var(--link-text-color);
+  text-decoration: none;
+  box-shadow: none;
+  text-shadow: none;
+  transition: .15s;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: var(--link-hover-text-glow);
+}
+
+a:active {
+  text-shadow: -.4rem 0 .5rem var(--link-active-text-glow-color), .4rem 0 .5rem var(--link-active-text-glow-color);
+}
+
+body {
+  display: block;
+  font-family: Androcles Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.3rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+  background-color: var(--body-background-color);
+  color: #ffffff
+}
+h1, h2, h4 {
+  font-family: Androcles Heavy;
+
+  display: block;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-image: var(--hologram-background-lines-field);
+  box-shadow: var(--hologram-box-glow);
+  border-style: solid;
+  border-color: #ffffffee;
+  border-width: 0 .2rem;
+
+  text-align: center;
+  color: #ffffffcc;
+  text-shadow: var(--hologram-text-glow);
+
+  -webkit-animation: var(--hologram-background-animation-speed);
+  -moz-animation: var(--hologram-background-animation-speed);
+  animation: var(--hologram-background-animation-speed);
+}
+img {
+  max-width: 100%;
+  /* width: 100%; */
+  box-sizing: content-box;
+  border-radius: .5rem;
+  border-style: solid;
+  border-color: #ffffffee;
+  border-width: .2rem;
+  /* padding: .2rem; */
+  transition: .15s;
+  margin: auto;
+  display:block;
+  box-shadow: var(--img-glow);
+}
+a img {
+  border-color: #ffffff11;
+  box-shadow: unset;
+}
+a:hover img {
+  box-shadow: var(--link-hover-img-glow);
+  border-color: var(--link-text-color);
+}
+a:active img {
+  box-shadow: var(--link-active-img-glow);
+}
+ul img {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  border-width: .1rem;
+  border-radius: .5rem;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--card-box-glow);
+  background-image: var(--card-background-lines-field);
+}
+
+ul {
+  padding: 0;
+}
+
+li > ul {
+  margin-top: .5rem;
+  padding-left: 1.5rem;
+}
+
+li li {
+  box-shadow: unset;
+  background-image: unset;
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  list-style-type: disc;
+}
+
+li h3 {
+  margin: .5rem 0;
+}
+
+span, p {
+  background-color: transparent;
+}
