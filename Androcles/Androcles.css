@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Androcles Regular';
+  src: url(AndroclesOpti-Regular.otf);
+}
+@font-face {
+  font-family: 'Androcles Heavy';
+  src: url(AndroclesOpti-Heavy.otf);
+}
+@font-face {
+  font-family: 'Androcles Light';
+  src: url(AndroclesOpti-Light.otf);
+}
+
+.androcleseregular-text {
+  font-family: 'Androcles Regular';
+}
+
+.androcleseheavy-text {
+  font-family: 'Androcles Heavy';
+}
+.androcleselight-text {
+  font-family: 'Androcles Light';
+}

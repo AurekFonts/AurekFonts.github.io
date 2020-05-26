@@ -110,7 +110,7 @@ const foundries = [
     supportText: undefined
   },
   {
-    name: 'NIck Tierce',
+    name: 'Nick Tierce',
     bannerImage: undefined,
     bannerFont: undefined,
     query: 'NickTierce',

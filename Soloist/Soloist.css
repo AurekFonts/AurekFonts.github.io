@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Soloist';
+  src: url(soloist1.ttf);
+}
+@font-face {
+  font-family: 'Soloist Title';
+  src: url(soloisttitle1.ttf);
+}
+
+.soloist-text {
+  font-family: 'Soloist';
+}
+.soloisttitle-text {
+  font-family: 'Soloist Title';
+}
