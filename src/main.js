@@ -272,5 +272,3 @@ const generateFoundrySortScreen = () => {
   title +
   foundryList
 }
-
-
