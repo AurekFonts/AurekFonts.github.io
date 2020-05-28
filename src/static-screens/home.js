@@ -16,6 +16,10 @@ homeBanner +
   <p>
     To date, we have catalogued ${totalsParam}!
   </p>
+  <h1>AurekFonts Guides</h1>
+  <h3>
+    Vol. 1: <a href="${pathname}?guide=vol-1-canon-accurate">Guide to the Most Canon-Accurate Fonts</a>
+  </h3>
   <h1 id="fonts">Fonts</h1>
   <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
     <a href="${pathname}?sort=license">
