@@ -1,7 +1,7 @@
 // by Ender Smith, Editor-in-Chief, AurekFonts
 
+const totals = `${fonts.length} fonts, representing over ${scripts.length} writing systems and ${foundries.length} foundries & artists`
 const routeByQueryString = () => {
-  const totals = `${fonts.length} fonts, representing over ${scripts.length} writing systems and ${foundries.length} foundries & artists`
   console.log(totals);
 
   switch(queryStringParts[0]) {
@@ -12,13 +12,18 @@ const routeByQueryString = () => {
       document.getElementById('main').innerHTML = queryStringParts[1] === 'script' ? scriptSortScreen(totals) 
         : queryStringParts[1] === 'license' ? generateLicenseSortScreen()
         : queryStringParts[1] === 'foundry' ? generateFoundrySortScreen()
-        : homeScreen;
+        : homeScreen(totals);
       break;
     case '?font':
       document.getElementById('main').innerHTML = generateFontScreen(fonts.find(font => font.query === queryStringParts[1]));
       break;
     case '?foundry':
       document.getElementById('main').innerHTML = generateFoundryScreen(foundries.find(foundry => foundry.query === queryStringParts[1]));
+      break;
+    case '?guide':
+      document.getElementById('main').innerHTML = 
+        queryStringParts[1] === 'vol-1-canon-accurate' ? canonAccurate
+        : homeScreen(totals);
       break;
     default:
       document.getElementById('main').innerHTML = homeScreen(totals);
@@ -29,7 +34,7 @@ const routeByQueryString = () => {
 window.onload = () => routeByQueryString();
 
 const generateScriptScreen = (script) => {
-  if (!script) return homeScreen;
+  if (!script) return homeScreen(totals);
 
   const fontsByScript = fonts.filter(font => font.scriptQuery === script.query || font.script === script.name || font.script === script.query);
   const freeFontsByScript = fontsByScript.filter(font => font.licenseTag === 'Free');
@@ -87,7 +92,7 @@ const generateScriptScreen = (script) => {
 }
 
 const generateFontScreen = (font) => {
-  if (!font) return homeScreen;
+  if (!font) return homeScreen(totals);
   
   const year = font.year ? ` in ${font.year}` : ``;
 
@@ -167,7 +172,7 @@ const generateFontScreen = (font) => {
 };
 
 const generateFoundryScreen = (foundry) => {
-  if (!foundry) return homeScreen;
+  if (!foundry) return homeScreen(totals);
   
   const fontsByFoundry = fonts.filter(font => font.foundry === foundry.name);
   const freeFontsByFoundry = fontsByFoundry.filter(font => font.licenseTag === 'Free');

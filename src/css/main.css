@@ -122,6 +122,7 @@
   clear: both;
 }
 
+
 #demo-wrapper {  
   align-content: center;
   padding: 0;
@@ -238,7 +239,6 @@ ul img {
 }
 
 li {
-  list-style-type: none;
   border-width: .1rem;
   border-radius: .5rem;
   border-style: solid;
@@ -247,6 +247,9 @@ li {
   margin-bottom: 1rem;
   box-shadow: var(--card-box-glow);
   background-image: var(--card-background-lines-field);
+}
+ul li {
+  list-style-type: none;
 }
 
 ul {
