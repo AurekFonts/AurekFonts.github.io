@@ -55,7 +55,7 @@ const canonAccurate =
       Following the comparison, we will make and give our recommendations.
     </p>
     <img
-      src="src/guides/AurebeshComparisonImages/AurebeshComparisonBlue.png"
+      src="src/guides/AurebeshComparisonImages/AurebeshComparison.png"
       alt="Comparison of plain Aurebesh fan-fonts against canonical reference"
       title="Comparison of plain Aurebesh fan-fonts against canonical reference"
     />
