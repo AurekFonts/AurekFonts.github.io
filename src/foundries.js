@@ -74,6 +74,22 @@ const foundries = [
     supportText: 'paypal donation'
   },
   {
+    name: 'Legendsist',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'Legendsist',
+    bio: `専門<br>
+    レジェンズ&正史<br>
+    ＝スピンオフが好きな学生です！<br>
+    特に書籍マニア<br>
+    英語力乏しいけど未邦訳にも手出してます<br>
+    誰かの心にスター・ウォーズの種をまきたい！<br>
+    <br>
+    <a href="https://twitter.com/legendsist">@Legendsist</a> on Twitter`,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Louie Mantia, Jr.',
     bannerImage: undefined,
     bannerFont: undefined,
