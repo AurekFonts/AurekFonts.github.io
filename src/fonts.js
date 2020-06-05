@@ -43,7 +43,7 @@ const fonts = [
   {
     query: 'Aurabesh',
     name: 'Aurabesh',
-    exampleImage: undefined,
+    exampleImage: './Aurabesh/Aurabesh-example.png',
     script: 'Aurebesh',
     foundry: 'Mike E. Web',
     foundryQuery: 'MikeEWeb',
