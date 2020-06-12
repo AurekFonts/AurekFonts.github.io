@@ -279,3 +279,7 @@ li h3 {
 span, p {
   background-color: transparent;
 }
+
+span {
+  white-space: nowrap;
+}

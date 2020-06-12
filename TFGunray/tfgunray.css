@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'TF Gunray';
+  src: url('TFGunray-Bold.otf');
+}
+@font-face {
+  font-family: 'TF Gunray Light';
+  src: url('TFGunray-Light.otf');
+}
+@font-face {
+  font-family: 'TF Gunray Oblique';
+  src: url('TFGunray-Oblique.otf');
+}
+@font-face {
+  font-family: 'TF Gunray Outline';
+  src: url('TFGunray-OutlineBold.otf');
+}
+
+.tfgunray-text {
+  font-family: 'TF Gunray';
+}
+.tfgunray-light-text {
+  font-family: 'TF Gunray Light';
+}
+.tfgunray-oblique-text {
+  font-family: 'TF Gunray Obliqu';
+}
+.tfgunray-outline-text {
+  font-family: 'TF Gunray Outline';
+}
+
+.tfgunray-demo {
+  background-color: #dfc8aa;
+  box-shadow: inset 0 0 .6rem .3rem #18181866, inset -.1rem -.1rem .4rem .1rem #181818a4, inset .2rem .2rem .4rem .1rem #ffdbbaaf;
+
+  padding: 1.5rem;
+  text-align: justify;
+  color: #0a070393;
+  text-shadow: 0 0 .15rem #241e17bd, 0 -.1rem .15rem #49433b2c;
+  /* line-height: 90%; */
+}
