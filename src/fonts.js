@@ -1229,7 +1229,7 @@ const fonts = [
     script: `\'Ubese\' [unidentified script from Boushh's costume]`,
     scriptQuery: 'Ubese',
     foundry: 'AurekFonts',
-    artistNote: `There are only enough letters to fill out the phonology of Ubese, as heard in RotJ.<br><br>Check out the <a href="http://AurekFonts.com/guide-ubese.html">Guide to Speaking Ubese</a> to learn how to speak Ubese.`,
+    artistNote: `There are only enough letters to fill out the phonology of Ubese, as heard in RotJ.<br><br>Check out the <a href="http://AurekFonts.github.io/guide-ubese.html">Guide to Speaking Ubese</a> to learn how to speak Ubese.`,
     description: `"Ubese" font based on Boushh's clothing; limited glyphs; some non-canon glyphs; no nums`,
     downloadUrl: './UbeseBoushh/ubese-boushh-beta.zip',
     downloadType: '.ZIP',
