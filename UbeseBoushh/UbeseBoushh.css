@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Ubese Boushh';
+  src: url('ubese-boushh-beta.ttf');
+}
+
+.ubese-boushh-text {
+  font-family: 'Ubese Boushh';
+}
+
+.ubese-boushh-demo {
+  background-color: #2b2013;
+  box-shadow: inset 0 0 .6rem .3rem #18181866, inset -.1rem -.1rem .4rem .1rem #181818a4, inset .2rem .2rem .4rem .1rem #99836eaf;
+
+  padding: 1.5rem;
+  text-align: center;
+  color: #a30c0cbd;
+  text-shadow: -.1rem .1rem .1rem #85090975, .1rem -.1rem .1rem #ad65086e;
+  /* line-height: 90%; */
+}

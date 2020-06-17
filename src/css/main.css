@@ -209,7 +209,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-img {
+img, iframe{
   max-width: 100%;
   /* width: 100%; */
   box-sizing: content-box;
@@ -238,7 +238,7 @@ ul img {
   display: inline;
 }
 
-li {
+td, li {
   border-width: .1rem;
   border-radius: .5rem;
   border-style: solid;
@@ -282,4 +282,18 @@ span, p {
 
 span {
   white-space: nowrap;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 312px;
+}
+td {
+  align-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+span.ubese-boushh-text {
+  white-space: normal;
 }
