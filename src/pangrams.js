@@ -13,6 +13,7 @@ const pangrams = {
   JediWisdom:         'A Jedi acknowledges pride, for quiet humility belies unexorcized vanity.',
   Homie:              'Anakin<br>turn  the  ship<br>around  and  go<br>back  homie<br>right  awayl',
   BlackholeDigraphs:  'Blackhole, shining dark mid aether, wax cool and quiet high above a joyless chaos of neon zaps.',
+  Yoda:               '"Judge me by my size," Yoda inquired of his vexed apprentice, Luke Skywalker.',
 
   Prequels:           'Acquiescent Jedi-gazes allow a phantom to vex and betray folk.',
   Original:           'A farmboy escapes quiet killjoys, pilots X-Wing, vaporizes Death Star.',

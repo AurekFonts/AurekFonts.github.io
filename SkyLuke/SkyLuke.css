@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Sky Luke';
+  src: url(SkyLuke.otf);
+}
+
+.SkyLuke {
+  font-family: 'Sky Luke';
+}
