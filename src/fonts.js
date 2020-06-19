@@ -1138,6 +1138,7 @@ const fonts = [
       './SkyLuke/skyluke-example-2.png',
       './SkyLuke/skyluke-example-3.png',
       './SkyLuke/skyluke-example-4.png',
+      './SkyLuke/skyluke-example-5.png',
       './SkyLuke/skyluke-example-0.png',
     ],
     class: 'SkyLuke',
