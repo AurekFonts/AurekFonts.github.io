@@ -2,6 +2,28 @@
 
 const fonts = [
   {
+    query: 'AlmostThere',
+    name: 'Almost There',
+    exampleImage: './AlmostThere/almostthere-example-1.png',
+    script: 'Numeric',
+    foundry: 'AurekFonts',
+    artistNote: '',
+    description: 'Numeric font based on the x-wing targeting computer',
+    downloadUrl: './AlmostThere/AlmostThere-Numeric.otf',
+    downloadType: '.OTF',
+    license: 'Free for everyone forever',
+    licenseTag: 'Free',
+    year: '2019',
+    charactersImages: ['./AlmostThere/almostthere-example-4.png'],
+    additionalImages: [
+      './AlmostThere/almostthere-example-2.png',
+      './AlmostThere/almostthere-example-3.png',
+    ],
+    class: 'almostthere-text almostthere-demo',
+    textSize: '3rem',
+    pangram: '0546372819',
+  },
+  {
     query: 'AncientAurebesh',
     name: 'Ancient Aurebesh',
     exampleImage: undefined,

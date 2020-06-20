@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Almost There';
+  src: url(AlmostThere-Numeric.otf);
+}
+
+.almostthere-text {
+  font-family: 'Almost There';
+}
+
+.almostthere-demo {
+  background-color: #121010;
+  color: #df1818;
+  text-shadow: 0 0 .5rem #cc0a0a;
+  text-align: center;
+}

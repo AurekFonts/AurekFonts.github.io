@@ -106,6 +106,13 @@ const scripts = [
     description: `Naboo Futhork can be seen on costumes and consoles of the Naboo in The Phantom Menace.`
   },
   {
+    name: 'Numeric',
+    query: 'Numeric',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `Numeric fonts are fonts specifically representing or based upon systems of numerals seen onscreen.`
+  },
+  {
     name: 'Outer Rim Basic',
     query: 'OuterRim',
     bannerImage: './banners/outerrimbasic-banner.png',

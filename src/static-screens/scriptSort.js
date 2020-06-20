@@ -72,6 +72,11 @@ homeBanner +
         </a>
       </li>
       <li>
+        <a href="${pathname}?script=Numeric">
+          "Numeric" [Numeral-specific fonts]
+        </a>
+      </li>
+      <li>
         Titles / Crawls / Etc. (coming soon)
       </li>
     </ul>
