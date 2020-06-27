@@ -108,6 +108,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Meagan Bethel',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'MeaganBethel',
+    bio: undefined,
+    supportLink: `https://linktr.ee/doodlebethel`,
+    supportText: `linktree`
+  },
+  {
     name: 'Michael Moss',
     bannerImage: undefined,
     bannerFont: undefined,
