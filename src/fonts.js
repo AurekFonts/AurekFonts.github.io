@@ -1156,6 +1156,8 @@ const fonts = [
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     year: '2020',
+    downloadUrl: './SFoil/SFoil-Regular.otf',
+    downloadType: '.OTF',
     charactersImages: ['./SFoil/sfoil-charset-alpha.png', './SFoil/sfoil-charset-nums.png'],
     additionalImages: [],
     class: undefined,
