@@ -1,0 +1,76 @@
+°°°Deutsch°°°
+Aurekbesh
+---------------------------------------------------------------
+Inhalt:
+---------------------------------------------------------------
+Enthält die bekannte Schrift "Aurekbesh" aus den Star Wars 
+Filmen.
+---------------------------------------------------------------
+Installation:
+---------------------------------------------------------------
+Kopiert die Pfm-Datei "Aurekbesh" in euren "Font" Ordner, in 
+dem sich auch all eure anderen Schriften befinden müssten, ihr 
+findet ihn höchst wahrscheinlich in: "C:/WINDOWS/Fonts" dann 
+einfügen und ihr habt Aurekbesh auf eurem Computer! ^^
+---------------------------------------------------------------
+Deinstallation:
+---------------------------------------------------------------
+Einfach bei "C:/WINDOWS/Fonts" die Pfm-Datei "Aurekbesh" 
+löschen.
+---------------------------------------------------------------
+Benutzung:
+---------------------------------------------------------------
+Ich hatte bei dem Erstellen einige Probleme. Da ich manche 
+Zeichen nicht zu einer Taste zuordnen konnte, wie zum Beispiel 
+"Orenth", was "oo" ist. Desswegen musste ich die Zeichen 
+anders benennen. Desshalb gibt es hier eine Benutzeranleitung 
+für alle Buchstaben, die ich nicht zuordnen konnte:
+(Ihr könnt euch auch die Tastankombinationen selbst ansehen, 
+wenn ihr auf "Start/ Programme/ Zubehör/ Systemprogramme/ 
+Zeichentabelle" geht und "Aurekbesh" anwählt.)
+
+Ihr werdet bestimmte Kombinationen von Tasten drücken müssen,
+dabei steht z.B. foglendes da:
+
+Cherk (Ch)= Ç/ç (Alt+0199/Alt+0231)
+
+Das bedeutet, dass der Buchstabe Cherk dem C cedile (Ç) 
+enspricht. Dazu müsst ihr die Alt-taste gedrückt halten 
+während ihr die Zahlen im rechten Zahlenblock von eurer 
+Tastatur drückt, hier: 0199
+
+Verstanden? Gut! :3
+Dann legen wir jetzt mal los! :D
+
+Cherk (Ch)= Ç/ç (Alt+0199/ Alt+0231)
+Enth (Ae)= Æ/æ (Alt+0198/ Alt+0230), oder bei einer dt. Tastatur einfach "Ä/ä"
+Onith (Oe)= Œ/œ (Alt+0140/ Alt+0156), oder bei einer dt. Tastatur einfach "Ö/ö"
+Krenth (Kh)= Ð/ð (Eth wie krEnTH) (Alt+208/ Alt+0240)
+Nen (Ng)= Ñ/ñ (Alt+0209/ Alt+0241)
+Orentth (Oo)= Ó/ó (Alt+0211/ Alt+0243)
+Shen (Sh)= É/é (Alt+0201/ Alt+0233)
+Thesh (th)= þ/Þ (Thorn wie THesh) (Alt+0254/ Alt+0222)
+'links= ´ Akut-Akzent (Alt+0180), oder "´"
+'rechts= `/¸ Cedille (Alt+0184)
+"Anführungszeichen Links= """
+"Anführungszeichen rechts= "#"
+
+Ich hoffe das waren alle! ^^;
+---------------------------------------------------------------
+Anderes:
+---------------------------------------------------------------
+Wer eine tolle Darstellung der Aurekbesh-Schrift sehen möchte,
+sollte mal einen Blick auf diese Seite werfen: 
+http://www.jedipedia.de/wiki/index.php/Aurebesh
+---------------------------------------------------------------
+Copyright:
+---------------------------------------------------------------
+Aurekbesh © to Lucasfilm Ltd.
+
+!!!Bitte diesen Download an keiner anderen Stelle anbieten!!!
+---------------------------------------------------------------
+Schlusswort:
+---------------------------------------------------------------
+Danke für's zuhören! ^^
+Ich hoffe ihr habt viel Spaß mit Aurekbesh! x3
+-Kopanitsak
