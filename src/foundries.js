@@ -108,6 +108,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Luke Daley',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'LukeDaley',
+    bio: `Luke Daley is a UK-based prop/costume artist`,
+    supportLink: `http://store.jjindustries.co.uk/`,
+    supportText: `his web store`
+  },
+  {
     name: 'Meagan Bethel',
     bannerImage: undefined,
     bannerFont: undefined,

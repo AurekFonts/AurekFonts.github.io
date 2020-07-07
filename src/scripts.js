@@ -169,6 +169,13 @@ const scripts = [
     description: ` <em>Legends</em> script designed by Eric Larson for promotional Pizza Hut boxes in 1997, subsequently used in Racer Revenge.`
   },
   {
+    name: "Kittât",
+    query: 'Kittat',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `Sith Kittât was the ancient language of the Sith in <em>Legends</em>. It is not a mere replacement cipher, but a complete constructed language with its own grammar and vocabulary.`
+  },
+  {
     name: "Unknown <em>Ledgends</em> scripts",
     query: 'UnknownLegends',
     bannerImage: undefined,

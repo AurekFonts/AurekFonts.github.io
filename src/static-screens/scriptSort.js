@@ -183,6 +183,11 @@ homeBanner +
     </a>
   </li>
   <li>
+    <a href="${pathname}?script=Kittat">
+      <h3>Sith Kittât</h3>
+    </a>
+  </li>
+  <li>
     <a href="${pathname}?script=JabbasAlphabet">
       <h3>'Jabba's Alphabet' [unidentified <em>Legends</em> script from 1997 Pizza Hut boxes]</h3>
     </a>
