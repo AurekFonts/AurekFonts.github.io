@@ -99,10 +99,10 @@ const foundries = [
     supportText: undefined
   },
   {
-    name: 'Lizzie Universe',
+    name: 'Lucy Universe',
     bannerImage: undefined,
     bannerFont: undefined,
-    query: 'LizzieUniverse',
+    query: 'LucyUniverse',
     bio: undefined,
     supportLink: undefined,
     supportText: undefined
