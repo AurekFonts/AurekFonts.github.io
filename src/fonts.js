@@ -194,7 +194,7 @@ const fonts = [
     foundryQuery: 'ConvallariasArt',
     artistNote: '"I didn’t find any sort of things like Aurebesh cursive, so decided to do one myself c:"',
     description: 'Brush-stroke calligraphic Aurebesh font',
-    downloadUrl: './AurebeshCalligraphy/AurebeshCalligraphy.ttf',
+    downloadUrl: './AurebeshCalligraphy/AurebeshCalligraphy-Regular.ttf',
     downloadType: '.TTF',
     license: 'This font is "Free for all personal and commercial use."',
     licenseTag: 'Free',
