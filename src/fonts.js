@@ -1420,5 +1420,19 @@ const fonts = [
     textSize: undefined,
     pangram: undefined,
   },
-
+  {
+    query: 'Veers',
+    name: 'Veers Numeric',
+    script: 'Numeric',
+    exampleImage: './VeersNumeric/VeersNumeric-example.png',
+    foundry: 'AurekFonts',
+    artistNote: '',
+    description: 'Numeric font based on the AT-AT periscope seen in <em>Empire Strikes Back</em>',
+    downloadUrl: './VeersNumeric/VeersNumeric.otf',
+    downloadType: '.OTF',
+    license: 'Free for all personal and commercial uses.',
+    licenseTag: 'Free',
+    year: '2020',
+    charactersImages: ['./VeersNumeric/VeersNumeric-charset.png'],
+  },
 ]
