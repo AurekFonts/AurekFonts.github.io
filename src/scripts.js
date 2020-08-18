@@ -127,6 +127,13 @@ const scripts = [
     description: `Protobesh is used extensively throughout the Jedi Texts seen in The Rise of Skywalker.`
   },
   {
+    name: 'Symbolic',
+    query: 'Symbolic',
+    bannerImage: './AttackPosition/AttackPosition-charset.png',
+    bannerFont: 'Attack Position',
+    description: `Symbolic fonts are fonts specifically representing or based upon non-lingual symbols seen onscreen.`
+  },
+  {
     name: 'Trade Federation Basic',
     query: 'TradeFederation',
     bannerImage: undefined,

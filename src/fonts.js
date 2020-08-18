@@ -63,6 +63,22 @@ const fonts = [
     ]
   },
   {
+    query: 'AttackPosition',
+    name: 'Attack Position',
+    exampleImage: './AttackPosition/AttackPosition-example.png',
+    script: 'Symbolic',
+    foundry: 'AurekFonts',
+    artistNote: '',
+    description: 'Symbolic font based on console buttons from <em>Star Wars</em>, <em>Rogue One</em>, and <em>Solo</em>.',
+    downloadUrl: './AttackPosition/AttackPosition.zip',
+    downloadType: '.ZIP',
+    license: 'Free for everyone forever',
+    licenseTag: 'Free',
+    year: '2019',
+    charactersImages: ['./AttackPosition/AttackPosition-charset.png'],
+    textSize: '3rem',
+  },
+  {
     query: 'Aurabesh',
     name: 'Aurabesh',
     exampleImage: './Aurabesh/Aurabesh-example.png',

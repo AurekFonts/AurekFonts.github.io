@@ -77,6 +77,11 @@ homeBanner +
         </a>
       </li>
       <li>
+        <a href="${pathname}?script=Symbolic">
+          "Symbolic" [Symbol-specific fonts]
+        </a>
+      </li>
+      <li>
         Titles / Crawls / Etc. (coming soon)
       </li>
     </ul>
