@@ -140,10 +140,10 @@ const fonts = [
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     year: '2020',
-    charactersImages: [`./Auraboo/Auraboo-example2.png`],
+    charactersImages: [`./AurebeshAF/AurebeshAF-example2.png`],
     additionalImages: [
-      `./Auraboo/Auraboo-example-3.png`, 
-      `./Auraboo/Auraboo-example-4.png`,
+      `./AurebeshAF/AurebeshAF-example3.png`, 
+      `./AurebeshAF/AurebeshAF-example4.png`,
     ]
   },
   {
