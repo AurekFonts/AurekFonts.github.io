@@ -127,6 +127,26 @@ const fonts = [
     ]
   },
   {
+    query: 'AurebeshAF',
+    name: 'Aurebesh AF',
+    exampleImage: `./AurebeshAF/AurebeshAF-example.png`,
+    script: 'Aurebesh',
+    scriptQuery: 'Aurebesh',
+    foundry: 'AurekFonts',
+    artistNote: ``,
+    description: 'Clean, robust Aurebesh font with options for digraphs and tech numerals',
+    downloadUrl: './AurebeshAF/AurebeshAF.zip',
+    downloadType: '.ZIP',
+    license: 'Free for all personal and commercial uses.',
+    licenseTag: 'Free',
+    year: '2020',
+    charactersImages: [`./Auraboo/Auraboo-example2.png`],
+    additionalImages: [
+      `./Auraboo/Auraboo-example-3.png`, 
+      `./Auraboo/Auraboo-example-4.png`,
+    ]
+  },
+  {
     query: 'AurebeshOcchino',
     name: 'Aurebesh (David Occhino)',
     exampleImage: undefined,
