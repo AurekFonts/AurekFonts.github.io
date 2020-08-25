@@ -6,6 +6,8 @@ const canonAccurate =
     <h1>AurekFonts Guide vol. I</h1>
     <h4>Which Aurebesh Font is the Most Canon-Accurate and Complete?</h4>
     TL;DR:<br>
+    <em>Edit:</em> <a href="${pathname}?font=AurebeshAF">Aurebesh AF</a> is the most canon-accurate and complete. It is also 100% free.<br>
+    <br>
     <a href="${pathname}?font=AurebeshTycho">Aurebesh Tycho</a> is the most complete.<br>
     <a href="${pathname}?font=AurebeshOcchino">Aurebesh (David Occhino Design)</a> is the most accurate.<br>
     <a href="${pathname}?font=AurekBesh">Aurek-Besh</a> is the most complete and accurate font that is 100% free.<br>
