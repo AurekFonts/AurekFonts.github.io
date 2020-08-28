@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Outer Rim AF';
+  src: url('OuterRimAF-Regular.otf');
+}
+
+.OuterRimAF {
+  font-family: 'Outer Rim AF';
+}
