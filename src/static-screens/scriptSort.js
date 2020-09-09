@@ -1,7 +1,6 @@
 // by Ender Smith, Editor-in-Chief, AurekFonts
 
 const scriptSortScreen = (totalParam) => linkHeader +
-homeBanner +
 `<h1>
   Alphabets & Writing Systems
 </h1>

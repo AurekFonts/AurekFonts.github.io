@@ -1,12 +1,12 @@
 // by Ender Smith, Editor-in-Chief, AurekFonts
 
 const homeScreen = (totalsParam) => linkHeader +
-homeBanner + 
 `<div>
   <h1 id="aurekfonts-archive-for-aurebesh-fonts--more">
     AurekFonts
-  </h1>
-  <h3>
+  </h1>` +
+  homeBanner + 
+  `<h3>
     The Aurebesh Font Archive
   </h3>
   <p>
@@ -16,27 +16,28 @@ homeBanner +
   <p>
     To date, we have catalogued ${totalsParam}!
   </p>
-  <h1>AurekFonts Guides</h1>
-  <h3>
-    Vol. 1: <a href="${pathname}?guide=vol-1-canon-accurate">Guide to the Most Canon-Accurate Fonts</a>
-  </h3>
   <h1 id="fonts">Fonts</h1>
-  <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
-    <a href="${pathname}?sort=license">
-      Fonts (Sorted by License)
-    </a>
-  </h3>
-  <h3 id="-fonts-sorted-by-scriptalphabet">
-    <a href="${pathname}?sort=script">
-      Alphabets & Writing Systems
-    </a>
-  </h3>
-  <h3 id="-fonts-sorted-by-license-free-personal-commercial-etc">
-    <a href="${pathname}?sort=foundry">
-      Foundries / Artists
-    </a>
-  </h3>
-  <h2></h2>
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <a href="${pathname}?sort=license">
+            Fonts (Sorted by License)
+          </a>
+        </li>
+        <li id="-fonts-sorted-by-scriptalphabet">
+          <a href="${pathname}?sort=script">
+            Alphabets & Writing Systems
+          </a>
+        </li>
+        <li id="-fonts-sorted-by-license-free-personal-commercial-etc">
+          <a href="${pathname}?sort=foundry">
+            Foundries / Artists
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h4 id="contact-us">
     Contact Us
   </h4>
@@ -59,7 +60,6 @@ homeBanner +
     </em>
   </p>
 
-  <h2></h2>
   <h4 id="contact-us">
     Support AurekFonts
   </h4>
