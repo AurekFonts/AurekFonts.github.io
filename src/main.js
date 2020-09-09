@@ -79,8 +79,8 @@ const generateScriptScreen = (script) => {
     : ``;
 
   return linkHeader + 
-    banner +
     title + 
+    banner +
     description +
     totalByScript +
     freeFontHeader +
@@ -93,6 +93,7 @@ const generateScriptScreen = (script) => {
 
 const generateFontScreen = (font) => {
   if (!font) return homeScreen(totals);
+  const foundry = foundries.find(foundry => foundry.query === font.foundryQuery || foundry.query === font.foundry);
   
   const year = font.year ? ` in ${font.year}` : ``;
 
@@ -114,6 +115,15 @@ const generateFontScreen = (font) => {
         ${font.foundry}
       </a>${year}.
     </p>`;
+    const supportLink = foundry ? foundry.supportLink 
+    ? `<p>Support ${foundry.name} via 
+      <a href="${foundry.supportLink}">
+        ${foundry.supportText 
+        ? foundry.supportText 
+        : foundry.supportLink}
+      </a>
+    </p>` 
+    : `` : ``;
   const artistNote = font.artistNote 
     ? `<p>${font.artistNote}</p>` 
     : ``;
@@ -156,9 +166,10 @@ const generateFontScreen = (font) => {
     : ``;
 
   return linkHeader + 
-    exampleImage + 
     name +  
+    exampleImage + 
     credit + 
+    supportLink +
     artistNote +
     description + 
     seeAlso +
@@ -253,7 +264,6 @@ const generateLicenseSortScreen = () => {
   const totalByLicense = `Total fonts catalogued: ${fonts.length} (${freeFonts.length} free + ${freeNCFonts.length} non-commercial + ${licReqFonts.length} license-required)`;
 
   return linkHeader +
-  homeBanner +
   title +
   totalByLicense +
   freeFontsHeader +

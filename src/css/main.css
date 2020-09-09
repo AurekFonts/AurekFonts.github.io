@@ -3,103 +3,21 @@
 }
 
 :root {
-  --body-background-color: #161a22;
-
-  --img-glow:
-      -.2rem 0 .3rem #ffffff88,
-      .2rem 0 .3rem #ffffff88;
+  --obody-background-color: #303030;
+  --cbody-background-color: #fbfbfa;
+  --secondary-color: #60b7bd;
+  --grey-dark: #252525;
+  --grey-med: #d0d0d0;
+  --grey-light: #f0f0f0;
   
-  --link-text-color: #ffdc21;
-  --link-hover-text-glow-color: #ffdc21ee;
-  --link-hover-img-glow-color: #ffdc2188;
-  --link-active-text-glow-color: #ff4fe7ee;
-  --link-active-img-glow-color: #ff4fe788;
-  --link-hover-text-glow: 
-      -.4rem 0 .5rem var(--link-hover-text-glow-color),
-      .4rem 0 .5rem var(--link-hover-text-glow-color);
+  --link-text-color: var(--cbody-background-color);
+  --link-hover-text-glow-color: var(--secondary-color);
   --link-hover-img-glow:
-      -.2rem 0 .3rem var(--link-hover-img-glow-color),
-      .2rem 0 .3rem var(--link-hover-img-glow-color);
-  --link-active-text-glow: 
-      -.4rem 0 .5rem var(--link-active-text-glow-color),
-      .4rem 0 .5rem var(--link-active-text-glow-color);
+      0 .4rem 0 var(--secondary-color),
+      0 -.3rem 0 var(--secondary-color);
   --link-active-img-glow:
-      -.2rem 0 .3rem var(--link-active-img-glow-color),
-      .2rem 0 .3rem var(--link-active-img-glow-color);
-
-  /* --hologram-box-glow-color: #ffdc2188;
-  --hologram-text-glow-color: #ffdc2144; */
-  --hologram-box-glow-color: #42a1eb88;
-  --hologram-text-glow-color: #42a1eb66;
-  --hologram-text-glow:
-      -.4rem 0 .5rem var(--hologram-text-glow-color),
-      .4rem 0 .5rem var(--hologram-text-glow-color);
-  --hologram-box-glow:
-      inset 1rem 0 3rem -1rem var(--hologram-box-glow-color), 
-      inset -1rem 0 3rem -1rem var(--hologram-box-glow-color), 
-      inset .5rem 0 .5rem -.4rem #ffffff,
-      inset -.5rem 0 .5rem -.4rem #ffffff;
-  --card-box-glow:
-      inset 0 0 .5rem 0 #ffffff;
-  --hologram-background-lines-field: 
-      repeating-linear-gradient(
-        #ffffff08, 
-        #ffffff08 .1rem, 
-        #00000000 .2rem, 
-        #00000000 .3rem
-      );
-  --card-background-lines-field: 
-      repeating-linear-gradient(
-        #ffffff04, 
-        #ffffff04 .1rem, 
-        #00000000 .2rem, 
-        #00000000 .3rem
-      );
-
-  --hologram-background-animation-speed: HologramScrollAndPulse 3s linear infinite;
-}
-
-@-webkit-keyframes HologramScrollAndPulse {
-  0% {
-    opacity: 90%;
-    background-position: 50% 0rem;
-  }
-  50% {
-    opacity: 100%;
-    background-position: 50% .15rem;
-  }
-  100% {
-    opacity: 90%;
-    background-position: 50% .3rem;
-  }
-}
-@-moz-keyframes HologramScrollAndPulse {
-  0% {
-    opacity: 90%;
-    background-position: 50% 0rem;
-  }
-  50% {
-    opacity: 100%;
-    background-position: 50% .15rem;
-  }
-  100% {
-    opacity: 90%;
-    background-position: 50% .3rem;
-  }
-}
-@keyframes HologramScrollAndPulse {
-  0% {
-    opacity: 90%;
-    background-position: 50% 0rem;
-  }
-  50% {
-    opacity: 100%;
-    background-position: 50% .15rem;
-  }
-  100% {
-    opacity: 90%;
-    background-position: 50% .3rem;
-  }
+      0 .4rem 0 var(--secondary-color),
+      0 -.3rem 0 var(--secondary-color);
 }
 
 .centered-body::before {
@@ -107,14 +25,16 @@
   content: "";
 }
 .centered-body {
+  background-color: var(--cbody-background-color);
   max-width: 1012px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 32px !important;
-  margin-bottom: 32px !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 3rem !important;
 
-  padding-right: 16px !important;
-  padding-left: 16px !important;
+  padding: 2rem 3rem !important;
+  border-radius: .5rem;
+  box-shadow: .2rem .2rem 1rem .2rem #10101088;
 }
 .centered-body::after {
   display: table;
@@ -151,80 +71,100 @@
   text-align: justify;
 }
 
-a {
-  color: var(--link-text-color);
+a, li a h3 {
+  background:
+     linear-gradient(
+       to bottom, var(--secondary-color) 0%,
+       var(--secondary-color) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: .2rem .2rem;
+  color: var(--obody-background-color);
   text-decoration: none;
-  box-shadow: none;
-  text-shadow: none;
-  transition: .15s;
+  transition: background-size .3s;
+  width: fit-content;
+  border-radius: unset;
+
 }
 
-a:hover {
-  color: #ffffff;
-  text-shadow: var(--link-hover-text-glow);
-}
-
-a:active {
-  text-shadow: -.4rem 0 .5rem var(--link-active-text-glow-color), .4rem 0 .5rem var(--link-active-text-glow-color);
+a:hover, li a h3:hover {
+  background-size: .2rem 100%;
+  /* background-position: 0 100%; */
+  color: var(--cbody-background-color);
+  border-radius: unset;
 }
 
 body {
   display: block;
-  font-family: Androcles Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: D-Din Exp Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.3rem;
   line-height: 1.5;
   word-wrap: break-word;
-  background-color: var(--body-background-color);
-  color: #ffffff
+  background-color: var(--obody-background-color);
+  color: var(--obody-background-color);
 }
 h1, h2, h4 {
-  font-family: Androcles Heavy;
+  font-family: LEMON MILK Regular;
   font-weight: unset;
-
   display: block;
   width: 100%;
-  padding-left: 1rem;
+  padding-left: 0rem;
   padding-right: 1rem;
-
-  background-image: var(--hologram-background-lines-field);
-  box-shadow: var(--hologram-box-glow);
+  border-width: 0;
+  margin-bottom: 0;
+  text-align: left;
+  color: var(--obody-background-color);
+}
+h2, h4 {
+  border-top-width: .2rem;
+  border-right-width: .2rem;
   border-style: solid;
-  border-color: #ffffffee;
-  border-width: 0 .2rem;
-
-  text-align: center;
-  color: #ffffffcc;
-  text-shadow: var(--hologram-text-glow);
-
-  -webkit-animation: var(--hologram-background-animation-speed);
-  -moz-animation: var(--hologram-background-animation-speed);
-  animation: var(--hologram-background-animation-speed);
+  border-color: var(--secondary-color);
+  border-top-right-radius: .5rem;
+}
+h2:before, h4:before {
+  content: " ";
+  display:block;
+  position: relative;
+  z-index: 1;
+  width: 20rem;
+  max-width: 50vw;
+  height: 0;
+  top:-.6rem;
+  bottom:-.6rem;
+  background-color: var(--secondary-color);
+  border: .3rem solid var(--secondary-color);
 }
 h1 + h3 {
   margin-top: 0;
 }
 
 h3 {
+  background-color: var(--grey-dark);
+  color: var(--cbody-background-color);
   font-weight: unset;
   font-size: 1.8rem;
+  padding:.3rem .5rem;
+  border-radius: 0 0 .5rem 0;
+}
+
+li h3 {
+  background-color: unset;
+  padding: 0;
+  color: inherit;
+  margin: 0;
 }
 
 img, iframe{
   max-width: 100%;
-  /* width: 100%; */
   box-sizing: content-box;
   border-radius: .5rem;
-  border-style: solid;
-  border-color: #ffffffee;
-  border-width: .2rem;
-  /* padding: .2rem; */
   transition: .15s;
-  margin: auto;
   display:block;
-  box-shadow: var(--img-glow);
+  box-shadow: .1rem .1rem .5rem var(--grey-med);
 }
 a img {
-  border-color: #ffffff11;
   box-shadow: unset;
 }
 a:hover img {
@@ -239,14 +179,7 @@ ul img {
 }
 
 td, li {
-  border-width: .1rem;
-  border-radius: .5rem;
-  border-style: solid;
-  border-color: #ffffff;
-  padding: 1rem 2rem;
-  margin-bottom: 1rem;
-  box-shadow: var(--card-box-glow);
-  background-image: var(--card-background-lines-field);
+  padding: .5rem 1.5rem;
 }
 ul li {
   list-style-type: none;
@@ -260,7 +193,24 @@ li > ul {
   margin-top: .5rem;
   padding-left: 1.5rem;
 }
-
+li:nth-child(odd) {
+  background-color: var(--grey-med);
+}
+li:nth-child(even) {
+  background-color: var(--grey-light);
+}
+li:first-child {
+  border-radius: .5rem .5rem 0 0;
+}
+li:last-child {
+  border-radius: 0 0 .5rem .5rem;
+}
+li li:nth-child(odd) {
+  background-color: unset;
+}
+li li:nth-child(even) {
+  background-color: unset;
+}
 li li {
   box-shadow: unset;
   background-image: unset;
@@ -270,10 +220,6 @@ li li {
   margin-top: .5rem;
   margin-bottom: .5rem;
   list-style-type: disc;
-}
-
-li h3 {
-  margin: .5rem 0;
 }
 
 span, p {

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'D-Din Regular';
+  src: url(D-DIN.otf);
+}
+@font-face {
+  font-family: 'D-Din Exp Regular';
+  src: url(D-DINExp.otf);
+}
+@font-face {
+  font-family: 'Handel Gothic D Bold';
+  src: url(HandelGothicDBold.otf);
+}
+@font-face {
+  font-family: 'ToyBox';
+  src: url(ToyBox.otf);
+}
+@font-face {
+  font-family: 'Dolce Vita Heavy';
+  src: url(DolceVitaHeavyBold.ttf);
+}
+@font-face {
+  font-family: 'LEMON MILK Regular';
+  src: url(LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: 'LEMON MILK Medium';
+  src: url(LEMONMILK-Medium.otf);
+}
