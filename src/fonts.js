@@ -971,6 +971,7 @@ const fonts = [
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     year: '2020',
+    charactersImages: []
   },
   {
     query: 'MetalRebel',
