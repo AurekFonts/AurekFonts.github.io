@@ -26,13 +26,13 @@ const scriptSortScreen = (totalParam) => linkHeader +
         </a>
       </li>
       <li>
-        <a href="${pathname}?script=ImperialCode">
-          "Imperial Code" [unidentified Aurebesh variant]
+        <a href="${pathname}?script=CoruscantiAurebesh">
+          "Coruscanti Aurebesh" [non-canonical name]
         </a>
       </li>
       <li>
         <a href="${pathname}?script=NabooAurebesh">
-          "Naboo Aurebesh"
+          "Naboo Aurebesh" [non-canonical name]
         </a>
       </li>
     </ul>
@@ -46,8 +46,8 @@ const scriptSortScreen = (totalParam) => linkHeader +
         </a>
       </li>      
       <li>
-        <a href="${pathname}?script=OldTongue">
-          "The Old Tongue" / Ur-Kittât
+        <a href="${pathname}?script=UrKittat">
+          Ur-Kittât / "The Old Tongue" / McQuarrie runes
         </a>
       </li>
       <li>
@@ -158,12 +158,12 @@ const scriptSortScreen = (totalParam) => linkHeader +
     <ul>
       <li>
         <a href="${pathname}?script=Kitisakkullian">
-          "Kitisakkullian" [unidentified canon Jedi Text script]
+          "Kitisakkullian" [non-canonical name, from the Jedi Texts]
         </a>
       </li>
       <li>
         <a href="${pathname}?script=Ubese">
-        "Ubese" [unidentified script from Boushh's costume]
+        "Ubese" [non-canonical name, from Boushh's costume]
         </a>
       </li>
       <li>

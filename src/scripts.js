@@ -57,11 +57,11 @@ const scripts = [
     description: `"Pseudobesh" refers to a style of type that seeks to imitate the shapes of Aurebesh in order to write another alphabet, usually High Galactic.`
   },
   {
-    name: '"Imperial Code" [unidentified Aurebesh variant]',
-    query: 'ImperialCode',
+    name: '"Coruscanti Aurebesh"',
+    query: 'CoruscantiAurebesh',
     bannerImage: undefined,
     bannerFont: '',
-    description: `"Imperial Code" is an unidentified variation of Aurebesh seen on the Star Destroyer and other view screens in Return of the Jedi.`
+    description: `"Coruscanti Aurebesh" is an unidentified variation of Aurebesh seen extensively on Coruscant and on Republic/Imperial spaceship consoles.`
   },
   {
     name: 'Geonosian',
@@ -71,7 +71,7 @@ const scripts = [
     description: `Geonosian is visible on banners in the Geonosian war-room.`
   },
   {
-    name: '"Kitisakkullian" [unknown canon Jedi Text script]',
+    name: '"Kitisakkullian"',
     query: 'Kitisakkullian',
     bannerImage: './banners/kitisakkullian-banner.png',
     bannerFont: 'Kitisakkullian',
@@ -79,7 +79,7 @@ const scripts = [
   },
   {
     name: '\"The Old Tongue\" / Ur-Kittât',
-    query: 'OldTongue',
+    query: 'UrKittat',
     bannerImage: './banners/old-tongue-banner.png',
     bannerFont: 'Old Tongue Yavin',
     description: `"The Old Tongue" can be found on ancient Sith and Jedi temples and artifacts.`
@@ -141,7 +141,7 @@ const scripts = [
     description: `Trade Federation was created for the Phantom Menace and can be seen most prominently on the numbered Battle Droids in the Phantom Menace.`
   },
   {
-    name: "'Ubese' [unknown canon script from Boushh's costume]",
+    name: `"Ubese"`,
     query: 'Ubese',
     bannerImage: './banners/ubese-banner.png',
     bannerFont: 'Ubese Boushh',
