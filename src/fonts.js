@@ -953,6 +953,7 @@ const fonts = [
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     seeAlsoQuery: `MandoAF`,
+    seeAlso: `Mando AF`,
     year: '2020',
     charactersImages: ['./MandoAlbansBane/Mando_AlbansBane-charset.png'],
     class: 'mandoalbansbane-demo mandoalbansbane-text',
