@@ -963,7 +963,7 @@ const fonts = [
   {
     query: 'MandoAF',
     name: `Mando AF`,
-    exampleImage: './MandoAF/MandoAF-example.png',
+    exampleImage: './MandoAF/MandoAF-v2-title.png',
     script: `Mandalorian`,
     foundry: 'AurekFonts',
     artistNote: ``,
@@ -973,7 +973,8 @@ const fonts = [
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
     year: '2020',
-    charactersImages: ['./MandoAF/MandoAF-charset.png'],
+    charactersImages: ['./MandoAF/MandoAF-v2-charset.png'],
+    additionalImages: ['./MandoAF/MandoAF-v2-example.png'],
     class: undefined,
     textSize: '5rem',
     pangram: 'this is the way',
