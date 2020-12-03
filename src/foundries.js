@@ -64,7 +64,7 @@ const foundries = [
       We specialize in hand crafted goods that capture the love for a galaxy far far away while sometimes crossing over into 
       worlds you may be familiar with on this planet.`,
     supportLink: 'https://galacticsurplus.co/',
-    supportText: 'galacticsurplus.co/'
+    supportText: 'galacticsurplus.co'
   },
   {
     name: 'Iconian Fonts',

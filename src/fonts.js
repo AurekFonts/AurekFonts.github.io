@@ -984,7 +984,7 @@ const fonts = [
   {
     query: 'MandoAFClassic',
     name: `Mando AF Classic`,
-    exampleImage: './MandoAF/MandoAF-classic-example.png',
+    exampleImage: './MandoAF/MandoAF-Classic-example.png',
     script: `Mandalorian`,
     foundry: `Galactic Surplus Co.`,
     foundryQuery: `GalacticSurplus`,
@@ -997,7 +997,7 @@ const fonts = [
     seeAlsoQuery: `MandoAF`,
     seeAlso: `Mando AF Regular`,
     year: '2020',
-    charactersImages: ['./MandoAF/MandoAF-classic-charset.png'],
+    charactersImages: ['./MandoAF/MandoAF-Classic-charset.png'],
     class: undefined,
     textSize: '5rem',
     pangram: 'this is the way',
