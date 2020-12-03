@@ -56,6 +56,17 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Galactic Surplus Co.',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'GalacticSurplus',
+    bio: `Galactic Surplus is a team of humans and droids who scavenge the galaxy to find unique items we thing you'll like. 
+      We specialize in hand crafted goods that capture the love for a galaxy far far away while sometimes crossing over into 
+      worlds you may be familiar with on this planet.`,
+    supportLink: 'https://galacticsurplus.co/',
+    supportText: 'galacticsurplus.co/'
+  },
+  {
     name: 'Iconian Fonts',
     bannerImage: undefined,
     bannerFont: undefined,
