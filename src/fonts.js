@@ -147,6 +147,23 @@ const fonts = [
     ]
   },
   {
+    query: 'AurebeshBloopsAF',
+    name: 'Aurebesh Bloops AF',
+    exampleImage: `./AurebeshBloopsAF/AurebeshBloopsAF-example.png`,
+    script: 'Aurebesh',
+    scriptQuery: 'Aurebesh',
+    foundry: 'AurekFonts',
+    artistNote: ``,
+    description: 'A bubbly display variant of Aurebesh.',
+    downloadUrl: './AurebeshBloopsAF/AurebeshBloopsAF.otf',
+    downloadType: '.OTF',
+    license: 'Free for all personal and commercial uses.',
+    licenseTag: 'Free',
+    year: '2020',
+    charactersImages: [],
+    additionalImages: [`./AurebeshBloopsAF/AurebeshBloopsAF-example2.png`, `./AurebeshBloopsAF/AurebeshBloopsAF-example3.png`]
+  },
+  {
     query: 'AurebeshOcchino',
     name: 'Aurebesh (David Occhino)',
     exampleImage: undefined,
