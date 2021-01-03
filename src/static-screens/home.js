@@ -38,6 +38,16 @@ const homeScreen = (totalsParam) => linkHeader +
       </ul>
     </li>
   </ul>
+  <h4>
+    Blog Tags
+  </h4>
+  <ul>
+    <li>
+      <a href="https://aurekfonts.tumblr.com/tagged/sacred-jedi-texts">
+        Translating the Sacred Jedi Texts
+      </a>
+    </li>
+  </ul>
   <h4 id="contact-us">
     Contact Us
   </h4>
