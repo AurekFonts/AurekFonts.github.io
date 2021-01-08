@@ -303,7 +303,7 @@ const fonts = [
     script: 'Droidobesh',
     foundry: 'Vamplify',
     description: `Droidobesh font, recreating the font used extensively at Mubo's Droid Depot on Batuu.`,
-    downloadUrl: './DroidobeshDepot/DroidobeshDepot.otf',
+    downloadUrl: './DroidobeshDepot/DroidobeshDepot-regular.otf',
     downloadType: '.OTF',
     license: 'Free for all personal and commercial use.',
     licenseTag: 'Free',
