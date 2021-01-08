@@ -4,7 +4,7 @@ const pangrams = {
   short:              'Use the Force!',
   Jedha:              'THEFORCESURROUNDSBINDSUS',
   JarJarFez:          'Jar Jar Binks quietly removes his X Wing fez cap',
-  BanthaMilk:         'Five banthas graze placidly, quixotic jawas milk.',
+  BanthaMilk:         'Quixotic jawas milk five placidly grazing banthas.',
   BSO:                'Warning: jezfly quivexium prohibited in Black Spire.',
   Tydirium:           'TRANS MITCOD ECLEA RANCET ODEAC TIVATE SHIEL DGENER ATOR.',
   JazzyFox:           'The Emperor cackled whilst bequeathing Vader a jazzy fox',
