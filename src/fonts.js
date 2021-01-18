@@ -512,7 +512,7 @@ const fonts = [
   {
     query: 'AurebeshVectors',
     name: 'Aurebesh Vectors',
-    exampleImage:  `AurebeshVectors-example2.png`,
+    exampleImage:  `AurebeshVectors/AurebeshVectors-example2.png`,
     script: 'Aurebesh',
     foundry: 'AurekFonts',
     artistNote: '',
@@ -523,7 +523,7 @@ const fonts = [
     licenseTag: 'Free',
     year: '2020',
     charactersImages: [],
-    additionalImages: [`AurebeshVectors-example.png`],
+    additionalImages: [`AurebeshVectors/AurebeshVectors-example.png`],
     class: undefined,
     textSize: '1.5rem',
     pangram: pangrams.BanthaMilk,
