@@ -71,6 +71,13 @@ const scripts = [
     description: `Geonosian is visible on banners in the Geonosian war-room.`
   },
   {
+    name: '"Ithorian"',
+    query: 'Ithorian',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `"Ithorian" is a fan name for a script seen on advertisements on Coruscant and Takobo.`
+  },
+  {
     name: '"Kitisakkullian"',
     query: 'Kitisakkullian',
     bannerImage: './banners/kitisakkullian-banner.png',

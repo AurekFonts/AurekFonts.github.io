@@ -153,6 +153,11 @@ homeBanner +
     <h3>Unknown canon scripts</h3>
     <ul>
       <li>
+        <a href="${pathname}?script=Ithorian">
+          "Ithorian" [unidentified canon script from Coruscant and Takobo]
+        </a>
+      </li>
+      <li>
         <a href="${pathname}?script=Kitisakkullian">
           "Kitisakkullian" [unidentified canon Jedi Text script]
         </a>

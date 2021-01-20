@@ -1,0 +1,1420 @@
+SplineFontDB: 3.2
+FontName: IthorianAF
+FullName: Ithorian AF
+FamilyName: Ithorian AF
+Weight: Regular
+Copyright: CC-0 public domain, AurekFonts 2021
+UComments: "2021-1-19: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 764 -1482030943 21353]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1611098632
+ModificationTime: 1611104017
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,0,6] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 15 14 "'kern' Horizontal Kerning in Latin lookup 0-1"
+ 39 A J T U W a j t u w A_W J_H O_O W_A W_O
+ 7 B D b d
+ 15 C G K Q c g k q
+ 3 E e
+ 17 F f I_T_H P_H T_H
+ 11 H X h x I_H
+ 15 I P Y i p y I_P
+ 3 L l
+ 11 M S Z m s z
+ 3 N n
+ 7 O o O_U
+ 11 R r O_R H_R
+ 3 V v
+ 3 E_E
+ 3 A a
+ 15 B G M Z b g m z
+ 57 C I K Q R U W Y c i k q r u w y E_E I_H I_P I_T_H O_O H_R
+ 3 D d
+ 11 E L e l T_H
+ 15 F N V f n v P_H
+ 11 H P X h p x
+ 7 J j J_H
+ 11 O o O_R O_U
+ 3 S s
+ 3 T t
+ 7 A_W W_A
+ 3 W_O
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -130 {} -180 {} -180 {} -130 {} -130 {} -90 {} -90 {} -90 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -100 {} -110 {} -110 {} -30 {} -90 {} -50 {} -60 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -130 {} -180 {} -200 {} -130 {} -110 {} -80 {} -90 {} -70 {} -130 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} -20 {} 0 {} -170 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} -40 {} -70 {} -70 {} -70 {} 0 {} -180 {} 0 {} -50 {} -90 {} -70 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -70 {} -80 {} -80 {} -20 {} -250 {} 0 {} -50 {} -80 {} -80 {} -80 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+LangName: 1033 "" "" "" "IthorianAF:v1"
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 25 10
+BeginPrivate: 0
+EndPrivate
+BeginChars: 272 70
+
+StartChar: A
+Encoding: 65 65 0
+Width: 837
+Flags: W
+HStem: -200 96<281.675 521.338> 504 96<281.675 521.338>
+VStem: 607.146 200<89.5129 310.487>
+LayerCount: 2
+Fore
+SplineSet
+407.146484375 -200 m 0
+ 233.052734375 -200 84.9638671875 -88.7685546875 30 66.4931640625 c 1
+ 79.439453125 -34.462890625 183.157226562 -104 303.146484375 -104 c 0
+ 471.041015625 -104 607.146484375 32.10546875 607.146484375 200 c 0
+ 607.146484375 367.89453125 471.041015625 504 303.146484375 504 c 0
+ 183.157226562 504 79.439453125 434.462890625 30 333.506835938 c 1
+ 84.96484375 488.768554688 233.052734375 600 407.146484375 600 c 0
+ 628.059570312 600 807.146484375 420.9140625 807.146484375 200 c 0
+ 807.146484375 -20.9140625 628.059570312 -200 407.146484375 -200 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: B
+Encoding: 66 66 1
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05> 460 140<179.329 280.671>
+VStem: 30 400<108.95 291.05> 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+SplineSet
+160 530 m 0xd0
+ 160 568.66015625 191.33984375 600 230 600 c 0
+ 268.66015625 600 300 568.66015625 300 530 c 0
+ 300 491.33984375 268.66015625 460 230 460 c 0
+ 191.33984375 460 160 491.33984375 160 530 c 0xd0
+30 200 m 0xe0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0xe0
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: C
+Encoding: 67 67 2
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630> -200 21G<327.157 630> 380 20G<174.771 285.229> 380 20G<174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+SplineSet
+371.420898438 58.5791015625 m 1xa8
+ 630 -200 l 1
+ 347.157226562 -200 l 1
+ 88.5791015625 58.5791015625 l 2
+ 52.3857421875 94.771484375 30 144.771484375 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 144.772460938 407.614257812 94.7724609375 371.420898438 58.5791015625 c 1xa8
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: D
+Encoding: 68 68 3
+Width: 460
+Flags: W
+HStem: -200 140<179.329 280.671> 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05> 160 140<-180.671 -79.3291>
+LayerCount: 2
+Fore
+SplineSet
+160 -130 m 0xd0
+ 160 -91.33984375 191.33984375 -60 230 -60 c 0
+ 268.66015625 -60 300 -91.33984375 300 -130 c 0
+ 300 -168.66015625 268.66015625 -200 230 -200 c 0
+ 191.33984375 -200 160 -168.66015625 160 -130 c 0xd0
+30 200 m 0xe0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0xe0
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: E
+Encoding: 69 69 4
+Width: 601
+Flags: W
+HStem: -200 21G<268.688 571.422> -200 21G<268.688 571.422> 380 20<460.087 512.815>
+VStem: 30 341.422<60 312.595>
+LayerCount: 2
+Fore
+SplineSet
+512.815429688 380 m 1xb0
+ 511.421875 380 l 2
+ 434.1015625 380 371.421875 317.3203125 371.421875 240 c 2
+ 371.421875 0 l 1
+ 571.421875 -200 l 1
+ 288.579101562 -200 l 1
+ 30 60 l 1
+ 30 400 l 1
+ 512.815429688 400 l 1
+ 512.815429688 380 l 1xb0
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: F
+Encoding: 70 70 5
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229 490 630> -200 21G<174.772 285.229 490 630> 380 20G<327.157 630.001> 380 20G<327.157 630.001>
+VStem: 30 400<-91.0503 91.05> 490 140<-200 200>
+LayerCount: 2
+Fore
+SplineSet
+630 340 m 1x8c
+ 630 -200 l 1
+ 490 -200 l 1
+ 490 200 l 1
+ 630 340 l 1x8c
+630.000976562 400 m 1xac
+ 371.421875 141.420898438 l 1
+ 407.614257812 105.228515625 430 55.2275390625 430 0 c 0
+ 430 -110.45703125 340.45703125 -200 230 -200 c 0
+ 119.543945312 -200 30 -110.45703125 30 0 c 0
+ 30 55.228515625 52.3857421875 105.228515625 88.5791015625 141.420898438 c 2
+ 347.157226562 400 l 1
+ 630.000976562 400 l 1xac
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: G
+Encoding: 71 71 6
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630> -200 21G<327.157 630> 380 20G<174.771 285.229> 380 20G<174.771 285.229> 460 140<179.329 280.671>
+VStem: 30 400<108.95 291.05> 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+SplineSet
+160 530 m 0x0a
+ 160 568.66015625 191.33984375 600 230 600 c 0
+ 268.66015625 600 300 568.66015625 300 530 c 0
+ 300 491.33984375 268.66015625 460 230 460 c 0
+ 191.33984375 460 160 491.33984375 160 530 c 0x0a
+371.420898438 58.5791015625 m 1
+ 630 -200 l 1
+ 347.157226562 -200 l 1
+ 88.5791015625 58.5791015625 l 2
+ 52.3857421875 94.771484375 30 144.771484375 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0xac
+ 430 144.772460938 407.614257812 94.7724609375 371.420898438 58.5791015625 c 1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: H
+Encoding: 72 72 7
+Width: 660
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430> 380 20G<610 630>
+LayerCount: 2
+Fore
+SplineSet
+371.420898438 141.420898438 m 1xa0
+ 630 400 l 1
+ 630 117.157226562 l 1
+ 371.420898438 -141.420898438 l 2
+ 335.228515625 -177.614257812 285.228515625 -200 230 -200 c 0
+ 119.54296875 -200 30 -110.45703125 30 0 c 0
+ 30 110.45703125 119.54296875 200 230 200 c 0
+ 285.227539062 200 335.227539062 177.614257812 371.420898438 141.420898438 c 1xa0
+570 400 m 1
+ 430 260 l 1
+ 30 260 l 1
+ 30 400 l 1xc0
+ 570 400 l 1
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: I
+Encoding: 73 73 8
+Width: 660
+Flags: W
+HStem: -200 21G<610 630> -200 21G<610 630> 0 400<138.95 321.05> 260 140<452.843 630>
+LayerCount: 2
+Fore
+SplineSet
+630 400 m 1x10
+ 630 260 l 1
+ 452.842773438 260 l 1x10
+ 630 82.8427734375 l 1
+ 630 -200 l 1
+ 371.421875 58.5791015625 l 1
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 2xa0
+ 630 400 l 1x10
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: J
+Encoding: 74 74 9
+Width: 860
+Flags: W
+HStem: -200 400<138.95 321.05> 400 200<303.01 508.892>
+VStem: 30 400<-91.0503 91.0503>
+LayerCount: 2
+Fore
+SplineSet
+30 0 m 0
+ 30 110.45703125 119.54296875 200 230 200 c 0
+ 340.45703125 200 430 110.45703125 430 0 c 0
+ 430 -110.45703125 340.45703125 -200 230 -200 c 0
+ 119.54296875 -200 30 -110.45703125 30 0 c 0
+430 600 m 0
+ 650.9140625 600 830 420.9140625 830 200 c 0
+ 830 129.6484375 811.814453125 63.5517578125 779.923828125 6.1171875 c 1
+ 776.650390625 224.20703125 598.869140625 400 380 400 c 0
+ 229.438476562 400 98.330078125 316.80078125 30.078125 193.8828125 c 1
+ 30.046875 195.920898438 30 197.955078125 30 200 c 0
+ 30 420.9140625 209.0859375 600 430 600 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: L
+Encoding: 76 76 10
+Width: 601
+Flags: W
+HStem: -200 21G<268.597 571.44> -200 21G<268.597 571.44> 580 20G<210 512.88> 580 20G<210 512.88>
+VStem: 30 340<58.5596 400>
+LayerCount: 2
+Fore
+SplineSet
+370 1.4404296875 m 1xa8
+ 571.440429688 -200 l 1
+ 288.600585938 -200 l 1
+ 30 58.5595703125 l 1
+ 30 400 l 1
+ 230 600 l 1
+ 512.879882812 600 l 1
+ 370 457.120117188 l 1
+ 370 1.4404296875 l 1xa8
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: M
+Encoding: 77 77 11
+Width: 660
+Flags: W
+HStem: 0 400<138.95 321.05> 460 140<179.329 280.671> 580 20G<610 630>
+VStem: 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+SplineSet
+371.421875 341.420898438 m 1xb0
+ 630 600 l 1
+ 630 317.157226562 l 1
+ 371.421875 58.5791015625 l 2
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.543945312 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.543945312 400 230 400 c 0
+ 285.227539062 400 335.227539062 377.614257812 371.421875 341.420898438 c 1xb0
+160 530 m 0
+ 160 568.66015625 191.33984375 600 230 600 c 0
+ 268.66015625 600 300 568.66015625 300 530 c 0
+ 300 491.33984375 268.66015625 460 230 460 c 0xd0
+ 191.33984375 460 160 491.33984375 160 530 c 0
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: O
+Encoding: 79 79 12
+Width: 759
+Flags: W
+HStem: -200 150<283.35 498.212> 427.877 21G<563.305 577.107> 427.877 21G<563.305 577.107> 450 50<283.35 501.472>
+VStem: 30 210<104.056 269.391>
+LayerCount: 2
+Fore
+SplineSet
+490 450 m 0xb8
+ 351.928710938 450 240 338.071289062 240 200 c 0
+ 240 61.9287109375 351.928710938 -50 490 -50 c 0
+ 602.814453125 -50 698.139648438 24.740234375 729.252929688 127.392578125 c 1
+ 717.598632812 -55.3671875 565.703125 -200 380 -200 c 0
+ 186.700195312 -200 30 -43.2998046875 30 150 c 0
+ 30 343.299804688 186.700195312 500 380 500 c 0
+ 460.055664062 500 533.8203125 473.1015625 592.7890625 427.876953125 c 1
+ 561.42578125 442.046875 526.65234375 450 490 450 c 0xb8
+EndSplineSet
+Validated: 8912897
+EndChar
+
+StartChar: N
+Encoding: 78 78 13
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229> -200 21G<174.772 285.229> 380 20G<327.157 630.001> 380 20G<327.157 630.001>
+VStem: 30 400<-91.0503 91.05>
+LayerCount: 2
+Fore
+SplineSet
+630.000976562 400 m 1xa8
+ 371.421875 141.420898438 l 1
+ 407.614257812 105.228515625 430 55.2275390625 430 0 c 0
+ 430 -110.45703125 340.45703125 -200 230 -200 c 0
+ 119.543945312 -200 30 -110.45703125 30 0 c 0
+ 30 55.228515625 52.3857421875 105.228515625 88.5791015625 141.420898438 c 2
+ 347.157226562 400 l 1
+ 630.000976562 400 l 1xa8
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: P
+Encoding: 80 80 14
+Width: 460
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430>
+VStem: 30 400<-91.0503 91.0503 260 400>
+LayerCount: 2
+Fore
+SplineSet
+30 260 m 1
+ 30 400 l 1
+ 430 400 l 1
+ 430 260 l 1
+ 30 260 l 1
+30 0 m 0
+ 30 110.45703125 119.54296875 200 230 200 c 0
+ 340.45703125 200 430 110.45703125 430 0 c 0
+ 430 -110.45703125 340.45703125 -200 230 -200 c 0
+ 119.54296875 -200 30 -110.45703125 30 0 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: R
+Encoding: 82 82 15
+Width: 860
+Flags: W
+HStem: 200 200<430 630>
+LayerCount: 2
+Fore
+SplineSet
+230 400 m 2
+ 830 400 l 1
+ 630 200 l 1
+ 430 200 l 1
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.543945312 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.543945312 400 230 400 c 2
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: S
+Encoding: 83 83 16
+Width: 660
+Flags: W
+HStem: -200 140<30 430> 0 400<138.95 321.05> 580 20G<610 630> 580 20G<610 630>
+LayerCount: 2
+Fore
+SplineSet
+30 -200 m 1xc0
+ 30 -60 l 1
+ 430 -60 l 1
+ 430 -200 l 1
+ 30 -200 l 1xc0
+371.421875 341.420898438 m 1
+ 630 600 l 1xe0
+ 630 317.157226562 l 1
+ 371.421875 58.5791015625 l 2
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.543945312 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.543945312 400 230 400 c 0
+ 285.227539062 400 335.227539062 377.614257812 371.421875 341.420898438 c 1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: T
+Encoding: 84 84 17
+Width: 460
+Flags: W
+HStem: -200 140<30 430> 0 400<138.95 321.05>
+VStem: 30 400<-200 -60 108.95 291.05>
+LayerCount: 2
+Fore
+SplineSet
+30 -200 m 1
+ 30 -60 l 1
+ 430 -60 l 1
+ 430 -200 l 1
+ 30 -200 l 1
+30 200 m 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: U
+Encoding: 85 85 18
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+SplineSet
+30 200 m 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: V
+Encoding: 86 86 19
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229> -200 21G<174.772 285.229> -70 140<509.329 610.671> 380 20G<327.157 630.001> 380 20G<327.157 630.001>
+VStem: 30 400<-91.0503 91.05> 490 140<-50.6709 50.6709>
+LayerCount: 2
+Fore
+SplineSet
+630.000976562 400 m 1xb6
+ 371.421875 141.420898438 l 1
+ 407.614257812 105.228515625 430 55.2275390625 430 0 c 0
+ 430 -110.45703125 340.45703125 -200 230 -200 c 0
+ 119.543945312 -200 30 -110.45703125 30 0 c 0
+ 30 55.228515625 52.3857421875 105.228515625 88.5791015625 141.420898438 c 2
+ 347.157226562 400 l 1
+ 630.000976562 400 l 1xb6
+490 0 m 0
+ 490 38.66015625 521.33984375 70 560 70 c 0
+ 598.66015625 70 630 38.66015625 630 0 c 0
+ 630 -38.66015625 598.66015625 -70 560 -70 c 0
+ 521.33984375 -70 490 -38.66015625 490 0 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: Z
+Encoding: 90 90 20
+Width: 660
+Flags: W
+HStem: -200 140<179.329 280.671> 0 400<138.95 321.05> 580 20G<610 630> 580 20G<610 630>
+VStem: 160 140<-180.671 -79.3291>
+LayerCount: 2
+Fore
+SplineSet
+371.421875 341.420898438 m 1xe8
+ 630 600 l 1
+ 630 317.157226562 l 1
+ 371.421875 58.5791015625 l 2
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.543945312 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.543945312 400 230 400 c 0
+ 285.227539062 400 335.227539062 377.614257812 371.421875 341.420898438 c 1xe8
+160 -130 m 0
+ 160 -91.33984375 191.33984375 -60 230 -60 c 0
+ 268.66015625 -60 300 -91.33984375 300 -130 c 0
+ 300 -168.66015625 268.66015625 -200 230 -200 c 0
+ 191.33984375 -200 160 -168.66015625 160 -130 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: K
+Encoding: 75 75 21
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 2 67 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: Q
+Encoding: 81 81 22
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 2 67 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: X
+Encoding: 88 88 23
+Width: 660
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430> 380 20G<610 630>
+LayerCount: 2
+Fore
+Refer: 7 72 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: Y
+Encoding: 89 89 24
+Width: 660
+Flags: W
+HStem: -200 21G<610 630 610 630> 0 400<138.95 321.05> 260 140<452.843 630>
+LayerCount: 2
+Fore
+Refer: 8 73 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: W
+Encoding: 87 87 25
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 18 85 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: A_W
+Encoding: 256 -1 26
+Width: 860
+Flags: W
+HStem: -200 96<315.809 555.472> 0 400<538.95 721.05> 504 96<315.809 555.472>
+VStem: 30 200<89.5129 310.487> 430 400<108.95 291.05>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+430 200 m 0
+ 430 310.45703125 519.54296875 400 630 400 c 0
+ 740.45703125 400 830 310.45703125 830 200 c 0
+ 830 89.54296875 740.45703125 0 630 0 c 0
+ 519.54296875 0 430 89.54296875 430 200 c 0
+534 -104 m 0
+ 653.989257812 -104 757.708007812 -34.462890625 807.146484375 66.4931640625 c 1
+ 752.182617188 -88.7685546875 604.092773438 -200 430 -200 c 0
+ 209.086914062 -200 30 -20.9140625 30 200 c 0
+ 30 420.9140625 209.086914062 600 430 600 c 0
+ 604.092773438 600 752.181640625 488.768554688 807.146484375 333.506835938 c 1
+ 757.70703125 434.462890625 653.989257812 504 534 504 c 0
+ 366.10546875 504 230 367.89453125 230 200 c 0
+ 230 32.10546875 366.10546875 -104 534 -104 c 0
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" a h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" a u
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A u
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A U
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A W
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" A w
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" a w
+EndChar
+
+StartChar: E_E
+Encoding: 257 -1 27
+Width: 660
+Flags: W
+HStem: -200 21G<610 630> -200 21G<610 630> 0 400<138.95 321.05>
+LayerCount: 2
+Fore
+SplineSet
+371.421875 341.420898438 m 2xa0
+ 630 82.8427734375 l 1
+ 630 -200 l 1
+ 371.421875 58.5791015625 l 1
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 285.227539062 400 335.227539062 377.614257812 371.421875 341.420898438 c 2xa0
+EndSplineSet
+Validated: 8912897
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" E E
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" E e
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" e e
+EndChar
+
+StartChar: I_H
+Encoding: 258 -1 28
+Width: 1360
+Flags: W
+HStem: -200 400<838.95 1021.05> -200 21G<610 630> 0 400<138.95 321.05> 260 140<452.843 1130> 380 20G<1310 1330>
+LayerCount: 2
+Fore
+SplineSet
+1071.42089844 141.420898438 m 1x80
+ 1330 400 l 1
+ 1330 117.157226562 l 1
+ 1071.42089844 -141.420898438 l 2
+ 1035.22851562 -177.614257812 985.228515625 -200 930 -200 c 0x88
+ 819.54296875 -200 730 -110.45703125 730 0 c 0x20
+ 730 110.45703125 819.54296875 200 930 200 c 0
+ 985.227539062 200 1035.22753906 177.614257812 1071.42089844 141.420898438 c 1x80
+1130 260 m 1x10
+ 452.842773438 260 l 1x10
+ 630 82.8427734375 l 1
+ 630 -200 l 1
+ 371.420898438 58.5791015625 l 1
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0x60
+ 119.54296875 0 30 89.54296875 30 200 c 0x80
+ 30 310.45703125 119.54296875 400 230 400 c 2x20
+ 1270 400 l 1x08
+ 1130 260 l 1x10
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y x
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y x
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y X
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" i x
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I x
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I X
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" i h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y h
+EndChar
+
+StartChar: I_P
+Encoding: 259 -1 29
+Width: 1160
+Flags: W
+HStem: -200 400<838.95 1021.05> -200 21G<610 630> 260 140<452.843 1130>
+VStem: 730 400<-91.0503 91.0503>
+LayerCount: 2
+Fore
+SplineSet
+730 0 m 0xb0
+ 730 110.45703125 819.54296875 200 930 200 c 0
+ 1040.45703125 200 1130 110.45703125 1130 0 c 0
+ 1130 -110.45703125 1040.45703125 -200 930 -200 c 0
+ 819.54296875 -200 730 -110.45703125 730 0 c 0xb0
+230 400 m 2
+ 1130 400 l 1
+ 1130 260 l 1
+ 452.842773438 260 l 1
+ 630 82.8427734375 l 1
+ 630 -200 l 1x70
+ 371.420898438 58.5791015625 l 1
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 2
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I P
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I p
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" i p
+EndChar
+
+StartChar: I_T_H
+Encoding: 260 -1 30
+Width: 1160
+Flags: W
+HStem: -200 21G<610 630> -200 21G<610 630> 60 140<730 1130> 260 140<452.843 1130>
+LayerCount: 2
+Fore
+SplineSet
+730 60 m 1x30
+ 730 200 l 1
+ 1130 200 l 1
+ 1130 60 l 1
+ 730 60 l 1x30
+230 400 m 2
+ 1130 400 l 1
+ 1130 260 l 1
+ 452.842773438 260 l 1
+ 630 82.8427734375 l 1
+ 630 -200 l 1xb0
+ 371.421875 58.5791015625 l 1
+ 335.228515625 22.3857421875 285.228515625 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 2
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" y t h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y t h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Y T H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" i t h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I t h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" I T H
+EndChar
+
+StartChar: J_H
+Encoding: 261 -1 31
+Width: 860
+Flags: W
+HStem: -200 400<138.95 321.05> -200 200<430 630> 400 200<303.01 508.892>
+LayerCount: 2
+Fore
+SplineSet
+430 0 m 1x60
+ 630 0 l 1
+ 830 -200 l 1x60
+ 230 -200 l 2xa0
+ 119.54296875 -200 30 -110.45703125 30 0 c 0x60
+ 30 110.45703125 119.54296875 200 230 200 c 0xa0
+ 340.45703125 200 430 110.45703125 430 0 c 1x60
+380 400 m 0
+ 229.438476562 400 98.330078125 316.80078125 30.078125 193.8828125 c 1
+ 30.046875 195.920898438 30 197.955078125 30 200 c 0
+ 30 420.9140625 209.0859375 600 430 600 c 0
+ 650.9140625 600 830 420.9140625 830 200 c 0xa0
+ 830 129.6484375 811.814453125 63.5517578125 779.923828125 6.1171875 c 1
+ 776.650390625 224.20703125 598.869140625 400 380 400 c 0
+EndSplineSet
+Validated: 8912897
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" z h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" Z H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" j h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" J H
+EndChar
+
+StartChar: O_R
+Encoding: 262 -1 32
+Width: 1120
+Flags: W
+HStem: -200 150<283.35 498.212> 200 200<690 890> 427.877 21G<563.304 577.107> 427.877 21G<563.304 577.107> 450 50<283.35 501.472>
+VStem: 30 210<104.056 269.391>
+LayerCount: 2
+Fore
+SplineSet
+490 -50 m 0xdc
+ 602.814453125 -50 698.140625 24.740234375 729.25390625 127.392578125 c 1
+ 717.598632812 -55.3671875 565.703125 -200 380 -200 c 0
+ 186.700195312 -200 30 -43.2998046875 30 150 c 0
+ 30 343.299804688 186.700195312 500 380 500 c 0
+ 460.056640625 500 533.819335938 473.1015625 592.7890625 427.876953125 c 1
+ 561.42578125 442.046875 526.65234375 450 490 450 c 0
+ 351.928710938 450 240 338.071289062 240 200 c 0
+ 240 61.9287109375 351.928710938 -50 490 -50 c 0xdc
+490 400 m 2
+ 1090 400 l 1
+ 890 200 l 1
+ 690 200 l 1
+ 690 89.54296875 600.45703125 0 490 0 c 0
+ 379.543945312 0 290 89.54296875 290 200 c 0
+ 290 310.45703125 379.543945312 400 490 400 c 2
+EndSplineSet
+Validated: 8912897
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o r
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O r
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O R
+EndChar
+
+StartChar: O_O
+Encoding: 263 -1 33
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 18 85 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O O
+EndChar
+
+StartChar: O_U
+Encoding: 264 -1 34
+Width: 759
+Flags: W
+HStem: -200 150<283.35 498.212> 0 400<398.95 581.05> 427.877 21G<563.304 577.107> 427.877 21G<563.304 577.107> 450 50<283.35 501.472>
+VStem: 30 210<104.056 269.391> 290 400<108.95 291.05>
+LayerCount: 2
+Fore
+SplineSet
+290 200 m 0xce
+ 290 310.45703125 379.54296875 400 490 400 c 0
+ 600.45703125 400 690 310.45703125 690 200 c 0
+ 690 89.54296875 600.45703125 0 490 0 c 0
+ 379.54296875 0 290 89.54296875 290 200 c 0xce
+490 -50 m 0
+ 602.814453125 -50 698.140625 24.740234375 729.25390625 127.392578125 c 1
+ 717.598632812 -55.3671875 565.703125 -200 380 -200 c 0
+ 186.700195312 -200 30 -43.2998046875 30 150 c 0
+ 30 343.299804688 186.700195312 500 380 500 c 0
+ 460.056640625 500 533.819335938 473.1015625 592.7890625 427.876953125 c 1xde
+ 561.42578125 442.046875 526.65234375 450 490 450 c 0
+ 351.928710938 450 240 338.071289062 240 200 c 0
+ 240 61.9287109375 351.928710938 -50 490 -50 c 0
+EndSplineSet
+Validated: 8912897
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o w
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O w
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O W
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" o u
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O u
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" O U
+EndChar
+
+StartChar: P_H
+Encoding: 265 -1 35
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229 174.772 285.229 490 630 490 630> 380 20G<327.157 630.001 327.157 630.001>
+VStem: 30 400<-91.0503 91.05> 490 140<-200 200>
+LayerCount: 2
+Fore
+Refer: 5 70 N 1 0 0 1 0 0 2
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" p h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" P h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" P H
+EndChar
+
+StartChar: H_R
+Encoding: 266 -1 36
+Width: 1120
+Flags: W
+HStem: 0 140<490 690> 200 200<430 890>
+LayerCount: 2
+Fore
+SplineSet
+490 0 m 1
+ 490 140 l 1
+ 830 140 l 1
+ 690 0 l 1
+ 490 0 l 1
+230 400 m 2
+ 1090 400 l 1
+ 890 200 l 1
+ 430 200 l 1
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+ 30 310.45703125 119.54296875 400 230 400 c 2
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" H R
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" H r
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" h r
+EndChar
+
+StartChar: T_H
+Encoding: 267 -1 37
+Width: 460
+Flags: W
+HStem: 60 140<30 430> 260 140<30 430>
+LayerCount: 2
+Fore
+SplineSet
+30 60 m 1
+ 30 200 l 1
+ 430 200 l 1
+ 430 60 l 1
+ 30 60 l 1
+30 260 m 1
+ 30 400 l 1
+ 430 400 l 1
+ 430 260 l 1
+ 30 260 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T H
+EndChar
+
+StartChar: W_A
+Encoding: 268 -1 38
+Width: 860
+Flags: W
+HStem: -200 96<304.528 544.191> 0 400<138.95 321.05> 504 96<304.528 544.192>
+VStem: 30 400<108.95 291.05> 630 200<89.5129 310.487>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+30 200 m 0
+ 30 310.45703125 119.54296875 400 230 400 c 0
+ 340.45703125 400 430 310.45703125 430 200 c 0
+ 430 89.54296875 340.45703125 0 230 0 c 0
+ 119.54296875 0 30 89.54296875 30 200 c 0
+430 600 m 0
+ 650.9140625 600 830 420.9140625 830 200 c 0
+ 830 -20.9140625 650.9140625 -200 430 -200 c 0
+ 255.907226562 -200 107.818359375 -88.767578125 52.853515625 66.4931640625 c 1
+ 102.29296875 -34.462890625 206.010742188 -104 326 -104 c 0
+ 493.893554688 -104 630 32.10546875 630 200 c 0
+ 630 367.89453125 493.89453125 504 326 504 c 0
+ 206.010742188 504 102.29296875 434.462890625 52.853515625 333.506835938 c 1
+ 107.818359375 488.768554688 255.907226562 600 430 600 c 0
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" u a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" U a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" U A
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" w a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W A
+EndChar
+
+StartChar: W_O
+Encoding: 269 -1 39
+Width: 759
+Flags: W
+HStem: -200 150<261.041 475.903> 0 400<178.203 360.303> 427.877 21G<182.146 195.949> 427.877 21G<182.146 195.949> 450 50<257.781 475.903>
+VStem: 69.2529 400<108.95 291.05> 519.253 210<104.056 269.391>
+LayerCount: 2
+Fore
+SplineSet
+69.2529296875 200 m 0xce
+ 69.2529296875 310.45703125 158.795898438 400 269.252929688 400 c 0
+ 379.709960938 400 469.252929688 310.45703125 469.252929688 200 c 0
+ 469.252929688 89.54296875 379.709960938 0 269.252929688 0 c 0
+ 158.795898438 0 69.2529296875 89.54296875 69.2529296875 200 c 0xce
+379.252929688 500 m 0
+ 572.552734375 500 729.252929688 343.299804688 729.252929688 150 c 0
+ 729.252929688 -43.2998046875 572.552734375 -200 379.252929688 -200 c 0
+ 193.55078125 -200 41.654296875 -55.3671875 30 127.393554688 c 1
+ 61.11328125 24.740234375 156.438476562 -50 269.252929688 -50 c 0
+ 407.32421875 -50 519.252929688 61.9287109375 519.252929688 200 c 0
+ 519.252929688 338.071289062 407.32421875 450 269.252929688 450 c 0
+ 232.6015625 450 197.827148438 442.046875 166.46484375 427.876953125 c 1xde
+ 225.43359375 473.1015625 299.196289062 500 379.252929688 500 c 0
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" u o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" U o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" U O
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" w o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" W O
+EndChar
+
+StartChar: a
+Encoding: 97 97 40
+Width: 837
+Flags: W
+HStem: -200 96<281.675 521.338> 504 96<281.675 521.338>
+VStem: 607.146 200<89.5129 310.487>
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: b
+Encoding: 98 98 41
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05> 460 140<179.329 280.671>
+VStem: 30 400<108.95 291.05> 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+Refer: 1 66 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: c
+Encoding: 99 99 42
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 2 67 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: d
+Encoding: 100 100 43
+Width: 460
+Flags: W
+HStem: -200 140<179.329 280.671> 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05> 160 140<-180.671 -79.3291>
+LayerCount: 2
+Fore
+Refer: 3 68 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: e
+Encoding: 101 101 44
+Width: 601
+Flags: W
+HStem: -200 21G<268.688 571.422 268.688 571.422> 380 20<460.087 512.815>
+VStem: 30 341.422<60 312.595>
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: f
+Encoding: 102 102 45
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229 174.772 285.229 490 630 490 630> 380 20G<327.157 630.001 327.157 630.001>
+VStem: 30 400<-91.0503 91.05> 490 140<-200 200>
+LayerCount: 2
+Fore
+Refer: 5 70 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: g
+Encoding: 103 103 46
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229> 460 140<179.329 280.671>
+VStem: 30 400<108.95 291.05> 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+Refer: 6 71 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: h
+Encoding: 104 104 47
+Width: 660
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430> 380 20G<610 630>
+LayerCount: 2
+Fore
+Refer: 7 72 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: i
+Encoding: 105 105 48
+Width: 660
+Flags: W
+HStem: -200 21G<610 630 610 630> 0 400<138.95 321.05> 260 140<452.843 630>
+LayerCount: 2
+Fore
+Refer: 8 73 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: j
+Encoding: 106 106 49
+Width: 860
+Flags: W
+HStem: -200 400<138.95 321.05> 400 200<303.01 508.892>
+VStem: 30 400<-91.0503 91.0503>
+LayerCount: 2
+Fore
+Refer: 9 74 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: k
+Encoding: 107 107 50
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 21 75 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: l
+Encoding: 108 108 51
+Width: 601
+Flags: W
+HStem: -200 21G<268.597 571.44 268.597 571.44> 580 20G<210 512.88 210 512.88>
+VStem: 30 340<58.5596 400>
+LayerCount: 2
+Fore
+Refer: 10 76 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: m
+Encoding: 109 109 52
+Width: 660
+Flags: W
+HStem: 0 400<138.95 321.05> 460 140<179.329 280.671> 580 20G<610 630>
+VStem: 160 140<479.329 580.671>
+LayerCount: 2
+Fore
+Refer: 11 77 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: n
+Encoding: 110 110 53
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229 174.772 285.229> 380 20G<327.157 630.001 327.157 630.001>
+VStem: 30 400<-91.0503 91.05>
+LayerCount: 2
+Fore
+Refer: 13 78 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: o
+Encoding: 111 111 54
+Width: 759
+Flags: W
+HStem: -200 150<283.35 498.212> 427.877 21G<563.305 577.107 563.305 577.107> 450 50<283.35 501.472>
+VStem: 30 210<104.056 269.391>
+LayerCount: 2
+Fore
+Refer: 12 79 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: p
+Encoding: 112 112 55
+Width: 460
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430>
+VStem: 30 400<-91.0503 91.0503 260 400>
+LayerCount: 2
+Fore
+Refer: 14 80 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: q
+Encoding: 113 113 56
+Width: 660
+Flags: W
+HStem: -200 21G<327.157 630 327.157 630> 380 20G<174.771 285.229 174.771 285.229>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 22 81 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: r
+Encoding: 114 114 57
+Width: 860
+Flags: W
+HStem: 200 200<430 630>
+LayerCount: 2
+Fore
+Refer: 15 82 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: s
+Encoding: 115 115 58
+Width: 660
+Flags: W
+HStem: -200 140<30 430> 0 400<138.95 321.05> 580 20G<610 630 610 630>
+LayerCount: 2
+Fore
+Refer: 16 83 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: t
+Encoding: 116 116 59
+Width: 460
+Flags: W
+HStem: -200 140<30 430> 0 400<138.95 321.05>
+VStem: 30 400<-200 -60 108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 17 84 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: u
+Encoding: 117 117 60
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 18 85 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: v
+Encoding: 118 118 61
+Width: 660
+Flags: W
+HStem: -200 21G<174.772 285.229 174.772 285.229> -70 140<509.329 610.671> 380 20G<327.157 630.001 327.157 630.001>
+VStem: 30 400<-91.0503 91.05> 490 140<-50.6709 50.6709>
+LayerCount: 2
+Fore
+Refer: 19 86 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: w
+Encoding: 119 119 62
+Width: 460
+Flags: W
+HStem: 0 400<138.95 321.05>
+VStem: 30 400<108.95 291.05>
+LayerCount: 2
+Fore
+Refer: 25 87 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: x
+Encoding: 120 120 63
+Width: 660
+Flags: W
+HStem: -200 400<138.95 321.05> 260 140<30 430> 380 20G<610 630>
+LayerCount: 2
+Fore
+Refer: 23 88 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: y
+Encoding: 121 121 64
+Width: 660
+Flags: W
+HStem: -200 21G<610 630 610 630> 0 400<138.95 321.05> 260 140<452.843 630>
+LayerCount: 2
+Fore
+Refer: 24 89 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: z
+Encoding: 122 122 65
+Width: 660
+Flags: W
+HStem: -200 140<179.329 280.671> 0 400<138.95 321.05> 580 20G<610 630 610 630>
+VStem: 160 140<-180.671 -79.3291>
+LayerCount: 2
+Fore
+Refer: 20 90 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: space
+Encoding: 32 32 66
+Width: 460
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: C_H
+Encoding: 270 -1 67
+Width: 860
+Flags: W
+HStem: 400 200<303.01 508.892>
+LayerCount: 2
+Fore
+SplineSet
+380 400 m 0
+ 229.438476562 400 98.330078125 316.799804688 30.078125 193.8828125 c 1
+ 30.046875 195.920898438 30 197.955078125 30 200 c 0
+ 30 420.9140625 209.0859375 600 430 600 c 0
+ 650.9140625 600 830 420.9140625 830 200 c 0
+ 830 129.6484375 811.814453125 63.5517578125 779.923828125 6.1171875 c 1
+ 776.650390625 224.20703125 598.869140625 400 380 400 c 0
+EndSplineSet
+Validated: 524289
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" s h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" S H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t s h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T s h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T S H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" t c h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T c h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" T C H
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" c h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" C h
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" C H
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 68
+Width: 460
+Flags: W
+HStem: 60 140<30 430>
+LayerCount: 2
+Fore
+Refer: 69 -1 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: .notdef
+Encoding: 271 -1 69
+Width: 460
+Flags: W
+HStem: 60 140<30 430>
+LayerCount: 2
+Fore
+SplineSet
+30 60 m 1
+ 30 200 l 1
+ 430 200 l 1
+ 430 60 l 1
+ 30 60 l 1
+EndSplineSet
+Validated: 1
+EndChar
+EndChars
+EndSplineFont

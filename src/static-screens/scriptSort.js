@@ -157,6 +157,11 @@ const scriptSortScreen = (totalParam) => linkHeader +
     <h3>Unknown canon scripts</h3>
     <ul>
       <li>
+        <a href="${pathname}?script=Ithorian">
+          "Ithorian" [non-canonical name, from Coruscant and Takobo]
+        </a>
+      </li>
+      <li>
         <a href="${pathname}?script=Kitisakkullian">
           "Kitisakkullian" [non-canonical name, from the Jedi Texts]
         </a>
