@@ -51,7 +51,7 @@ const stringToAurebesh = (string) => {
 
 const translateHandler = () => {
   const string = document.getElementById(`alphabet`).value;
-  const aurebesh = stringToAurebesh(string) + `<br>@AurekFonts #Aurebesh`;
+  const aurebesh = stringToAurebesh(string) + `<br>@AurekFonts #AurebeshTweet`;
   document.getElementById(`translation`).innerHTML = aurebesh;
   console.log(aurebesh);
   return;
