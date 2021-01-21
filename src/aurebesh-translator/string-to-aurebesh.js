@@ -49,7 +49,7 @@ const LATIN_AUREBESH = {
 
 const stringToAurebesh = (str) => {
 	return str.split("").reduce((acc, char) => {
-		return LATIN_AUREBESH[char.toLowerCase()] ?? "";
+		return acc + (LATIN_AUREBESH[char.toLowerCase()] || "");
 	}, "")
 }
 
