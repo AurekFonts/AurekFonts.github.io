@@ -45,10 +45,9 @@
       <h2>Aurebesh for Twitter (beta)</h2>
       <p>I make no guarantees that this will work. This uses a simple replacement algorithm. The output uses braille characters.</p>
       <p>Enter the text you wish to translate:</p>
-      <input type="text" name="alphabet" id="alphabet">
-      <input type="button" value="Translate" id="translate" onclick="translateHandler()">
+      <input type="text" name="alphabet" id="alphabet" onkeyup="translateHandler()">
       <p>Translation:</p>
-      <div id="translation" style="background-color: #141d26; color: #ffffff; border-radius: 10px; max-width: fit-content; padding: 20px;"></div>
+      <div id="translation" style="background-color: #141d26; color: #ffffff; border-radius: 10px; max-width: fit-content; padding: 20px;"><br>@AurekFonts #AurebeshTweet</div>
     </div>
       <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
