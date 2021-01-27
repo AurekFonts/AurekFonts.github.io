@@ -992,7 +992,7 @@ const fonts = [
   {
     query: 'LaptiNekAF',
     name: 'Lapti Nek AF',
-    exampleImage: './LaptiNekAF/LaptiNekAF-example1.png',
+    exampleImage: './LaptiNekAF/LaptiNek_cover-2.png',
     script: 'Aurebesh',
     foundry: 'AurekFonts',
     artistNote: `(Lapti Nek album art by <a href="https://twitter.com/NickImagined">@NickImagined</a>)`,
@@ -1003,7 +1003,7 @@ const fonts = [
     licenseTag: 'Free',
     year: '2020',
     charactersImages: ['./LaptiNekAF/LaptiNekAF-charset.jpg'],
-    additionalImages: [`./LaptiNekAF/LaptiNek_cover-2.png,``./LaptiNekAF/LaptiNekAF-example2.png`, `./LaptiNekAF/LaptiNekAF-example3.png`]
+    additionalImages: [`./LaptiNekAF/LaptiNekAF-example1.png`,`./LaptiNekAF/LaptiNekAF-example2.png`, `./LaptiNekAF/LaptiNekAF-example3.png`]
   },
   {
     query: 'Maulobesh',
