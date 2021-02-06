@@ -29,6 +29,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Camucia',
+    bannerImage: undefined,
+    bannerFont: '',
+    query: 'Camucia',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Convallarias Art',
     bannerImage: './banners/convallarias-art-page-banner.png',
     bannerFont: 'Aurebesh Calligraphy',
