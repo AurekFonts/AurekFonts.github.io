@@ -651,7 +651,7 @@ const fonts = [
   },
   {
     query: 'CorellianCalligraphy',
-    name: 'Corellian Calligrapht',
+    name: 'Corellian Calligraphy',
     exampleImage: `./CorellianCalligraphy/CorellianCalligraphy-example.png`,
     script: 'Clynese / Corellian',
     scriptQuery: 'Clynese',
