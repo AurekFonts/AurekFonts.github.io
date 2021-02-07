@@ -4,12 +4,12 @@ const fonts = [
   {
     query: 'ABEquinox',
     name: 'AB Equinox',
-    exampleImage: './ABEquinox/ABEquinox-example.jpg',
+    exampleImage: './ABEquinox/ABEquinox-example.png',
     script: 'Aurebesh',
     foundry: 'Fragger MT',
     foundryQuery: 'FraggerMT',
     artistNote: `AB Equinox's heavyweight letters are styled with Lantillian simplicity in mind, utilizing uniform angles and selective intersections to construct a solid display typeface intended for signs, headlines and brands.`,
-    description: 'Lantillian-style Aurebesh fontface',
+    description: 'Neo-grotesque, single-case, Lantillian-style Aurebesh fontface',
     downloadUrl: './ABEquinox/AB-Equinox.otf',
     downloadType: '.OTF',
     license: `Rules for using this typeface:
