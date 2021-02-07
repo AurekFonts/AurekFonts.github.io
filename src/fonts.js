@@ -2,6 +2,28 @@
 
 const fonts = [
   {
+    query: 'ABEquinox',
+    name: 'AB Equinox',
+    exampleImage: './ABEquinox/ABEquinox-example.jpg',
+    script: 'Aurebesh',
+    foundry: 'Fragger MT',
+    foundryQuery: 'FraggerMT',
+    artistNote: `AB Equinox's heavyweight letters are styled with Lantillian simplicity in mind, utilizing uniform angles and selective intersections to construct a solid display typeface intended for signs, headlines and brands.`,
+    description: 'Lantillian-style Aurebesh fontface',
+    downloadUrl: './ABEquinox/AB-Equinox.otf',
+    downloadType: '.OTF',
+    license: `Rules for using this typeface:
+    <ol><li>AB Equinox is forever free of charge.</li>
+    <li>AB Equinox may be used in any commercial or personal project.</li>
+    <li>AB Equinox may be modified.</li>
+    <li>AB Equinox may be redistributed on other websites.</li>
+    <li>I can force no one to mention my name or the name of the typeface when used. I would appreciate it, though. ;-)</li>
+    <li>TL;DR: There are no rules. Have fun!</li></ol>`,
+    licenseTag: 'Free',
+    year: '2019',
+    charactersImages: ['./ABEquinox/ABEquinox-charset.png'],
+  },
+  {
     query: 'AlmostThere',
     name: 'Almost There',
     exampleImage: './AlmostThere/almostthere-example-1.png',

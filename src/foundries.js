@@ -65,6 +65,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Fragger MT',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'FraggerMT',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Galactic Surplus Co.',
     bannerImage: undefined,
     bannerFont: undefined,
