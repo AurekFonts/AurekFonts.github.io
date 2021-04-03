@@ -1044,6 +1044,21 @@ const fonts = [
     additionalImages: [`./LaptiNekAF/LaptiNekAF-example1.png`,`./LaptiNekAF/LaptiNekAF-example2.png`, `./LaptiNekAF/LaptiNekAF-example3.png`]
   },
   {
+    query: 'LifeDayAF',
+    name: 'Life Day AF',
+    exampleImage: './LifeDayAF/LifeDayAF-example.png',
+    script: 'Nelvanabesh [Unknown Cartoon Script (Legends)]',
+    scriptQuery: 'UnknownLegends',
+    foundry: 'AurekFonts',
+    description: `Font from the opening titles of <em>The Faithful Wookiee</em> animated segment of the <em>Star Wars Holiday Special</em> (1978).`,
+    downloadUrl: './LifeDayAF/LifeDayAFBETA.otf',
+    downloadType: '.OTF (BETA)',
+    license: 'Free for all personal and commercial uses.',
+    licenseTag: 'Free',
+    year: '2020',
+    charactersImages: ['./LifeDayAF/LifeDayAF-charset.png'],
+  },
+  {
     query: 'Maulobesh',
     name: 'Maulobesh',
     exampleImage: './Maulobesh/Maulobesh-example-1.png',
