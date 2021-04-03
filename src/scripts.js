@@ -190,7 +190,7 @@ const scripts = [
     description: `Sith Kittât was the ancient language of the Sith in <em>Legends</em>. It is not a mere replacement cipher, but a complete constructed language with its own grammar and vocabulary.`
   },
   {
-    name: "Unknown <em>Ledgends</em> scripts",
+    name: "Unknown <em>Legends</em> scripts",
     query: 'UnknownLegends',
     bannerImage: undefined,
     bannerFont: undefined,
