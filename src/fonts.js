@@ -1385,7 +1385,7 @@ const fonts = [
   {
     query: 'RememberKamino',
     name: 'Remember Kamino',
-    exampleImage: './RememberKamino/RememberKamnio-example.png',
+    exampleImage: './RememberKamino/RememberKamino-example.png',
     script: 'High Galactic Alphabet (Logo)',
     scriptQuery: 'HighGalactic',
     foundry: 'AurekFonts',
