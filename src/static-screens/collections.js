@@ -19,7 +19,9 @@ homeBanner +
         </a>
       </li>
       <li>
-          Dishabesh (coming soon)
+          <a href="${pathname}?script=Dishabesh">
+            Dishabesh
+          </a>
       </li>
       <li>
         <a href="${pathname}?script=Droidobesh">

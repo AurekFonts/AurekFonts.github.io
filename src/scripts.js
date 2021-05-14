@@ -25,6 +25,13 @@ const scripts = [
     description: `Domabesh is a variation of Aurebesh that can be seen prominently on the walls of Jedha, and in use by the Rebel Alliance in Rogue One.`
   },
   {
+    name: 'Dishabesh',
+    query: 'Dishabesh',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `Dishabesh is a variant of Aurebesh seen prominently on the helmet of Enfys Nest in SOLO.`
+  },
+  {
     name: 'Droidobesh',
     query: 'Droidobesh',
     bannerImage: './banners/DroidobeshNeueBETA-banner.png',
