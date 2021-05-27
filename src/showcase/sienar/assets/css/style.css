@@ -70,17 +70,22 @@ a:active {
   font-size: 36pt;
 }
 .about h3 {
+  font-family: D-Din Exp Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: var(--notwhite);
   font-size: 20pt;
-  letter-spacing: .2em;
 }
 
 .about p {
   font-family: D-Din Exp Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16pt;
-  text-align: justify;
-  letter-spacing: .2em;
-  hyphens: auto;
+  text-align: left;
+}
+
+.about em {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--null);
+  text-shadow: var(--notwhite) 0 0 .5px, var(--blue) 0 0 2px;
 }
 
 @media (hover:hover) {
@@ -186,10 +191,10 @@ a:active {
     padding: auto;
     margin:auto;
   }
-  #about {
+  .about {
     padding: 10vw;
   }
-  #about p {
+  .about p {
     font-size: 3vw;
     text-align: left;
     hyphens: auto;
