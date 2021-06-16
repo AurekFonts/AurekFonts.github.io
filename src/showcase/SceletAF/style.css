@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Scelet AF';
+  src: url(../../../SceletAF/SceletAF.otf);
+}
+@font-face {
+  font-family: 'Scelet AF Aurebesh';
+  src: url(../../../SceletAF/SceletAFAurebesh.otf);
+}
+
+:root {
+  --black: #0e0e0a;
+  --red: #b1271b;
+  --red-dim: #b1271b44;
+  --yellow: #ffd780;
+  --yellow-dim: #ffd78044;
+  --null: #00000000;
+  --high-galactic: 'Scelet AF';
+  --aurebesh: 'Scelet AF Aurebesh';
+  --small-text: 18pt;
+  --med-text: 48pt;
+  --large-text: 60pt;
+}
+
+body {
+  background-color: var(--black);
+  font-family: var(--high-galactic);
+  color: var(--red);
+  font-size: var(--small-text);
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: var(--large-text);
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+p {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-feature-settings: "pnum";
+  line-height: 1.5em;
+}
+
+#clock {
+  text-align: center;
+  margin: 10px auto 0px;
+  padding: 10px 10px 0px;
+  font-size: var(--med-text);
+  border-color: var(--yellow);
+  border-style: solid;
+  border-width: 3.5px;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.aurebesh {
+  font-family: var(--aurebesh);
+}
+
+#toggle {
+  font-size: var(--small-text);
+  text-align: center;
+  margin: 100px auto 0px;
+  padding: 5px 5px 0px;
+  border-color: var(--yellow-dim);
+  border-style: solid;
+  border-width: 1.75px;
+  border-radius: 12.5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+#toggle:hover {
+  cursor: pointer;
+  border-color: var(--yellow);
+}
+
+.aurebesh #toggle {
+  font-family: var(--high-galactic);
+  border-color: var(--yellow);
+}
+
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: var(--yellow-dim);
+}
+
+#download {
+  margin: 20px auto 0px;
+  text-align: center;
+}
+
+#download a, #download a:visited, #download a:active {
+  font-size: var(--large-text);
+  font-feature-settings: 'ss01';
+  text-decoration: none;
+  color: var(--red-dim);
+}
+
+#download:hover a, #download:hover a:visited, #download a:active {
+  color: var(--red);
+}
+
+a:hover, a:visited:hover, a:active:hover {
+  color: var(--yellow);
+}
+
+#footer {
+  margin: 100px auto 10px;
+  width: fit-content;
+  padding: 0 0 30px;
+}

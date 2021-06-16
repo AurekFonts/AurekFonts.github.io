@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=912">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Scelet AF</title>
+</head>
+<body id="body" class="">
+  <div id="container">
+    <h1>
+      Scelet AF
+    </h1>
+    <div id="clock">
+      12:25:36
+    </div>
+    <div id="download">
+      <a href="../../../index.html?font=SceletAF">&gt;&lt;<br>Download</a>
+    </div>
+    <p>
+      &gt; &ldquo;Scelet Stencil&rdquo; type revival
+      <br>
+      &gt; As seen in &ldquo;Star Wars&rdquo; (1977)
+      <br>
+      &gt; Interrobang (&#8253;)
+      <br>
+      &gt; Free for personal use
+    </p>
+    <div id="toggle" onclick="toggleOnClickHandler()">&lt; Aurebesh &gt;</div>
+    <div id="footer">Designed by <a href="https://twitter.com/AurekFonts">@AurekFonts</a></div>
+  </div>
+</body>
+<script src="./desktop-viewport.min.js"></script>
+<script>
+  const toggleOnClickHandler = () => {
+    document.getElementById("body").classList.toggle('aurebesh');
+  }
+  
+  const currentTime = () => {
+    const date = new Date();
+    var hour = date.getHours();
+    var min = date.getMinutes();
+    var sec = date.getSeconds();
+    var mil = date.getMilliseconds()
+    hour = tens(hour);
+    min = tens(min);
+    sec = tens(sec);
+    mil = hundos(mil);
+    document.getElementById("clock").innerHTML = `${hour}:${min}:${sec}+${mil}`;
+    setTimeout(() => currentTime(), 25);
+  }
+  
+  const tens = (timesegment) => {
+    return timesegment < 10 ? '0' + timesegment : timesegment;
+  }
+  const hundos = (mil) => {
+    const output = mil < 100 ? '0' + mil : mil;
+    return output.length < 3 ? '0' + output : output;
+  }
+
+  currentTime();
+</script>
+</html>
