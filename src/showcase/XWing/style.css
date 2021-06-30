@@ -285,7 +285,7 @@ h2 {
   background-color: var(--consolered);
   padding: 15px 15px 7.5px 15px;
   color: var(--consoleblack);
-  margin: 30px 40px;
+  margin: 30px 20px;
   box-shadow: var(--button-shadow);
   transition: box-shadow .1s;
   text-decoration: none;
