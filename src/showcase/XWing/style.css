@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Scelet';
+  src: url(../../../SceletAF/SceletAF.otf);
+}
+@font-face {
+  font-family: 'ScelAurebesh';
+  src: url(../../../SceletAF/SceletAFAurebesh.otf);
+}
+@font-face {
+  font-family: 'Aurebesh';
+  src: url(../../../AurebeshAF/AurebeshAF-Canon.otf);
+}
+@font-face {
+  font-family: 'SFoil';
+  src: url(../../../SFoil/SFoil-Regular.otf);
+}
+@font-face {
+  font-family: 'Rogue';
+  src: url(../../../RogueAF/RogueAF.otf);
+}
+
+:root {
+  --scelet: Scelet, Aurebesh;
+  --scel-aurebesh: ScelAurebesh, Scelet, Aurebesh;
+  --aurebesh: Aurebesh;
+  --rogue: Rogue, ScelAurebesh, Scelet, Aurebesh;
+  --sfoil: SFoil, Aurebesh;
+
+  --consoleblack: #080808;
+  --consolegrey: #181818;
+  --consoleltgrey: #b8b8a8;
+  --consolewhite: #f8f8f8;
+  --consolered: #a22222;
+
+  --screenblack: #0e0e0a;
+  --screenred: #b1271b;
+  --screenltred: hsl(5, 74%, 50%);
+  --screenyellow: #ffd780;
+  --screenwhite: #dededa;
+
+  --screenframeyellow-shadow:
+    0 0 8px -5px var(--screenyellow),
+    -1px 1px 3px -3px var(--consolewhite),
+    0 0 1px 12px var(--consoleblack), 
+    1px -1px 3px 10px var(--consolewhite), 
+    0 0 2px 7px var(--consoleblack), 
+    1px -1px 3px 4px var(--consolewhite), 
+    0 0 0 15px var(--consoleblack), 
+    1px -1px 3px 12px var(--consolewhite),
+    -6px 6px 12px 12px var(--consoleblack);
+  
+    --screenframered-shadow:
+    0 0 8px -5px var(--screenred),
+    -1px 1px 3px -3px var(--consolewhite),
+    0 0 1px 12px var(--consoleblack), 
+    1px -1px 3px 10px var(--consolewhite), 
+    0 0 2px 7px var(--consoleblack), 
+    1px -1px 3px 4px var(--consolewhite), 
+    0 0 0 15px var(--consoleblack), 
+    1px -1px 3px 12px var(--consolewhite),
+    -6px 6px 12px 12px var(--consoleblack);
+
+  --screenframewhite-shadow:
+    0 0 8px -5px var(--consolewhite),
+    -1px 1px 3px -3px var(--consolewhite),
+    0 0 1px 12px var(--consoleblack), 
+    1px -1px 3px 10px var(--consolewhite), 
+    0 0 2px 7px var(--consoleblack), 
+    1px -1px 3px 4px var(--consolewhite), 
+    0 0 0 15px var(--consoleblack), 
+    1px -1px 3px 12px var(--consolewhite),
+    -6px 6px 12px 12px var(--consoleblack);
+
+    --button-shadow:
+      inset -1px 1px 5px -3px var(--consolewhite),
+      inset 1px -1px 3px -2px var(--consoleblack),
+      -5px 5px 10px 5px var(--consoleblack);
+    --buttondown-shadow:
+      inset -1px 1px 5px -3px var(--screenwhite),
+      inset 1px -1px 3px -2px var(--consoleblack),
+      -2px 2px 5px 3px var(--consoleblack);
+}
+
+.scelet {
+  font-family: var(--scelet);
+}
+.scelet-ss01 {
+  font-family: var(--scelet);
+  font-feature-settings: "ss01";
+}
+.scel-aurebesh {
+  font-family: var(--scel-aurebesh);
+}
+.aurebesh {
+  font-family: var(--aurebesh);
+}
+.rogue {
+  font-family: var(--rogue);
+}
+.sfoil {
+  font-family: var(--sfoil);
+}
+
+body {
+  background-color: var(--consolegrey);
+}
+.text-body {
+  background-color: var(--consoleblack);
+  padding: 24px;
+  font-family: var(--scelet);
+  font-size: 14pt;
+  color: var(--consoleltgrey);
+  text-align: center;
+}
+h1 {
+  font-style: none;
+  font-weight: normal;
+  margin: 0;
+  font-size: 42pt;
+}
+h2 {
+  font-style: none;
+  font-weight: normal;
+  margin: 0;
+  font-size: 21pt;
+}
+
+.row-target {
+  width: fit-content;
+  margin: auto;
+  padding: 25px;
+}
+.target-buttons {
+  font-family: var(--rogue);
+  font-size: 72pt;
+  width: fit-content;
+  display: inline-block;
+}
+.target-button {
+  background-color: var(--consoleltgrey);
+  height: 72px;
+  width: 72px;
+  margin: 30px 40px;
+  box-shadow: var(--button-shadow);
+  transition: box-shadow .1s;
+}
+.target-button p::selection {
+  background: #00000000;
+  color: initial;
+}
+.target-button:hover {
+  cursor: pointer;
+}
+.target-button:active {
+  box-shadow: var(--buttondown-shadow);
+}
+.target-button p {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -9px;
+  left: -12px;
+}
+.ltgrey {
+  background-color: var(--consoleltgrey);
+}
+.red {
+  background-color: var(--consolered);
+}
+.targeting-cpu {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  background-color: var(--screenblack);
+  border-radius: 25px;
+  box-shadow: var(--screenframeyellow-shadow);
+  padding: 10px;
+  font-size: 36pt;
+  text-align: center;
+}
+.targeting-demo-box {
+  border-color: var(--screenyellow);
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 3px;
+  color: var(--screenred);
+  overflow: hidden;
+  padding-top: 7.5px;
+  height: 54px;
+  margin: 5px;
+}
+.targeting-demo-box:focus {
+  color: var(--screenltred);
+  outline: none;
+}
+.targeting-demo-box::selection {
+  color: var(--screenblack);
+  background-color: var(--screenltred);
+}
+.targeting-reticle {
+  color: var(--screenred);
+  overflow: hidden;
+  padding-top: 7.5px;
+  height: 60px;
+  margin: 45px 0 40px 0;
+  font-size: 60px;
+}
+
+.row-comms {
+  border-style: solid;
+  border-color: var(--consoleltgrey);
+  border-width: 3px;
+  padding: 25px;
+  margin: 25px 120px;
+}
+.comms-screen {
+  display: inline-block;
+  height: 200px;
+  width: 180px;
+  background-color: var(--screenblack);
+  border-radius: 25px;
+  padding: 50px 16px;
+  text-align: center;
+  margin: 25px 42px;
+}
+.screen-white {
+  padding-top: 30px;
+  box-shadow: var(--screenframewhite-shadow);
+  color: var(--screenwhite);
+  font-family: var(--aurebesh);
+  font-size: 10pt;
+  letter-spacing: 2pt;
+}
+.screen-white p {
+  height: 180px;
+  width: 180px;
+  font-size: 40pt;
+  font-family: var(--rogue);
+  font-feature-settings: "ss01";
+  line-break: anywhere;
+  line-height: 40pt;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+.screen-white p::selection {
+  color: var(--screenblack);
+  background-color: var(--screenwhite);
+}
+.screen-white p:focus {
+  outline: none;
+  color: var(--consolewhite);
+}
+.screen-red {
+  box-shadow: var(--screenframered-shadow);
+  color: var(--screenred);
+  font-size: 14pt;
+  font-family: var(--sfoil);
+}
+.screen-red p {
+  height: 85.33px;
+  text-align: justify;
+  overflow: hidden;
+}
+.screen-red p::selection {
+  color: var(--screenblack);
+  background-color: var(--screenltred);
+}
+.screen-red p:focus {
+  outline: none;
+  color: var(--screenltred);
+}
+
+.row-download {
+  height: 180px;
+  text-align: center;
+  font-family: var(--scelet);
+  font-size: 24pt;
+}
+.row-download a {
+  position: relative;
+  top: 70px;
+  background-color: var(--consolered);
+  padding: 15px 15px 7.5px 15px;
+  color: var(--consoleblack);
+  margin: 30px 40px;
+  box-shadow: var(--button-shadow);
+  transition: box-shadow .1s;
+  text-decoration: none;
+}
+a::selection {
+  background: #00000000;
+  color: initial;
+}
+a:hover {
+  cursor: pointer;
+}
+a:active {
+  box-shadow: var(--buttondown-shadow);
+}
