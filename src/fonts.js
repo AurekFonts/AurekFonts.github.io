@@ -1004,6 +1004,7 @@ const fonts = [
     textSize: '2rem',
     pangram: pangrams.short,
   },
+  
   {
     query: 'ImperialBroadcast87',
     name: 'Imperial Broadcast 87',
