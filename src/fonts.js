@@ -981,8 +981,8 @@ const fonts = [
     downloadUrl: './KitisakkullianAF/KitisakkullianAF.zip',
     downloadType: '.ZIP',
     license: 'This font is free for personal, non-commercial use. To purchase a commercial license, please contact AurekFonts via email.',
-    licenseTag: 'FreeNC',
-    year: '2020',
+    licenseTag: 'Free NC',
+    year: '2021',
     charactersImages: [],
   },
   {
@@ -1004,7 +1004,7 @@ const fonts = [
     textSize: '2rem',
     pangram: pangrams.short,
   },
-  
+
   {
     query: 'ImperialBroadcast87',
     name: 'Imperial Broadcast 87',
