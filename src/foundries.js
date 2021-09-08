@@ -209,6 +209,15 @@ const foundries = [
     supportText: 'paypal donation',
   },
   {
+    name: 'Star Wars Fonts',
+    bannerImage: './SGAurebesh/SGAurebesh-example.png',
+    bannerFont: 'SG Aurebesh',
+    query: 'StarWarsFonts',
+    bio: 'your guide to the fonts of star wars, both on screen and off',
+    supportLink: 'https://twitter.com/starwarsfonts',
+    supportText: '@starwarsfonts',
+  },
+  {
     name: 'Stormtrooper On Weekends',
     bannerImage: './banners/stormtrooper-on-weekends-page-banner.png',
     bannerFont: 'Aurebesh Droid',
