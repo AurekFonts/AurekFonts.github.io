@@ -1614,6 +1614,7 @@ const fonts = [
     charactersImages: ['./SGAurebesh/SGAurebesh-charset.png'],
   },
   {
+    query: 'Skyhook',
     name: 'Skyhook',
     exampleImage: './Skyhook/Skyhook-example.png',
     script: 'Aurebesh',
