@@ -15,6 +15,10 @@
   src: url(../../../SFoil/SFoil-Regular.otf);
 }
 @font-face {
+  font-family: 'Fresian';
+  src: url(../../../FresianAlphabetAF/FresianAlphabetAF.otf);
+}
+@font-face {
   font-family: 'Rogue';
   src: url(../../../RogueAF/RogueAF.otf);
 }
@@ -25,6 +29,7 @@
   --aurebesh: Aurebesh;
   --rogue: Rogue, ScelAurebesh, Scelet, Aurebesh;
   --sfoil: SFoil, Aurebesh;
+  --fresian: Fresian, Aurebesh;
 
   --consoleblack: #080808;
   --consolegrey: #181818;
@@ -272,7 +277,38 @@ h2 {
   outline: none;
   color: var(--screenltred);
 }
-
+.row-fresian {
+  height: 210px;
+  background-image: linear-gradient(.3turn,
+    var(--consoleltgrey) 73%,
+    var(--consolered) 73%,
+    var(--consolered) 83%, 
+    var(--consoleltgrey) 83%,
+    var(--consoleltgrey) 88%,
+    var(--consolered) 88%,
+    var(--consolered) 98%, 
+    var(--consoleltgrey) 98%,
+    var(--consoleltgrey) 103%
+  );
+  font-family: var(--fresian);
+  padding: 20px 300px 20px 100px;
+  overflow: hidden;
+}
+.row-fresian p{
+  margin: 0;
+  text-align: justify;
+  color: var(--consolegrey);
+  font-size: 36pt;
+  height: 170px;
+}
+.row-fresian p::selection{
+  color: var(--consoleltgrey);
+  background-color: var(--consoleblack);
+}
+.row-fresian p:focus{
+  outline: none;
+  color: var(--consoleblack);
+}
 .row-download {
   height: 180px;
   text-align: center;
