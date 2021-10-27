@@ -162,6 +162,13 @@ const scripts = [
     description: `This unidentified script can be seen on Boushh's helmet and equipment.`
   },
   {
+    name: `Umbaran`,
+    query: 'Umbaran',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `A script developed for The Clone Wars episodes set on the planet Umbara.`
+  },
+  {
     name: "Unknown canon scripts",
     query: 'UnknownCanon',
     bannerImage: './banners/unknown-scripts.png',

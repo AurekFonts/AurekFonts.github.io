@@ -227,6 +227,15 @@ const foundries = [
     supportText: 'paypal donation',
   },
   {
+    name: 'Sasha Tomych',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'SashaTomych',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
+  },
+  {
     name: 'Tycho Ordo',
     bannerImage: undefined,
     bannerFont: undefined,
