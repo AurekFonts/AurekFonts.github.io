@@ -1892,7 +1892,7 @@ const fonts = [
     foundry: 'Sasha Tomych',
     foundryQuery: 'SashaTomych',
     description: `An autotraced Umbaran font.`,
-    downloadUrl: './UmbaranST/UmbaranST.otf',
+    downloadUrl: './UmbaranST/UmbaranST-Regular.otf',
     downloadType: '.OTF',
     license: 'Free for all personal and commercial uses.',
     licenseTag: 'Free',
