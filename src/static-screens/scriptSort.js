@@ -156,6 +156,16 @@ const scriptSortScreen = (totalParam) => linkHeader +
     </ul>
   </li>
   <li>
+    <h3>Umbaran</h3>
+    <ul>
+      <li>
+        <a href="${pathname}?script=Umbaran">
+          Umbaran
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
     <h3>Unknown canon scripts</h3>
     <ul>
       <li>
