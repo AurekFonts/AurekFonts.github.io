@@ -1884,7 +1884,7 @@ const fonts = [
     pangram: `1111 shei 1138`,
   },
   {
-    query: 'Umbara AF',
+    query: 'UmbaraAF',
     name: 'Umbara AF',
     exampleImage: './UmbaraAF/UmbaraAF.png',
     script: `Umbaran`,
