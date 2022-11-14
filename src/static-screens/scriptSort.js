@@ -121,6 +121,11 @@ const scriptSortScreen = (totalParam) => linkHeader +
     <h3>Naboo</h3>
     <ul>
       <li>
+        <a href="${pathname}?script=Gunganese">
+          Gunganese
+        </a>
+      </li>
+      <li>
         <a href="${pathname}?script=NabooFuthark">
           Futhark
         </a>

@@ -39,6 +39,13 @@ const scripts = [
     description: `Droidobesh is a variation of Aurebesh seen around the Droid Depot at Galaxy's Edge.`
   },
   {
+    name: '"Gunganese"',
+    query: 'Gunganese',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `"Old Gunganese is the written laguage of the Gungans.`
+  },
+  {
     name: '"Naboo Aurebesh"',
     query: 'NabooAurebesh',
     bannerImage: undefined,
