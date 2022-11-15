@@ -43,7 +43,7 @@ const scripts = [
     query: 'Gunganese',
     bannerImage: undefined,
     bannerFont: undefined,
-    description: `"Old Gunganese is the written laguage of the Gungans.`
+    description: `"Old Gunganese is the written language of the Gungans.`
   },
   {
     name: '"Naboo Aurebesh"',
