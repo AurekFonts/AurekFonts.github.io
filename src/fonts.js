@@ -1008,7 +1008,7 @@ const fonts = [
     textSize: undefined,
     pangram: undefined,
     seeAlso: 'Goongan AF Syllabics',
-    seeAlsoQuery: 'GoonganAFSyllabics',
+    seeAlsoQuery: 'GoonganAFSyl',
   },
   {
     query: 'KitisakkullianAF',
