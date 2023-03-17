@@ -203,7 +203,7 @@ const fonts = [
     forLicensingUrl: 'http://davidocchino.com/portfolio/typography/commercial-license-request-form.html',
     license: 'Single-User Non-Commercial License',
     licenseTag: 'Free NC',
-    year: '1997, 2011',
+    year: '1997, and updated 2011',
     charactersImages: ['./AurebeshOcchino/AurebeshOcchino-charset.png'],
   },
   {
@@ -2255,7 +2255,7 @@ const fonts = [
   },
 
   {
-    year: '1996, 2008',
+    year: '1996, and updated 2008',
     query: 'Astro',
     name: 'Astro',
     exampleImage: './LogoFonts/Astro.png',
