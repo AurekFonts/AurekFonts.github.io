@@ -81,9 +81,11 @@ const scriptSortScreen = (totalParam) => linkHeader +
         <a href="${pathname}?script=Symbolic">
           "Symbolic" [Symbol-specific fonts]
         </a>
-      </li>
-      <li>
-        Titles / Crawls / Etc. (coming soon)
+        </li>
+        <li>
+        <a href="${pathname}?script=Crawls">
+          Logos and Opening Crawls
+        </a>
       </li>
     </ul>
   </li>

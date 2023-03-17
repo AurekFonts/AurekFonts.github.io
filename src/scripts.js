@@ -64,6 +64,17 @@ const scripts = [
       c) Were intentionally designed to accompany another in-universe font.`
   },
   {
+    name: 'Logos and Opening Crawls',
+    query: 'Crawls',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    description: `The High Galactic Alphabet is the in-universe equivalent of the real-world Latin Alphabet.
+      Rather than hosting every Latin-Alphabet font in existence, we will instead only host or link to those that
+      a) Appear on screen in a Star Wars film (including opening crawls),
+      b) Are used in Star Wars promotional materials,
+      c) Were intentionally designed to accompany another in-universe font.`
+  },
+  {
     name: '"Pseudobesh" [High Galactic Alphabet styled to look like Aurebesh]',
     query: 'Pseudobesh',
     bannerImage: './banners/pseudobesh-page-banner.png',
