@@ -290,6 +290,15 @@ const foundries = [
     supportText: undefined,
   },
   {
+    name: 'Typodermic',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'Typodermic',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
+  },
+  {
     name: '\"Tommy\" of Escondido',
     bannerImage: undefined,
     bannerFont: undefined,
