@@ -65,6 +65,15 @@ const foundries = [
     supportText: undefined
   },
   {
+    name: 'Fonthead Design',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'FontheadDesign',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Fragger MT',
     bannerImage: undefined,
     bannerFont: undefined,
@@ -85,6 +94,15 @@ const foundries = [
     supportText: 'galacticsurplus.co'
   },
   {
+    name: 'Greg Kegel',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'DragonDesign',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
+  },
+  {
     name: 'Iconian Fonts',
     bannerImage: undefined,
     bannerFont: undefined,
@@ -92,6 +110,15 @@ const foundries = [
     bio: undefined,
     supportLink: 'http://www.iconian.com/',
     supportText: 'Iconian.com'
+  },
+  {
+    name: 'Jose Gonzalez Pareja',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'JoseGonzalezPareja',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined
   },
   {
     name: 'Kopanitsak',
@@ -207,6 +234,24 @@ const foundries = [
     bio: undefined,
     supportLink: 'https://paypal.me/ShaynaDavidson',
     supportText: 'paypal donation',
+  },
+  {
+    name: 'Sharkshock',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'Sharkshock',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
+  },
+  {
+    name: 'ShyFoundry',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'ShyFoundry',
+    bio: undefined,
+    supportLink: undefined,
+    supportText: undefined,
   },
   {
     name: 'Star Wars Fonts',
