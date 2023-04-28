@@ -146,13 +146,13 @@ const foundries = [
     supportText: undefined
   },
   {
-    name: 'Louie Mantia, Jr.',
+    name: 'Crown',
     bannerImage: undefined,
     bannerFont: undefined,
     query: 'LouieMantia',
-    bio: undefined,
-    supportLink: undefined,
-    supportText: undefined
+    bio: `The Crown Type Company from Louie Mantia, Jr.`,
+    supportLink: `https://crowntype.com`,
+    supportText: `crowntype.com`
   },
   {
     name: 'Lucy Universe',
