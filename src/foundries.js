@@ -149,7 +149,7 @@ const foundries = [
     name: 'Crown',
     bannerImage: undefined,
     bannerFont: undefined,
-    query: 'LouieMantia',
+    query: 'Crown',
     bio: `The Crown Type Company from Louie Mantia, Jr.`,
     supportLink: `https://crowntype.com`,
     supportText: `crowntype.com`
