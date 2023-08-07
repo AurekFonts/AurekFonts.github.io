@@ -2348,7 +2348,7 @@ const fonts = [
     foundry: 'Crown',
     artistNote: `Designed by Louie Mantia, Jr. & Engineered by <a href='${pathname}?foundry=AurekFonts'>Ender Smith</a>`,
     description: `2023 opentype Star Wars logo font with over 2,000 ligatures, 20 style sets, and support for more than 100 languages. Comes with Womprat Aurebesh.`,
-    externalDownloadUrl: 'Womprat.xyz',
+    externalDownloadUrl: 'https://Womprat.xyz',
     externalDownloadName: 'Womprat.xyz',
     license: 'License Required',
     licenseTag: 'Lic Req',
