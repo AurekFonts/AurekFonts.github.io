@@ -39,22 +39,12 @@ const homeScreen = (totalsParam) => linkHeader +
     </li>
   </ul>
   <h4>
-    Blog Tags
+    Reference:
   </h4>
   <ul>
     <li>
-      <a href="https://aurekfonts.tumblr.com/tagged/sacred-jedi-texts">
-        Translating the Sacred Jedi Texts
-      </a>
-    </li>
-  </ul>
-  <h4>
-    Experiments
-  </h4>
-  <ul>
-    <li>
-      <a href="./aurebesh-for-twitter.html">
-        Aurebesh for Twitter
+      <a href="./guide-jeditexts.html">
+        Guide to the Sacred Jedi Texts
       </a>
     </li>
   </ul>

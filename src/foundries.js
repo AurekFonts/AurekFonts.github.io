@@ -47,6 +47,15 @@ const foundries = [
     supportText: 'society6 (NSFW)'
   },
   {
+    name: 'Crown',
+    bannerImage: undefined,
+    bannerFont: undefined,
+    query: 'Crown',
+    bio: `The Crown Type Company from Louie Mantia, Jr.`,
+    supportLink: `https://crowntype.com`,
+    supportText: `crowntype.com`
+  },
+  {
     name: 'David Occhino Design',
     bannerImage: './banners/david-occhino-design-banner.png',
     bannerFont: 'Aurebesh New Roman',
@@ -144,15 +153,6 @@ const foundries = [
     <a href="https://twitter.com/legendsist">@Legendsist</a> on Twitter`,
     supportLink: undefined,
     supportText: undefined
-  },
-  {
-    name: 'Crown',
-    bannerImage: undefined,
-    bannerFont: undefined,
-    query: 'Crown',
-    bio: `The Crown Type Company from Louie Mantia, Jr.`,
-    supportLink: `https://crowntype.com`,
-    supportText: `crowntype.com`
   },
   {
     name: 'Lucy Universe',
