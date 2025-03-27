@@ -67,6 +67,24 @@ const fonts = [
     pangram: pangrams.Jedha,
   },
   {
+    query: 'AquabeshAF',
+    name: 'AquabeshAF',
+    exampleImage: './AquabeshAF/AquabeshAF-01.jpg',
+    script: 'Aurebesh',
+    foundry: 'AurekFonts',
+    artistNote: '',
+    description: 'Casual Aurebesh font featuring unique upper and lowercase letters.',
+    downloadUrl: './AquabeshAF-Regular.otf',
+    downloadType: '.OTF',
+    license: 'This font is free for everyone, forever.',
+    licenseTag: 'Free',
+    year: '2025',
+    charactersImages: ['./AquabeshAF/AquabeshAF-02.jpg'],
+    additionalImages: [
+      './AquabeshAF/AquabeshAF-03.jpg'
+    ]
+  },
+  {
     query: 'Ataribesh',
     name: 'Ataribesh',
     exampleImage: './Ataribesh/images/Ataribesh-example-3.png',
