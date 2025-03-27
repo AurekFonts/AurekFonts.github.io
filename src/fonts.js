@@ -74,7 +74,7 @@ const fonts = [
     foundry: 'AurekFonts',
     artistNote: '',
     description: 'Casual Aurebesh font featuring unique upper and lowercase letters.',
-    downloadUrl: './AquabeshAF-Regular.otf',
+    downloadUrl: './AquabeshAF/AquabeshAF-Regular.otf',
     downloadType: '.OTF',
     license: 'This font is free for everyone, forever.',
     licenseTag: 'Free',
