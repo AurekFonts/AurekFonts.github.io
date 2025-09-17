@@ -1367,7 +1367,7 @@ const fonts = [
     artistNote: undefined,
     description: `Art Nouveau High Galactic (Latin) font inspired by Naboo Futhork, as a companion to Nabouveau Futhork`,
     externalDownloadUrl: 'https://crowntype.com/nabouveau/',
-    externalDownloadName: `Louie Mantia's gumroad`,
+    externalDownloadName: `Crown Type`,
     license: 'The font requires a commercial license. <a href="https://crowntype.com/license/">(Read license.)</a>',
     licenseTag: 'Lic Req',
     year: '2025',
